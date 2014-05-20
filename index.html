@@ -1,106 +1,293 @@
-<! DOCTYPE html>
-<html>
-	<head>
-		<title>Example 1</title>
-		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
-		<style>
-			*{
-				margin:0;
-				padding:0;
-			}
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" ng-app="myApp" class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>AngularJS App</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- FAVICONS -->
+    <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="img/favicon/favicon.ico" type="image/x-icon">
 
-			body{
-				font:15px/1.3 'Open Sans', sans-serif;
-				color: #5e5b64;
-				text-align:center;
-			}
+  <!-- GOOGLE FONT -->
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,300,400,700">
 
-			a, a:visited {
-				outline:none;
-				color:#389dc1;
-			}
+  <link rel="stylesheet" href="css/app.css"/>
 
-			a:hover{
-				text-decoration:none;
-			}
+</head>
+<body>
+ <!--[if lt IE 7]>
+    <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+ <![endif]-->
+  <header id="header">
+      <div id="logo-group">
+        <!-- PLACE YOUR LOGO HERE -->
+        <span id="logo"> <img src="img/logo.png" alt="SmartAdmin"> </span>
+        <!-- END LOGO PLACEHOLDER -->
+      </div>
+  </header>
+  <aside id="left-panel">
+      <div class="ng-scope" ng-controller="MainMenuCtrl">
+      <ul class="nav navbar-nav">
+          <li ng-repeat="menu in menus" ng-class="{dropdown: menu.menus}">
+              <a href="{{menu.action}}" ng-class="{'dropdown-toggle': menu.menus}" data-toggle="dropdown">
+                  {{menu.title}} <span class="caret"></span>
+              </a>
+              <ul ng-if="menu.menus" class="dropdown-menu">
+                  <li data-ng-repeat="submenu in menu.menus">
+                    <a href="{{submenu.action}}">{{submenu.title}}</a>
+                  </li>
+              </ul>
+          </li>
+      </ul>
+      </div>
+      <!-- NAVIGATION : This navigation is also responsive
 
-			section, footer, header, aside, nav{
-				display: block;
-			}
+        To make this navigation dynamic please make sure to link the node
+        (the reference to the nav > ul) after page load. Or the navigation
+        will not initialize.
+        -->
+        <!--<nav>
+            &lt;!&ndash; NOTE: Notice the gaps after each icon usage <i></i>..
+            Please note that these links work a bit different than
+            traditional hre="" links. See documentation for details.
+            &ndash;&gt;
 
-			/*-------------------------
-				????
-			--------------------------*/
+            <ul>
+                <li>
+                    <a href="#/view1" title="Dashboard"><i class="fa fa-lg fa-fw fa-home"></i> <span class="menu-item-parent">Dashboard</span></a>
+                </li>
+                <li>
+                    <a href="#/view1"><i class="fa fa-lg fa-fw fa-inbox"></i> <span class="menu-item-parent">Inbox</span><span class="badge pull-right inbox-badge">14</span></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-lg fa-fw fa-bar-chart-o"></i> <span class="menu-item-parent">Graphs</span></a>
+                    <ul>
+                        <li>
+                            <a href="#/view1">Flot Chart</a>
+                        </li>
+                        <li>
+                            <a href="#/view1">Morris Charts</a>
+                        </li>
+                        <li>
+                            <a href="#/view1">Inline Charts</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-lg fa-fw fa-table"></i> <span class="menu-item-parent">Tables</span></a>
+                    <ul>
+                        <li>
+                            <a href="#/view1">Normal Tables</a>
+                        </li>
+                        <li>
+                            <a href="#/view1">Data Tables</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-lg fa-fw fa-pencil-square-o"></i> <span class="menu-item-parent">Forms</span></a>
+                    <ul>
+                        <li>
+                            <a href="#/view1">Smart Form Elements</a>
+                        </li>
+                        <li>
+                            <a href="#/view1">Smart Form Layouts</a>
+                        </li>
+                        <li>
+                            <a href="#/view1">Smart Form Validation</a>
+                        </li>
+                        <li>
+                            <a href="#/view1">Bootstrap Form Elements</a>
+                        </li>
+                        <li>
+                            <a href="#/view1">Form Plugins</a>
+                        </li>
+                        <li>
+                            <a href="#/view1">Wizards</a>
+                        </li>
+                        <li>
+                            <a href="#/view1">Bootstrap Editors</a>
+                        </li>
+                        <li>
+                            <a href="#/view1">Dropzone <span class="badge pull-right inbox-badge bg-color-yellow">new</span></a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-lg fa-fw fa-desktop"></i> <span class="menu-item-parent">UI Elements</span></a>
+                    <ul>
+                        <li>
+                            <a href="#/view1">General Elements</a>
+                        </li>
+                        <li>
+                            <a href="#/view1">Buttons</a>
+                        </li>
+                        <li>
+                            <a href="#">Icons</a>
+                            <ul>
+                                <li>
+                                    <a href="#/view1"><i class="fa fa-plane"></i> Font Awesome</a>
+                                </li>
+                                <li>
+                                    <a href="#/view1"><i class="glyphicon glyphicon-plane"></i> Glyph Icons </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#/view1">Grid</a>
+                        </li>
+                        <li>
+                            <a href="#/view1">Tree View</a>
+                        </li>
+                        <li>
+                            <a href="#/view1">Nestable Lists</a>
+                        </li>
+                        <li>
+                            <a href="jqui.html">JQuery UI</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-lg fa-fw fa-folder-open"></i> <span class="menu-item-parent">6 Level Navigation</span></a>
+                    <ul>
+                        <li>
+                            <a href="#"><i class="fa fa-fw fa-folder-open"></i> 2nd Level</a>
+                            <ul>
+                                <li>
+                                    <a href="#"><i class="fa fa-fw fa-folder-open"></i> 3ed Level </a>
+                                    <ul>
+                                        <li>
+                                            <a href="#"><i class="fa fa-fw fa-file-text"></i> File</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><i class="fa fa-fw fa-folder-open"></i> 4th Level</a>
+                                            <ul>
+                                                <li>
+                                                    <a href="#"><i class="fa fa-fw fa-file-text"></i> File</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"><i class="fa fa-fw fa-folder-open"></i> 5th Level</a>
+                                                    <ul>
+                                                        <li>
+                                                            <a href="#"><i class="fa fa-fw fa-file-text"></i> File</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#"><i class="fa fa-fw fa-file-text"></i> File</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-fw fa-folder-open"></i> Folder</a>
 
-			nav{
-				display:inline-block;
-				margin:60px auto 45px;
-				background-color:#5597b4;
-				box-shadow:0 1px 1px #ccc;
-				border-radius:2px;
-			}
+                            <ul>
+                                <li>
+                                    <a href="#"><i class="fa fa-fw fa-folder-open"></i> 3ed Level </a>
+                                    <ul>
+                                        <li>
+                                            <a href="#"><i class="fa fa-fw fa-file-text"></i> File</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><i class="fa fa-fw fa-file-text"></i> File</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
 
-			nav a{
-				display:inline-block;
-				padding: 18px 30px;
-				color:#fff !important;
-				font-weight:bold;
-				font-size:16px;
-				text-decoration:none !important;
-				line-height:1;
-				text-transform: uppercase;
-				background-color:transparent;
-
-				-webkit-transition:background-color 0.25s;
-				-moz-transition:background-color 0.25s;
-				transition:background-color 0.25s;
-			}
-
-			nav a:first-child{
-				border-radius:2px 0 0 2px;
-			}
-
-			nav a:last-child{
-				border-radius:0 2px 2px 0;
-			}
-
-			nav.home .home,
-			nav.projects .projects,
-			nav.services .services,
-			nav.contact .contact{
-				background-color:#e35885;
-			}
-
-			p{
-				font-size:22px;
-				font-weight:bold;
-				color:#7d9098;
-			}
-
-			p strong{
-				color:#ffffff;
-				display:inline-block;
-				padding:5px 10px;
-				background-color:#c4d7e0;
-				border-radius:2px;
-				text-transform:uppercase;
-				font-size:18px;
-			}
-		</style>
-	</head>
-	<body ng-app>
-		<nav class="{{active}}" ng-click="$event.preventDefault()">
-			<a href="#" class="home" ng-click="active='home'">Home</a>
-			<a href="#" class="projects" ng-click="active='projects'">Projects</a>
-			<a href="#" class="services" ng-click="active='services'">Services</a>
-			<a href="#" class="contact" ng-click="active='contact'">Contact</a>
-		</nav>
-		<p ng-hide="active">
-			Please click a menu item
-		</p>
-		<p ng-show="active">
-			You chose <strong>{{active}}</strong>
-		</p>
-	</body>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#/view1"><i class="fa fa-lg fa-fw fa-calendar"><em>3</em></i> <span class="menu-item-parent">Calendar</span></a>
+                </li>
+                <li>
+                    <a href="w#/view1"><i class="fa fa-lg fa-fw fa-list-alt"></i> <span class="menu-item-parent">Widgets</span></a>
+                </li>
+                <li>
+                    <a href="#/view1"><i class="fa fa-lg fa-fw fa-picture-o"></i> <span class="menu-item-parent">Gallery</span></a>
+                </li>
+                <li>
+                    <a href="#/view1"><i class="fa fa-lg fa-fw fa-map-marker"></i> <span class="menu-item-parent">Google Map Skins</span><span class="badge bg-color-greenLight pull-right inbox-badge">9</span></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-lg fa-fw fa-windows"></i> <span class="menu-item-parent">Miscellaneous</span></a>
+                    <ul>
+                        <li>
+                            <a href="#/view1">Typography</a>
+                        </li>
+                        <li>
+                            <a href="#/view1">Pricing Tables</a>
+                        </li>
+                        <li>
+                            <a href="#/view1">Invoice</a>
+                        </li>
+                        <li>
+                            <a href="#/view1" target="_top">Login</a>
+                        </li>
+                        <li>
+                            <a href="#/view1" target="_top">Register</a>
+                        </li>
+                        <li>
+                            <a href="#/view1" target="_top">Locked Screen</a>
+                        </li>
+                        <li>
+                            <a href="#/view1">Error 404</a>
+                        </li>
+                        <li>
+                            <a href="#/view1">Error 500</a>
+                        </li>
+                        <li class="active">
+                            <a href="#/view1">Blank Page</a>
+                        </li>
+                        <li>
+                            <a href="#/view1">Email Template</a>
+                        </li>
+                        <li>
+                            <a href="#/view1">Search Page</a>
+                        </li>
+                        <li>
+                            <a href="#/view1">CK Editor</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-lg fa-fw fa-file"></i> <span class="menu-item-parent">Other Pages</span></a>
+                    <ul>
+                        <li>
+                            <a href="#/view1">Forum Layout</a>
+                        </li>
+                        <li>
+                            <a href="#/view1">Profile</a>
+                        </li>
+                        <li>
+                            <a href="#/view1">Timeline</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>-->
+  </aside>
+  <div id="main" role="main" ng-view>
+      <div>Angular seed app: v<span app-version></span></div>
+  </div>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.1.5/angular.min.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/common-bootstrap.js"></script>
+  <script src="js/services.js"></script>
+  <script src="js/controllers.js"></script>
+  <script src="js/filters.js"></script>
+  <script src="js/directives.js"></script>
+  <script src="js/lib/bootstrap.min.js"></script>
+</body>
 </html>
-
