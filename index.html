@@ -31,20 +31,22 @@
       </div>
   </header>
   <aside id="left-panel">
-      <div class="ng-scope" ng-controller="MainMenuCtrl">
-      <ul class="nav navbar-nav">
-          <li ng-repeat="menu in menus" ng-class="{dropdown: menu.menus}">
-              <a href="{{menu.action}}" ng-class="{'dropdown-toggle': menu.menus}" data-toggle="dropdown">
-                  {{menu.title}} <span class="caret"></span>
-              </a>
-              <ul ng-if="menu.menus" class="dropdown-menu">
-                  <li data-ng-repeat="submenu in menu.menus">
-                    <a href="{{submenu.action}}">{{submenu.title}}</a>
+      <nav>
+          <div class="ng-scope" ng-controller="MainMenuCtrl">
+              <ul class="nav navbar-nav">
+                  <li ng-repeat="menu in menus" ng-class="{dropdown: menu.menus}">
+                      <a href="{{menu.action}}" ng-class="{'dropdown-toggle': menu.menus}" data-toggle="dropdown">
+                          {{menu.title}} <span class="caret"></span>
+                      </a>
+                      <ul ng-if="menu.menus" class="dropdown-menu">
+                          <li data-ng-repeat="submenu in menu.menus">
+                            <a href="{{submenu.action}}">{{submenu.title}}</a>
+                          </li>
+                      </ul>
                   </li>
               </ul>
-          </li>
-      </ul>
-      </div>
+          </div>
+      </nav>
       <!-- NAVIGATION : This navigation is also responsive
 
         To make this navigation dynamic please make sure to link the node
