@@ -31,21 +31,31 @@
       </div>
   </header>
   <aside id="left-panel">
-      <nav>
-          <div ng-controller="MainMenuCtrl">
+      <nav ng-controller="MainMenuCtrl">
+
               <ul class="main-list" ng-submenu>
-                  <li ng-repeat="menu in menus" ng-class="{active: menu.active == true}" ng-click="setActive(menu.active)">
+                  <li ng-repeat="menu in menus" ng-class="{active: menu.active == true}" ng-click="setActive()">
                       <a href="{{menu.action}}">
-                          {{menu.title}} <span class="caret"></span>
+                          <i class="fa fa-lg fa-fw " ng-class="'fa-'+menu.icon"></i>
+                          {{menu.title}}
+                          <b class="collapse-sign" ng-if="menu.submenu">
+                              <em class="fa fa-expand-o"></em>
+                          </b>
                       </a>
-                      <ul ng-if="menu.menus">
-                          <li data-ng-repeat="submenu in menu.menus">
-                            <a href="{{submenu.action}}">{{submenu.title}}</a>
+                      <ul ng-if="menu.submenu">
+                          <li ng-repeat="subsubmenu in menu.submenu">
+                            <a href="{{subsubmenu.action}}">{{subsubmenu.title}}</a>
+                            <!--  {{menu.submenu.title}} {{menu.submenu.subsubmenu.title}}
+                            <ul ng-if="menu.submenu.subsubmenu">
+                                <li ng-repeat="subsubmenu in submenu.menu.menus">
+                                    {{subsubmenu.title}}
+                                </li>
+                            </ul>-->
                           </li>
                       </ul>
                   </li>
               </ul>
-          </div>
+
       </nav>
   </aside>
   <div id="main" role="main" ng-view>

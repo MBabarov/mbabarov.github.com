@@ -17,6 +17,7 @@
  * - BODY
  * - CUSTOM STYLES
  */
+/*Lading angular*/
 .wrapper {
     opacity: 0;
     -moz-transition: opacity 2.6s ease;
@@ -28,7 +29,10 @@
 .smoothOpacity {
     opacity: 1;
 }
-
+/*end*/
+aside .nav.navbar-nav{
+    width:100%;
+}
 aside .navbar-nav > li{
     float:none;
 }
@@ -44,53 +48,13 @@ nav ul ul {
     transition: all 0.3s ease-in 0s;
 }
 nav ul .active ul{
-    height:150px;
+    height: 200px;
     -moz-transition: all 0.3s ease-in 0s;
     -webkit-transition: all 0.3s ease-in 0s;
     -o-transition: all 0.3s ease-in 0s;
     transition: all 0.3s ease-in 0s;
 
 }
-aside .nav.navbar-nav{
-    width:100%;
-}
-.caret{
-    display:none;
-}
-aside .dropdown .caret {
-    border-left: 4px solid rgba(0, 0, 0, 0);
-    border-right: 4px solid rgba(0, 0, 0, 0);
-    border-top: 4px solid;
-    display: inline-block;
-    height: 0;
-    margin-left: 2px;
-    vertical-align: middle;
-    width: 0;
-}
-aside .dropdown .caret:before {
-    content: "\f116";
-    font-family: FontAwesome;
-}
-aside .dropdown-menu{
-    position:static;
-}
-aside nav  ul  li  ul:before {
-    border-left: 1px solid #7A7A7A;
-    bottom: 0;
-    content: "";
-    display: block;
-    left: 23px;
-    position: absolute;
-    top: 0;
-    z-index: 1;
-}
-aside  nav ul ul li:before {
-    border-top: 1px solid #7A7A7A;
-    content: "";
-    display: block;
-    left: 23px;
-    position: absolute;
-    top: 16px;
-    width: 8px;
-    z-index: 1;
+.active .fa-expand-o:before{
+    content:"\f117";
 }
