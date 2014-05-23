@@ -19,7 +19,7 @@
   <link rel="stylesheet" href="css/app.css"/>
 
 </head>
-<body>
+<body class="wrapper" ng-class="{smoothOpacity:true}">
  <!--[if lt IE 7]>
     <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
  <![endif]-->
@@ -32,13 +32,13 @@
   </header>
   <aside id="left-panel">
       <nav>
-          <div class="ng-scope" ng-controller="MainMenuCtrl">
-              <ul class="nav navbar-nav">
-                  <li ng-repeat="menu in menus" ng-class="{dropdown: menu.menus}">
-                      <a href="{{menu.action}}" ng-class="{'dropdown-toggle': menu.menus}" data-toggle="dropdown">
+          <div ng-controller="MainMenuCtrl">
+              <ul class="main-list" ng-submenu>
+                  <li ng-repeat="menu in menus" ng-class="{active: menu.active == true}" ng-click="setActive(menu.active)">
+                      <a href="{{menu.action}}">
                           {{menu.title}} <span class="caret"></span>
                       </a>
-                      <ul ng-if="menu.menus" class="dropdown-menu">
+                      <ul ng-if="menu.menus">
                           <li data-ng-repeat="submenu in menu.menus">
                             <a href="{{submenu.action}}">{{submenu.title}}</a>
                           </li>
@@ -47,243 +47,13 @@
               </ul>
           </div>
       </nav>
-      <!-- NAVIGATION : This navigation is also responsive
-
-        To make this navigation dynamic please make sure to link the node
-        (the reference to the nav > ul) after page load. Or the navigation
-        will not initialize.
-        -->
-        <!--<nav>
-            &lt;!&ndash; NOTE: Notice the gaps after each icon usage <i></i>..
-            Please note that these links work a bit different than
-            traditional hre="" links. See documentation for details.
-            &ndash;&gt;
-
-            <ul>
-                <li>
-                    <a href="#/view1" title="Dashboard"><i class="fa fa-lg fa-fw fa-home"></i> <span class="menu-item-parent">Dashboard</span></a>
-                </li>
-                <li>
-                    <a href="#/view1"><i class="fa fa-lg fa-fw fa-inbox"></i> <span class="menu-item-parent">Inbox</span><span class="badge pull-right inbox-badge">14</span></a>
-                </li>
-                <li>
-                    <a href="#"><i class="fa fa-lg fa-fw fa-bar-chart-o"></i> <span class="menu-item-parent">Graphs</span></a>
-                    <ul>
-                        <li>
-                            <a href="#/view1">Flot Chart</a>
-                        </li>
-                        <li>
-                            <a href="#/view1">Morris Charts</a>
-                        </li>
-                        <li>
-                            <a href="#/view1">Inline Charts</a>
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="#"><i class="fa fa-lg fa-fw fa-table"></i> <span class="menu-item-parent">Tables</span></a>
-                    <ul>
-                        <li>
-                            <a href="#/view1">Normal Tables</a>
-                        </li>
-                        <li>
-                            <a href="#/view1">Data Tables</a>
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="#"><i class="fa fa-lg fa-fw fa-pencil-square-o"></i> <span class="menu-item-parent">Forms</span></a>
-                    <ul>
-                        <li>
-                            <a href="#/view1">Smart Form Elements</a>
-                        </li>
-                        <li>
-                            <a href="#/view1">Smart Form Layouts</a>
-                        </li>
-                        <li>
-                            <a href="#/view1">Smart Form Validation</a>
-                        </li>
-                        <li>
-                            <a href="#/view1">Bootstrap Form Elements</a>
-                        </li>
-                        <li>
-                            <a href="#/view1">Form Plugins</a>
-                        </li>
-                        <li>
-                            <a href="#/view1">Wizards</a>
-                        </li>
-                        <li>
-                            <a href="#/view1">Bootstrap Editors</a>
-                        </li>
-                        <li>
-                            <a href="#/view1">Dropzone <span class="badge pull-right inbox-badge bg-color-yellow">new</span></a>
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="#"><i class="fa fa-lg fa-fw fa-desktop"></i> <span class="menu-item-parent">UI Elements</span></a>
-                    <ul>
-                        <li>
-                            <a href="#/view1">General Elements</a>
-                        </li>
-                        <li>
-                            <a href="#/view1">Buttons</a>
-                        </li>
-                        <li>
-                            <a href="#">Icons</a>
-                            <ul>
-                                <li>
-                                    <a href="#/view1"><i class="fa fa-plane"></i> Font Awesome</a>
-                                </li>
-                                <li>
-                                    <a href="#/view1"><i class="glyphicon glyphicon-plane"></i> Glyph Icons </a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="#/view1">Grid</a>
-                        </li>
-                        <li>
-                            <a href="#/view1">Tree View</a>
-                        </li>
-                        <li>
-                            <a href="#/view1">Nestable Lists</a>
-                        </li>
-                        <li>
-                            <a href="jqui.html">JQuery UI</a>
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="#"><i class="fa fa-lg fa-fw fa-folder-open"></i> <span class="menu-item-parent">6 Level Navigation</span></a>
-                    <ul>
-                        <li>
-                            <a href="#"><i class="fa fa-fw fa-folder-open"></i> 2nd Level</a>
-                            <ul>
-                                <li>
-                                    <a href="#"><i class="fa fa-fw fa-folder-open"></i> 3ed Level </a>
-                                    <ul>
-                                        <li>
-                                            <a href="#"><i class="fa fa-fw fa-file-text"></i> File</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><i class="fa fa-fw fa-folder-open"></i> 4th Level</a>
-                                            <ul>
-                                                <li>
-                                                    <a href="#"><i class="fa fa-fw fa-file-text"></i> File</a>
-                                                </li>
-                                                <li>
-                                                    <a href="#"><i class="fa fa-fw fa-folder-open"></i> 5th Level</a>
-                                                    <ul>
-                                                        <li>
-                                                            <a href="#"><i class="fa fa-fw fa-file-text"></i> File</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="#"><i class="fa fa-fw fa-file-text"></i> File</a>
-                                                        </li>
-                                                    </ul>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-fw fa-folder-open"></i> Folder</a>
-
-                            <ul>
-                                <li>
-                                    <a href="#"><i class="fa fa-fw fa-folder-open"></i> 3ed Level </a>
-                                    <ul>
-                                        <li>
-                                            <a href="#"><i class="fa fa-fw fa-file-text"></i> File</a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><i class="fa fa-fw fa-file-text"></i> File</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                            </ul>
-
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="#/view1"><i class="fa fa-lg fa-fw fa-calendar"><em>3</em></i> <span class="menu-item-parent">Calendar</span></a>
-                </li>
-                <li>
-                    <a href="w#/view1"><i class="fa fa-lg fa-fw fa-list-alt"></i> <span class="menu-item-parent">Widgets</span></a>
-                </li>
-                <li>
-                    <a href="#/view1"><i class="fa fa-lg fa-fw fa-picture-o"></i> <span class="menu-item-parent">Gallery</span></a>
-                </li>
-                <li>
-                    <a href="#/view1"><i class="fa fa-lg fa-fw fa-map-marker"></i> <span class="menu-item-parent">Google Map Skins</span><span class="badge bg-color-greenLight pull-right inbox-badge">9</span></a>
-                </li>
-                <li>
-                    <a href="#"><i class="fa fa-lg fa-fw fa-windows"></i> <span class="menu-item-parent">Miscellaneous</span></a>
-                    <ul>
-                        <li>
-                            <a href="#/view1">Typography</a>
-                        </li>
-                        <li>
-                            <a href="#/view1">Pricing Tables</a>
-                        </li>
-                        <li>
-                            <a href="#/view1">Invoice</a>
-                        </li>
-                        <li>
-                            <a href="#/view1" target="_top">Login</a>
-                        </li>
-                        <li>
-                            <a href="#/view1" target="_top">Register</a>
-                        </li>
-                        <li>
-                            <a href="#/view1" target="_top">Locked Screen</a>
-                        </li>
-                        <li>
-                            <a href="#/view1">Error 404</a>
-                        </li>
-                        <li>
-                            <a href="#/view1">Error 500</a>
-                        </li>
-                        <li class="active">
-                            <a href="#/view1">Blank Page</a>
-                        </li>
-                        <li>
-                            <a href="#/view1">Email Template</a>
-                        </li>
-                        <li>
-                            <a href="#/view1">Search Page</a>
-                        </li>
-                        <li>
-                            <a href="#/view1">CK Editor</a>
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="#"><i class="fa fa-lg fa-fw fa-file"></i> <span class="menu-item-parent">Other Pages</span></a>
-                    <ul>
-                        <li>
-                            <a href="#/view1">Forum Layout</a>
-                        </li>
-                        <li>
-                            <a href="#/view1">Profile</a>
-                        </li>
-                        <li>
-                            <a href="#/view1">Timeline</a>
-                        </li>
-                    </ul>
-                </li>
-            </ul>
-        </nav>-->
   </aside>
   <div id="main" role="main" ng-view>
       <div>Angular seed app: v<span app-version></span></div>
   </div>
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.1.5/angular.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular-route.min.js"></script>
   <script src="js/app.js"></script>
   <script src="js/common-bootstrap.js"></script>
   <script src="js/services.js"></script>

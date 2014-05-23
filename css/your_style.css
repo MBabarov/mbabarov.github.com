@@ -17,8 +17,42 @@
  * - BODY
  * - CUSTOM STYLES
  */
+.wrapper {
+    opacity: 0;
+    -moz-transition: opacity 2.6s ease;
+    -o-transition: opacity 2.6s ease;
+    -webkit-transition: opacity 2.6s ease;
+    transition: opacity 2.6s ease;
+}
+
+.smoothOpacity {
+    opacity: 1;
+}
+
 aside .navbar-nav > li{
     float:none;
+}
+nav ul ul {
+    background: none repeat scroll 0 0 rgba(69, 69, 69, 0.6);
+    margin: 0;
+    padding: 0;
+    display: block;
+    height:0;
+    -moz-transition: all 0.3s ease-in 0s;
+    -webkit-transition: all 0.3s ease-in 0s;
+    -o-transition: all 0.3s ease-in 0s;
+    transition: all 0.3s ease-in 0s;
+}
+nav ul .active ul{
+    height:150px;
+    -moz-transition: all 0.3s ease-in 0s;
+    -webkit-transition: all 0.3s ease-in 0s;
+    -o-transition: all 0.3s ease-in 0s;
+    transition: all 0.3s ease-in 0s;
+
+}
+aside .nav.navbar-nav{
+    width:100%;
 }
 .caret{
     display:none;
@@ -35,7 +69,28 @@ aside .dropdown .caret {
 }
 aside .dropdown .caret:before {
     content: "\f116";
+    font-family: FontAwesome;
 }
 aside .dropdown-menu{
     position:static;
+}
+aside nav  ul  li  ul:before {
+    border-left: 1px solid #7A7A7A;
+    bottom: 0;
+    content: "";
+    display: block;
+    left: 23px;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+aside  nav ul ul li:before {
+    border-top: 1px solid #7A7A7A;
+    content: "";
+    display: block;
+    left: 23px;
+    position: absolute;
+    top: 16px;
+    width: 8px;
+    z-index: 1;
 }

@@ -13,11 +13,13 @@ angular.module('myApp.controllers', [])
     $scope.menus =[
     {
         title: "Dashboard",
-        action: "#"
+        action: "#",
+        active: false
     },
     {
         title: "Graphs",
         action: "#",
+        active: false,
         menus: [
             {
                 title: "Flot Chart",
@@ -36,6 +38,7 @@ angular.module('myApp.controllers', [])
     {
         title: "Tables",
         action: "#",
+        active: false,
         menus: [
             {
                 title: "Normal Tables",
@@ -50,6 +53,7 @@ angular.module('myApp.controllers', [])
     {
         title: "Forms",
         action: "#",
+        id: 4,
         menus: [
             {
                 title: "Smart Form Elements",
@@ -88,6 +92,7 @@ angular.module('myApp.controllers', [])
     {
         title: "UI Elements",
         action: "#",
+        active: false,
         menus: [
             {
                 title: "General Elements",
@@ -129,5 +134,17 @@ angular.module('myApp.controllers', [])
             }
         ]
     }
-    ]
+    ];
+    $scope.setActive = function (active) {
+        $scope.currentElem=this;
+
+        if(!!$scope.oldElement && $scope.currentElem!=$scope.oldElement){
+            $scope.oldElement.menu.active=false;
+            $scope.currentElem.menu.active=true;
+        }
+        else{
+            $scope.currentElem.menu.active=true;
+        }
+        $scope.oldElement=$scope.currentElem;
+    }
   }])
