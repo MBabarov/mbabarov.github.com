@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6f1e7d3b-2958-406d-a16e-92045f8d3bf3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/controllers.js" afterPath="$PROJECT_DIR$/js/controllers.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/your_style.css" afterPath="$PROJECT_DIR$/css/your_style.css" />
-    </list>
+    <list default="true" id="6f1e7d3b-2958-406d-a16e-92045f8d3bf3" name="Default" comment="" />
     <ignored path="mbabarov.github.com.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -39,7 +35,7 @@
       <file leaf-file-name="controllers.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/controllers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="284" column="16" selection-start="7185" selection-end="7186" vertical-scroll-proportion="0.6162047" vertical-offset="4539" max-vertical-offset="5406">
+            <state line="283" column="22" selection-start="7169" selection-end="7169" vertical-scroll-proportion="0.57995737" vertical-offset="4539" max-vertical-offset="5406">
               <folding />
             </state>
           </provider>
@@ -442,7 +438,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/controllers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="284" column="16" selection-start="7185" selection-end="7186" vertical-scroll-proportion="0.6162047" vertical-offset="4539" max-vertical-offset="5406">
+        <state line="283" column="22" selection-start="7169" selection-end="7169" vertical-scroll-proportion="0.57995737" vertical-offset="4539" max-vertical-offset="5406">
           <folding />
         </state>
       </provider>
