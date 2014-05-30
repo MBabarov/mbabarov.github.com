@@ -36,7 +36,12 @@ aside .nav.navbar-nav{
 aside .navbar-nav > li{
     float:none;
 }
-nav ul ul {
+
+nav ul ul{
+    display: block;
+    padding:0;
+}
+nav ul ul li{
     background: none repeat scroll 0 0 rgba(69, 69, 69, 0.6);
     margin: 0;
     padding: 0;
@@ -47,14 +52,19 @@ nav ul ul {
     -o-transition: all 0.3s ease-in 0s;
     transition: all 0.3s ease-in 0s;
 }
-nav ul .active ul{
-    height: 200px;
+nav ul .active{
+    overflow: visible;
+}
+nav ul .active > ul > li{
+    min-height: 40px;
+    height: auto;
+    padding:0 0 0 10px;
     -moz-transition: all 0.3s ease-in 0s;
     -webkit-transition: all 0.3s ease-in 0s;
     -o-transition: all 0.3s ease-in 0s;
     transition: all 0.3s ease-in 0s;
 
 }
-.active .fa-expand-o:before{
+.active > a .fa-expand-o:before{
     content:"\f117";
 }
