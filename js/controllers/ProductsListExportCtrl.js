@@ -13,7 +13,7 @@ angular.module('myApp.ProductsListExportCtrl', [])
 		$scope.typeSend=currentListProductsFactory.typeSend;
 		$scope.list={};
 		angular.forEach(dataListsProductsFactory.data, function (oneList, index) {
-			if(index==0) $scope.list=oneList.listProducts;
+			if(index==0) $scope.list=[];
 			console.log('currentListProductsFactory', currentListProductsFactory.title);
 			console.log('oneList', oneList);
 			if(oneList.titleList==currentListProductsFactory.title){

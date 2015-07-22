@@ -62,7 +62,7 @@ angular.module('myApp.dataListsProductsFactory', []).
                         {
                             'id': 6,
                             'typeProduct': 'Колбаса',
-                            'nameProduct': 'Сервилат',
+                            'nameProduct': 'Сервелат',
                             'countryProduct': 'Украина',
                             'producerProduct': 'Наталка',
                             'kindProduct': 'Сервилат',
