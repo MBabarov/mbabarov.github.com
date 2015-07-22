@@ -73,7 +73,13 @@ a{
 .span80 {
     width: 80%;
 }
-
+ons-col.width-40{
+    -webkit-box-flex:0;
+    -webkit-flex:0 0 40px;
+    max-width: 40px;
+    width: 40px;
+    flex: 0 0 40px;
+}
 .align-top{
     vertical-align: top;
 }
@@ -383,6 +389,9 @@ ul.text-block {
     text-align: justify;
     padding:15px 10px 10px 10px;
 }
+.smoothOpacity ons-icon{
+    color: #00bcd5;
+}
 .smoothOpacity .list{
     border-top:none;
     border-bottom:none;
@@ -574,7 +583,12 @@ ya-map {
     height: 400px;
     width: 100%;
 }
-
+.navigation-bar__item.padded-10,
+.navigation-bar__left.padded-10,
+.navigation-bar__right.padded-10,
+.navigation-bar__center.padded-10{
+    padding:10px;
+}
 .layOut{
     text-decoration: line-through;
 }
@@ -586,6 +600,9 @@ div .page__background {
 }
 .padded-10{
     padding:10px;
+}
+.padded-0-10{
+    padding:0 10px;
 }
 .padded-20-0 {
 	padding:20px 0;
@@ -637,16 +654,53 @@ div .page__background {
 .sale-page .list__item  img{
     width:100%;
 }
-/*.navigator-container.after-buttton-bar{
-    bottom: 0;
-    left: 0;
-    overflow: hidden;
-    position: absolute;
-    right: 0;
-    width:100%;
-    top: 62px;
-    padding-bottom:62px;
-}*/
+.smoothOpacity  .list {
+    background: none;
+}
+.smoothOpacity .lists-page .list__item {
+    background: #fff;
+    border: 1px solid #ddd;
+    margin: 10px 10px 0 10px;
+    padding: 0;
+}
+.action-btn{
+    border-right: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    font-size: 12px;
+    line-height: 10px;
+    text-align: center;
+    padding:5px 0;
+}
+.action-btn.oneline{
+    padding:10px 0 5px 0;
+}
+.action-btn:last-child{
+    border-right:none;
+}
+.action-btn.moveToListProduct{
+    color:#fff;
+    background: #25a6d9;
+}
+.action-btn.sentOnApp{
+    color:#fff;
+    background: #faaa2f;
+}
+.action-btn.sentSMS{
+    color:#fff;
+    background: #80b34a;
+}
+.action-btn.deleteList{
+    color:#fff;
+    background: #f8897e;
+}
+.icon-block{
+    display: block;
+    height: 20px;
+    margin: 0 auto;
+}
+.icon-block img{
+    vertical-align: middle;
+}
 .button-bar {
     z-index: 2;
     width: 100%;

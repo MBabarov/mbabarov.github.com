@@ -1,4 +1,4 @@
-﻿<ons-page class="center account-page" ng-controller="ListsCtrl">
+﻿<ons-page class="center lists-page" ng-controller="ListsCtrl">
     <ons-toolbar title="Списки продуктов">
         <div class="left">
              <ons-back-button></ons-back-button>
@@ -6,7 +6,7 @@
         <div class="center">
 			Списки продуктов
         </div>
-        <div class="right">
+        <div class="right padded-10">
 			<ons-icon  icon="fa-plus" ng-click="addListProducts(this)"></ons-icon>
         </div>
     </ons-toolbar>
@@ -16,24 +16,36 @@
 				<ons-list class="topcoat-list padded-10-20" ng-if="ready && lists.length>0" >
 					<ons-list-item  ng-init="showItem = false;"  ng-click="showItem =! showItem;" ng-class="{'expanded': showItem, 'processing': processing}" ng-repeat="oneList in lists" class="full-button topcoat-list__item--tappable topcoat-list__item__line-height">
 						<ons-row>
-							<ons-col>
+							<ons-col class="padded-0-10">
 								{{oneList.title}}
 							</ons-col>
-							<ons-col class="padded-10-0 center point-field width-80">
+							<ons-col class="padded-10-0 center point-field width-40">
 								<ons-icon icon="fa-bars"></ons-icon>
 							</ons-col>
 						</ons-row>
 						<ons-row class="ng-hide" ng-show="showItem">
-							<ons-col ng-click="moveToProductPage(oneList)">
-								Перейти к списку
+							<ons-col class="action-btn moveToListProduct center" ng-click="moveToProductPage(oneList)">
+								<span class="icon-block">
+									<img src="img/icon-enter.png" alt="" />
+								</span>
+								Перейти к товарам
 							</ons-col>
-							<ons-col  ng-click="moveToSentSMSPage(oneList)">
+							<ons-col  class="action-btn sentSMS center oneline" ng-click="moveToSentSMSPage(oneList)">
+								<span class="icon-block">
+									<img src="img/icon-sms.png" alt="" />
+								</span>
 								Отправить
 							</ons-col>
-							<ons-col ng-click="moveToExportPage(oneList)">
+							<ons-col class="action-btn sentOnApp center oneline"  ng-click="moveToExportPage(oneList)">
+								<span class="icon-block">
+									<img src="img/icon-export.png" alt="" />
+								</span>
 								Экспорт
 							</ons-col>
-							<ons-col ng-click="deleteOneListProducts(oneList); $event.stopPropagation();">
+							<ons-col  class="action-btn deleteList center oneline"  ng-click="deleteOneListProducts(oneList); $event.stopPropagation();">
+								<span class="icon-block">
+									<img src="img/icon-delete.png" alt="" />
+								</span>
 								Удалить
 							</ons-col>
 						</ons-row>
