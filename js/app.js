@@ -1,0 +1,25 @@
+(function(){
+  var app = angular.module('myApp', [
+	'onsen',
+	'yaMap',
+	'ngDialog',
+	'myApp.MainMenuCtrl',
+	'myApp.ExtraMenuCtrl',
+	'myApp.AccountCtrl',
+	'myApp.EstimateCtrl',
+	'myApp.AboutCtrl',
+	'myApp.ContactsCtrl',
+	'myApp.CooperationCtrl',
+	'myApp.SaleCtrl',
+	'myApp.LocationCtrl',
+	'myApp.ListsCtrl',
+	'myApp.ProductsListCtrl',
+	'myApp.ProductsListExportCtrl',
+	'myApp.ProductCtrl',
+	'myApp.ResultCtrl',
+	'myApp.authorizationService',
+	'myApp.currentListProductsFactory',
+	'myApp.currentResultListProductsFactory',
+	'myApp.dataListsProductsFactory'
+  ]);
+})();

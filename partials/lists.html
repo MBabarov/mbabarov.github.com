@@ -1,0 +1,86 @@
+﻿<ons-page class="center account-page" ng-controller="ListsCtrl">
+    <ons-toolbar title="Списки продуктов">
+        <div class="left">
+             <ons-back-button></ons-back-button>
+        </div>
+        <div class="center">
+			Списки продуктов
+        </div>
+        <div class="right">
+			<ons-icon  icon="fa-plus" ng-click="addListProducts(this)"></ons-icon>
+        </div>
+    </ons-toolbar>
+    <div class="navigator-container">
+		<div class="navigator-content relative">
+			<div class="full-screen scroller-wrapper">
+				<ons-list class="topcoat-list padded-10-20" ng-if="ready && lists.length>0" >
+					<ons-list-item  ng-init="showItem = false;"  ng-click="showItem =! showItem;" ng-class="{'expanded': showItem, 'processing': processing}" ng-repeat="oneList in lists" class="full-button topcoat-list__item--tappable topcoat-list__item__line-height">
+						<ons-row>
+							<ons-col>
+								{{oneList.title}}
+							</ons-col>
+							<ons-col class="padded-10-0 center point-field width-80">
+								<ons-icon icon="fa-bars"></ons-icon>
+							</ons-col>
+						</ons-row>
+						<ons-row class="ng-hide" ng-show="showItem">
+							<ons-col ng-click="moveToProductPage(oneList)">
+								Перейти к списку
+							</ons-col>
+							<ons-col  ng-click="moveToSentSMSPage(oneList)">
+								Отправить
+							</ons-col>
+							<ons-col ng-click="moveToExportPage(oneList)">
+								Экспорт
+							</ons-col>
+							<ons-col ng-click="deleteOneListProducts(oneList); $event.stopPropagation();">
+								Удалить
+							</ons-col>
+						</ons-row>
+					</ons-list-item>
+				</ons-list>
+				<div class="bottom-button-block padded-10-20" ng-click="addListProducts(this)" ng-if="ready && (lists.length==0)">
+					<button class="button--large--cta button--bottom">
+						Add Courses
+					</button>
+				</div>
+			</div>
+		</div>
+		<script type="text/ng-template" id="modalInfo">
+			<div class="ngdialog-message">
+				<p>{{info}}></p>
+			</div>
+			<div class="ngdialog-buttons">
+				<button type="button" class="ngdialog-button ngdialog-button-primary" ng-click="confirm()"><span>OK</span></button>
+			</div>
+		</script>
+		<script type="text/ng-template" id="modalDialog">
+			<div class="ngdialog-message">
+				<p>Введите название списка</p>
+				<input  name="text" ng-model="nameNewList" value="" />
+			</div>
+			<div class="ngdialog-buttons">
+				<button type="button" class="ngdialog-button ngdialog-button-secondary" ng-click="closeThisDialog()">Отменить</button>
+				<button type="button" class="ngdialog-button ngdialog-button-primary" ng-click="createList(this)">Создать</button>
+			</div>
+		</script>
+		<script type="text/ng-template" id="modalDialogDelete">
+			<div class="ngdialog-message">
+				<p>Вы действительно хотите удалить "{{nameList}}" список продуков?</p>
+			</div>
+			<div class="ngdialog-buttons">
+				<button type="button" class="ngdialog-button ngdialog-button-secondary" ng-click="closeThisDialog()">Отмена</button>
+				<button type="button" class="ngdialog-button ngdialog-button-primary"  ng-click="confirm()">Да</button>
+			</div>
+		</script>
+		<!--<script type="text/ng-template" id="modalDialog">
+			<div class="ngdialog-message">
+				<p>Are you sure want to remove course?</p>
+			</div>
+			<div class="ngdialog-buttons">
+				<button type="button" class="ngdialog-button ngdialog-button-secondary" ng-click="closeThisDialog()">Cancel</button>
+				<button type="button" class="ngdialog-button ngdialog-button-primary" ng-click="confirm()">Confirm</button>
+			</div>
+		</script>-->
+	</div>
+</ons-page>

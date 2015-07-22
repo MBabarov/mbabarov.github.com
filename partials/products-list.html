@@ -1,0 +1,83 @@
+﻿<ons-page class="center account-page" ng-controller="ProductsListCtrl">
+    <ons-toolbar title="Список прокуктов">
+        <div class="left">
+             <ons-back-button></ons-back-button>
+        </div>
+        <div class="center">
+           Список прокуктов
+        </div>
+        <div class="right">
+			<ons-icon  icon="fa-plus" ng-click="addProduct()"></ons-icon>
+        </div>
+    </ons-toolbar>
+    <div class="navigator-container">
+		<div class="navigator-content relative">
+			<div class="full-screen scroller-wrapper">
+				<p ng-if="list.length==0 && ready">
+					Для анализа цены списка, в списке должен быть хотя бы один продукт
+				</p>
+				<ons-list class="topcoat-list padded-10-20" ng-if="ready" >
+					<ons-list-item ng-init="showItem = false; layOut = false;"  ng-click="showItem =! showItem;" ng-class="{'expanded': showItem, 'processing': processing, 'layOut': layOut}" ng-repeat="oneProduct in list" class="full-button topcoat-list__item--tappable topcoat-list__item__line-height">
+						<ons-row  class="name-point-course">
+							<ons-col class="padded-10 long-col" >
+								{{oneProduct.nameProduct}}<br />
+								({{oneProduct.producerProduct}})
+							</ons-col>
+							<ons-col class="padded-10-0 center point-field width-80">
+								Упаовка/тара
+								{{oneProduct.boxingProduct}}
+							</ons-col>
+							<ons-col class="padded-10-0 center point-field width-80">
+								Кол-во
+								{{oneProduct.amountProduct}}
+							</ons-col>
+							<ons-col class="padded-10-0 center point-field width-80">
+								<ons-icon icon="fa-bars"></ons-icon>
+							</ons-col>
+						</ons-row>
+						<ons-row class="ng-hide" ng-show="showItem">
+							<ons-col>
+								{{oneProduct.countryProduct}}
+							</ons-col>
+						</ons-row>
+						<ons-row class="ng-hide" ng-show="showItem">
+							<ons-col ng-click="layOut =! layOut;">
+								<span ng-if="layOut">Выложить</span>
+								<span ng-if="!layOut">Купить</span>
+							</ons-col>
+							<ons-col ng-if="layOut" ng-click="$event.stopPropagation();">
+								Изменить
+							</ons-col>
+							<ons-col  ng-if="!layOut" ng-click="moveToProductPage()">
+								Изменить
+							</ons-col>
+							<ons-col ng-if="layOut" ng-click="$event.stopPropagation();">
+								Удалить
+							</ons-col>
+							<ons-col  ng-if="!layOut" ng-click="deleteOneProduct(oneProduct.nameProduct)">
+								Удалить
+							</ons-col>
+						</ons-row>
+					</ons-list-item>
+				</ons-list>			
+				<ons-bottom-toolbar>
+					<div ng-if="list.length>0" ng-click="moveToResultPage()" class="button--large--cta bottom-bar__line-height" style="text-align: center;">
+						Проанализировать
+					</div>
+					<div ng-if="list.length==0" ng-click="addProduct()" class="button--large--cta btn-white bottom-bar__line-height" style="text-align: center;">
+						Добавить продукт
+					</div>
+				</ons-bottom-toolbar>
+			</div>
+		</div>
+		<script type="text/ng-template" id="modalDialogDelete">
+			<div class="ngdialog-message">
+				<p>Вы действительно хотите удалить "{{nameProduct}}" из списка?</p>
+			</div>
+			<div class="ngdialog-buttons">
+				<button type="button" class="ngdialog-button ngdialog-button-secondary" ng-click="closeThisDialog()">Отмена</button>
+				<button type="button" class="ngdialog-button ngdialog-button-primary"  ng-click="confirm()">Да</button>
+			</div>
+		</script>
+	</div>
+</ons-page>

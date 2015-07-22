@@ -1,0 +1,29 @@
+﻿<ons-page class="center location-page" ng-controller="LocationCtrl">
+    <ons-toolbar title="Карта">
+        <div class="left">
+             <ons-back-button></ons-back-button>
+        </div>
+        <div class="center">
+           Карта
+        </div>
+        <div class="right">
+
+        </div>
+    </ons-toolbar>
+    <div class="navigator-container">
+		<div class="navigator-content relative">
+			<div class="full-screen scroller-wrapper">
+                <div id="map">
+                    <ya-map ya-zoom="8" ya-center="[37.64,55.76]" ya-after-init="afterMapInit($target)"></ya-map>
+                    <button ng-click="del()">Удалить</button>
+                </div>
+
+                <ons-bottom-toolbar>
+					<div ng-click="moveToLists(authorization)" class="button--large--cta bottom-bar__line-height" style="text-align: center;">
+						Перейти к списку
+					</div>
+				</ons-bottom-toolbar>
+			</div>
+		</div>
+	</div>
+</ons-page>

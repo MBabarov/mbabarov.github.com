@@ -1,0 +1,34 @@
+﻿<ons-page class="center account-page" ng-controller="ResultCtrl">
+    <ons-toolbar title="Результат">
+        <div class="left">
+             <ons-back-button></ons-back-button>
+        </div>
+        <div class="center">
+           Результат
+        </div>
+        <div class="right">
+
+        </div>
+    </ons-toolbar>
+    <div class="navigator-container">
+		<div class="navigator-content relative">
+			<div class="full-screen scroller-wrapper">
+                <div class="button-bar">
+                    <div ng-repeat="oneCriteria in criteriaList" class="button-bar__item">
+                        <input ng-model="criteriaSelect" type="radio" name="oneCriteria" value="{{oneCriteria.title}}"; ng-click="changeCurrentCriteria(this);">
+                        <button class="button-bar__button" ng-click="changeCurrentCriteria();">{{oneCriteria.title}}</button>
+                    </div>
+                </div>
+				Результат
+                <ons-bottom-toolbar>
+                    <div ng-click="moveToProductsListPage()" class="button--large--cta bottom-bar__line-height" style="text-align: center;">
+                        Вернуться к текущему списку
+                    </div>
+                    <div ng-click="moveToListsPage()" class="button--large--cta bottom-bar__line-height" style="text-align: center;">
+                        Вернуться к спискам
+                    </div>
+                </ons-bottom-toolbar>
+			</div>
+		</div>
+	</div>
+</ons-page>
