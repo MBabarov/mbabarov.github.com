@@ -3,8 +3,8 @@
 /* Controllers */
 
 angular.module('myApp.ProductsListCtrl', [])
-    .controller('ProductsListCtrl', ['$scope', '$http', '$window', '$rootScope', '$location', 'ngDialog', 'currentListProductsFactory', 'dataListsProductsFactory',
-        function($scope, $http, $window, $rootScope, $location, ngDialog, currentListProductsFactory, dataListsProductsFactory) {
+    .controller('ProductsListCtrl', ['$scope', '$http', '$window', '$rootScope', '$location', 'ngDialog', 'filtersCriteriaProductFactory', 'currentListProductsFactory', 'dataListsProductsFactory',
+        function($scope, $http, $window, $rootScope, $location, ngDialog, filtersCriteriaProductFactory, currentListProductsFactory, dataListsProductsFactory) {
             $location.hash('products-list');
 			
 			
@@ -25,7 +25,6 @@ angular.module('myApp.ProductsListCtrl', [])
 		});
 		$scope.deleteOneProduct=function(currentProduct){
 			dialogDelete(currentProduct);
-
 		}
 		$scope.deleteOneProductAction=function(currentProduct){
 			angular.forEach($scope.list, function (oneProduct, index) {
@@ -39,7 +38,10 @@ angular.module('myApp.ProductsListCtrl', [])
 		$scope.addProduct = function(){
 			navi.pushPage('partials/product-criteria.html');
 		}
-		$scope.moveToProductPage = function(){
+		$scope.editProduct = function($currentScope){
+			filtersCriteriaProductFactory.currentNameProduct=$currentScope.currentNameProduct;
+			console.log('filtersCriteriaProductFactory', filtersCriteriaProductFactory);
+			console.log('$currentScope.nameProduct', $currentScope.currentNameProduct);
 			navi.pushPage('partials/product-criteria.html');
 		};	
 		$scope.moveToResultPage = function(){

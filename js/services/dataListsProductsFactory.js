@@ -22,7 +22,7 @@ angular.module('myApp.dataListsProductsFactory', []).
                             'typeProduct': 'Хлебо-булочные',
                             'nameProduct': 'Батон',
                             'countryProduct': 'Украина',
-                            'producerProduct': 'Дафи',
+                            'producerProduct': 'Хлебзавод №10',
                             'boxingProduct': '600гр',
                             'amountProduct': '1'
                         },
@@ -47,7 +47,7 @@ angular.module('myApp.dataListsProductsFactory', []).
                         {
                             'id': 5,
                             'typeProduct': 'Вода',
-                            'nameProduct': 'Минералка',
+                            'nameProduct': 'Мин. вода',
                             'countryProduct': 'Украина',
                             'producerProduct': 'Моршинская',
                             'kindProduct': 'Слабогазированная',
@@ -74,7 +74,7 @@ angular.module('myApp.dataListsProductsFactory', []).
                             'typeProduct': 'Хлебо-булочные',
                             'nameProduct': 'Батон',
                             'countryProduct': 'Украина',
-                            'producerProduct': 'Дафи',
+                            'producerProduct': 'Хлебзавод №9',
                             'boxingProduct': '600гр',
                             'amountProduct': '1'
                         },
@@ -101,7 +101,7 @@ angular.module('myApp.dataListsProductsFactory', []).
                         {
                             'id': 5,
                             'typeProduct': 'Вода',
-                            'nameProduct': 'Минералка',
+                            'nameProduct': 'Мин. вода',
                             'countryProduct': 'Украина',
                             'producerProduct': 'Моршинская',
                             'kindProduct': 'Слабогазированная',
@@ -118,7 +118,7 @@ angular.module('myApp.dataListsProductsFactory', []).
                             'typeProduct': 'Порошок',
                             'nameProduct': 'Ariel',
                             'countryProduct': 'Украина',
-                            'producerProduct1': 'Procter&Gambel',
+                            'producerProduct': 'Procter&Gambel',
                             'kindProduct': 'Для цветного',
                             'boxingProduct': '3кг',
                             'amountProduct': '1'
@@ -128,7 +128,7 @@ angular.module('myApp.dataListsProductsFactory', []).
                             'typeProduct': 'Зубная паста',
                             'nameProduct': 'Colgate',
                             'countryProduct': 'Украина',
-                            'producerProduct1': 'Procter&Gambel',
+                            'producerProduct': 'Procter&Gambel',
                             'kindProduct': 'Мятная',
                             'boxingProduct': '200гр',
                             'amountProduct': '1'

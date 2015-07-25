@@ -1,4 +1,4 @@
-﻿<ons-page class="center account-page" ng-controller="ProductsListCtrl">
+﻿<ons-page class="center products-list-page" ng-controller="ProductsListCtrl">
     <ons-toolbar title="Список прокуктов">
         <div class="left">
              <ons-back-button></ons-back-button>
@@ -6,7 +6,7 @@
         <div class="center">
            Список прокуктов
         </div>
-        <div class="right">
+        <div class="right padded-10">
 			<ons-icon  icon="fa-plus" ng-click="addProduct()"></ons-icon>
         </div>
     </ons-toolbar>
@@ -17,44 +17,60 @@
 					Для анализа цены списка, в списке должен быть хотя бы один продукт
 				</p>
 				<ons-list class="topcoat-list padded-10-20" ng-if="ready" >
-					<ons-list-item ng-init="showItem = false; layOut = false;"  ng-click="showItem =! showItem;" ng-class="{'expanded': showItem, 'processing': processing, 'layOut': layOut}" ng-repeat="oneProduct in list" class="full-button topcoat-list__item--tappable topcoat-list__item__line-height">
-						<ons-row  class="name-point-course">
+					<ons-list-item ng-init="showItem = false; layOut = false; currentNameProduct=oneProduct.nameProduct;"  ng-class="{'expanded': showItem, 'processing': processing}" ng-repeat="oneProduct in list" class="full-button topcoat-list__item--tappable topcoat-list__item__line-height">
+						<ons-row  class="name-point-course"  ng-click="showItem =! showItem;">
 							<ons-col class="padded-10 long-col" >
-								{{oneProduct.nameProduct}}<br />
-								({{oneProduct.producerProduct}})
+								<span ng-class="{'layOut': layOut}">{{oneProduct.nameProduct}}</span>
+								<div ng-class="{'layOut': layOut}" ng-if="oneProduct.producerProduct" class="padded-5-0">({{oneProduct.producerProduct}})</div>
 							</ons-col>
 							<ons-col class="padded-10-0 center point-field width-80">
 								Упаовка/тара
-								{{oneProduct.boxingProduct}}
+								<div ng-class="{'layOut': layOut}" class="padded-5-0">{{oneProduct.boxingProduct}}</div>
 							</ons-col>
-							<ons-col class="padded-10-0 center point-field width-80">
+							<ons-col class="padded-10-0 center point-field width-65">
 								Кол-во
-								{{oneProduct.amountProduct}}
+								<div ng-class="{'layOut': layOut}" class="padded-5-0">{{oneProduct.amountProduct}}</div>
 							</ons-col>
-							<ons-col class="padded-10-0 center point-field width-80">
+							<ons-col class="padded-10-0 center point-field width-40">
 								<ons-icon icon="fa-bars"></ons-icon>
 							</ons-col>
 						</ons-row>
 						<ons-row class="ng-hide" ng-show="showItem">
-							<ons-col>
+							<ons-col ng-class="{'layOut': layOut}" class="padded-5-10">
 								{{oneProduct.countryProduct}}
 							</ons-col>
 						</ons-row>
 						<ons-row class="ng-hide" ng-show="showItem">
-							<ons-col ng-click="layOut =! layOut;">
+							<ons-col class="action-btn moveToListProduct center" ng-click="layOut =! layOut;">
+								<span class="icon-block">
+									<img ng-if="!layOut" src="img/icon-add.png" alt="" />
+									<img ng-if="layOut" src="img/icon-remove.png" alt="" />
+								</span>
 								<span ng-if="layOut">Выложить</span>
-								<span ng-if="!layOut">Купить</span>
+								<span ng-if="!layOut">Купил</span>
 							</ons-col>
-							<ons-col ng-if="layOut" ng-click="$event.stopPropagation();">
+							<ons-col ng-class="{'layOut': layOut}" class="action-btn sentOnApp center oneline disable-btn"  ng-if="layOut" ng-click="$event.stopPropagation();">
+								<span class="icon-block">
+									<img src="img/icon-edit.png" alt="" />
+								</span>
 								Изменить
 							</ons-col>
-							<ons-col  ng-if="!layOut" ng-click="moveToProductPage()">
+							<ons-col  class="action-btn sentOnApp center oneline" ng-if="!layOut" ng-click="editProduct(this)">
+								<span class="icon-block">
+									<img src="img/icon-edit.png" alt="" />
+								</span>
 								Изменить
 							</ons-col>
-							<ons-col ng-if="layOut" ng-click="$event.stopPropagation();">
+							<ons-col ng-class="{'layOut': layOut}" class="action-btn deleteList center oneline disable-btn" ng-if="layOut" ng-click="$event.stopPropagation();">
+								<span class="icon-block">
+									<img src="img/icon-delete.png" alt="" />
+								</span>
 								Удалить
 							</ons-col>
-							<ons-col  ng-if="!layOut" ng-click="deleteOneProduct(oneProduct.nameProduct)">
+							<ons-col  class="action-btn deleteList center oneline" ng-if="!layOut" ng-click="deleteOneProduct(oneProduct.nameProduct)">
+								<span class="icon-block">
+									<img src="img/icon-delete.png" alt="" />
+								</span>
 								Удалить
 							</ons-col>
 						</ons-row>

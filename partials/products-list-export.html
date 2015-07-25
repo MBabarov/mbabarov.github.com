@@ -30,10 +30,10 @@
 					</div>
 				</div>
 				<ons-list class="topcoat-list" ng-if="ready && list.length!=0">
-					<ons-row>
+					<ons-row  class="one-row">
 						<ons-col>
 							<ons-row class="header">
-								<ons-col>
+								<ons-col class="padded-10-0">
 									Название продукта
 									<span>(производитель)</span>
 								</ons-col>
@@ -49,7 +49,7 @@
 							</ons-row>
 						</ons-col>
 					</ons-row>
-					<ons-row class="one-row" ng-init="showItem = false;" ng-repeat="oneProduct in list" class="full-button topcoat-list__item--tappable topcoat-list__item__line-height">
+					<ons-row ng-init="showItem = false;" ng-repeat="oneProduct in list" class="one-row full-button topcoat-list__item--tappable topcoat-list__item__line-height">
 						<ons-col>
 							<ons-row  ng-click="showItem =! showItem;" ng-class="{'expanded': showItem, 'processing': processing}">
 								<ons-col>

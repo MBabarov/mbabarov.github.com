@@ -1,4 +1,4 @@
-﻿<ons-page class="center account-page" ng-controller="ProductCtrl">
+﻿<ons-page class="center account-page" ng-controller="ProductCriteriaCtrl">
     <ons-toolbar title="Продукт">
         <div class="left">
              <ons-back-button></ons-back-button>
@@ -13,12 +13,35 @@
     <div class="navigator-container">
 		<div class="navigator-content relative">
 			<div class="full-screen scroller-wrapper">
-				Продукт критериии
-				<ons-bottom-toolbar>
-					<div ng-click="moveToProductsListPage()" class="button--large--cta bottom-bar__line-height" style="text-align: center;">
-						Сохранить
-					</div>
-				</ons-bottom-toolbar>
+                Критериии продукта
+                <div class="padded-10">
+                    <div class="loading blue-color padded-20" ng-if="!filtersCriteriaProductFactory.ready">
+                        <ons-icon icon="fa-circle-o-notch" size="lg" spin="true"></ons-icon>
+                    </div>
+                    <div ng-if="filtersCriteriaProductFactory.ready && countriesNotEmpty">
+                        <div dropdown-select="ddSelectOptions" dropdown-model="ddSelectSelected"></div>
+                    </div>
+                </div>
+                <div class="padded-10">
+                    Выбрать производителя
+                </div>
+                <div class="padded-10">
+                    Выбрать упаковку/тару
+                </div>
+                <ons-bottom-toolbar class="padded-22-0 bottom-button-block">
+                    <ons-row>
+                        <ons-col>
+                            <div class="active">
+                                <ons-toolbar-button ng-click="addToProductsListPage();" class="button--large--cta button--bottom">Сохранить</ons-toolbar-button>
+                            </div>
+                        </ons-col>
+                        <ons-col>
+                            <div>
+                                <button class="button--large--cta btn-white button--bottom" ng-click="moveToProductsListPage()">Отменить</button>
+                            </div>
+                        </ons-col>
+                    </ons-row>
+                </ons-bottom-toolbar>
 			</div>
 		</div>
 	</div>

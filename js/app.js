@@ -3,6 +3,7 @@
 	'onsen',
 	'yaMap',
 	'ngDialog',
+	'ngDropdowns',
 	'myApp.MainMenuCtrl',
 	'myApp.ExtraMenuCtrl',
 	'myApp.AccountCtrl',
@@ -15,11 +16,13 @@
 	'myApp.ListsCtrl',
 	'myApp.ProductsListCtrl',
 	'myApp.ProductsListExportCtrl',
-	'myApp.ProductCtrl',
+	'myApp.ProductCriteriaCtrl',
 	'myApp.ResultCtrl',
 	'myApp.authorizationService',
 	'myApp.currentListProductsFactory',
 	'myApp.currentResultListProductsFactory',
-	'myApp.dataListsProductsFactory'
+	'myApp.dataListsProductsFactory',
+	'myApp.countriesFactoryList',
+	'myApp.filtersCriteriaProductFactory'
   ]);
 })();
