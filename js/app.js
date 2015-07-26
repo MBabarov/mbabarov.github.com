@@ -22,7 +22,8 @@
 	'myApp.currentListProductsFactory',
 	'myApp.currentResultListProductsFactory',
 	'myApp.dataListsProductsFactory',
-	'myApp.countriesFactoryList',
-	'myApp.filtersCriteriaProductFactory'
+	'myApp.listProductsAfterFilterCriteriesFactory',
+	'myApp.filtersCriteriaCountryProductFactory',
+	'myApp.filtersCriteriaProducerProductFactory'
   ]);
 })();

@@ -122,6 +122,13 @@ ons-col.width-80{
     width: 80px;
     flex: 0 0 80px;
 }
+ons-col.width-120{
+    -webkit-box-flex:0;
+    -webkit-flex:0 0 120px;
+    max-width: 120px;
+    width: 100px;
+    flex: 0 0 120px;
+}
 .align-top{
     vertical-align: top;
 }

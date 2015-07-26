@@ -1,33 +1,65 @@
-﻿<ons-page class="center account-page" ng-controller="ProductCriteriaCtrl">
+﻿<ons-page class="center product-criteria-page" ng-controller="ProductCriteriaCtrl">
     <ons-toolbar title="Продукт">
         <div class="left">
              <ons-back-button></ons-back-button>
         </div>
         <div class="center">
-           Продукт
+            {{filtersCriteriaProducerProductFactory.currentProduct.nameProduct}}
         </div>
         <div class="right">
 
         </div>
     </ons-toolbar>
+    <div class="button-bar">
+        <div class="padded-10">
+            <div class="loading blue-color padded-20" ng-if="!filtersCriteriaProducerProductFactory.ready">
+                <ons-icon icon="fa-circle-o-notch" size="lg" spin="true"></ons-icon>
+            </div>
+            <div ng-if="filtersCriteriaProducerProductFactory.ready && producersNotEmpty">
+                <div dropdown-select="ddSelectOptions2" dropdown-model="ddSelectSelected2"></div>
+            </div>
+        </div>
+    </div>
     <div class="navigator-container">
 		<div class="navigator-content relative">
 			<div class="full-screen scroller-wrapper">
-                Критериии продукта
-                <div class="padded-10">
-                    <div class="loading blue-color padded-20" ng-if="!filtersCriteriaProductFactory.ready">
+            <div class="full-screen scroller-wrapper extra-scroll-block">
+                <!--<div class="padded-10">
+                    <div class="loading blue-color padded-20" ng-if="!filtersCriteriaCountryProductFactory.ready">
                         <ons-icon icon="fa-circle-o-notch" size="lg" spin="true"></ons-icon>
                     </div>
-                    <div ng-if="filtersCriteriaProductFactory.ready && countriesNotEmpty">
+                    <div ng-if="filtersCriteriaCountryProductFactory.ready && countriesNotEmpty">
                         <div dropdown-select="ddSelectOptions" dropdown-model="ddSelectSelected"></div>
                     </div>
+                </div>-->
+
+                <div class="loading blue-color padded-20" ng-if="!readyListProducts">
+                    <ons-icon icon="fa-circle-o-notch" size="lg" spin="true"></ons-icon>
                 </div>
-                <div class="padded-10">
-                    Выбрать производителя
-                </div>
-                <div class="padded-10">
-                    Выбрать упаковку/тару
-                </div>
+                <ul ng-if="readyListProducts" class="padded-10" ng-repeat="oneProduct in listProducts">
+                    <li>
+                        <ons-row>
+                            <ons-col class="padded-10 width-120">
+                                <img ng-src="{{oneProduct.imageProduct['url']}}" alt="" />
+                            </ons-col>
+                            <ons-col class="padded-10">
+                                <div ng-repeat="oneCriteria in oneProduct.generalCriteria">
+                                    <div ng-repeat="i in oneCriteria">
+                                        <div ng-repeat="(key, value)  in i">
+                                            {{key}}: {{value}}
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div ng-repeat="(key, value) in oneProduct.amountProduct">
+                                    {{key}}
+                                    <input type="text" value="{{value}}" />
+                                </div>
+                                <ons-toolbar-button ng-click="saveEditProduct();" class="button--large--cta button--bottom">Сохранить</ons-toolbar-button>
+                            </ons-col>
+                        </ons-row>
+                    </li>
+                </ul>
                 <ons-bottom-toolbar class="padded-22-0 bottom-button-block">
                     <ons-row>
                         <ons-col>
@@ -42,6 +74,7 @@
                         </ons-col>
                     </ons-row>
                 </ons-bottom-toolbar>
+			</div>
 			</div>
 		</div>
 	</div>

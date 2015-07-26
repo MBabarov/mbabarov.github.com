@@ -3,8 +3,10 @@
 /* Controllers */
 
 angular.module('myApp.ProductsListCtrl', [])
-    .controller('ProductsListCtrl', ['$scope', '$http', '$window', '$rootScope', '$location', 'ngDialog', 'filtersCriteriaProductFactory', 'currentListProductsFactory', 'dataListsProductsFactory',
-        function($scope, $http, $window, $rootScope, $location, ngDialog, filtersCriteriaProductFactory, currentListProductsFactory, dataListsProductsFactory) {
+    .controller('ProductsListCtrl', ['$scope', '$http', '$window', '$rootScope', '$location', 'ngDialog',
+		'filtersCriteriaCountryProductFactory', 'filtersCriteriaProducerProductFactory', 'currentListProductsFactory', 'dataListsProductsFactory',
+        function($scope, $http, $window, $rootScope, $location, ngDialog,
+				 filtersCriteriaCountryProductFactory, filtersCriteriaProducerProductFactory, currentListProductsFactory, dataListsProductsFactory) {
             $location.hash('products-list');
 			
 			
@@ -16,11 +18,8 @@ angular.module('myApp.ProductsListCtrl', [])
 			{'title': 'Банан'}
 		];*/
 		angular.forEach(dataListsProductsFactory.data, function (oneList, index) {
-			console.log('currentListProductsFactory', currentListProductsFactory.title);
-			console.log('oneList', oneList);
 			if(oneList.titleList==currentListProductsFactory.title){
 				$scope.list=oneList.listProducts;
-				console.log('oneList.listProducts', oneList.listProducts);
 			}
 		});
 		$scope.deleteOneProduct=function(currentProduct){
@@ -33,15 +32,14 @@ angular.module('myApp.ProductsListCtrl', [])
 				}
 
 			})
-
 		}
 		$scope.addProduct = function(){
 			navi.pushPage('partials/product-criteria.html');
 		}
 		$scope.editProduct = function($currentScope){
-			filtersCriteriaProductFactory.currentNameProduct=$currentScope.currentNameProduct;
-			console.log('filtersCriteriaProductFactory', filtersCriteriaProductFactory);
-			console.log('$currentScope.nameProduct', $currentScope.currentNameProduct);
+			filtersCriteriaCountryProductFactory.currentProduct=$currentScope.currentProduct;
+			filtersCriteriaProducerProductFactory.currentProduct=$currentScope.currentProduct;
+			console.log('filtersCriteriaCountryProductFactory.currentProduct', filtersCriteriaCountryProductFactory.currentProduct);
 			navi.pushPage('partials/product-criteria.html');
 		};	
 		$scope.moveToResultPage = function(){

@@ -17,7 +17,7 @@
 					Для анализа цены списка, в списке должен быть хотя бы один продукт
 				</p>
 				<ons-list class="topcoat-list padded-10-20" ng-if="ready" >
-					<ons-list-item ng-init="showItem = false; layOut = false; currentNameProduct=oneProduct.nameProduct;"  ng-class="{'expanded': showItem, 'processing': processing}" ng-repeat="oneProduct in list" class="full-button topcoat-list__item--tappable topcoat-list__item__line-height">
+					<ons-list-item ng-init="showItem = false; layOut = false; currentProduct=oneProduct;"  ng-class="{'expanded': showItem, 'processing': processing}" ng-repeat="oneProduct in list" class="full-button topcoat-list__item--tappable topcoat-list__item__line-height">
 						<ons-row  class="name-point-course"  ng-click="showItem =! showItem;">
 							<ons-col class="padded-10 long-col" >
 								<span ng-class="{'layOut': layOut}">{{oneProduct.nameProduct}}</span>
