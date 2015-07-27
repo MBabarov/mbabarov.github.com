@@ -21,7 +21,9 @@ angular.module('myApp.ProductCriteriaCtrl', [])
 		$scope.moveToProductsListPage = function(){
 			navi.pushPage('partials/products-list.html');		
 		}
-
+		$scope.saveEditProduct = function(){
+			navi.pushPage('partials/products-list.html');
+		}
 		//var countriesSelected;
 		var producerSelected;
 		//countriesFactoryList.loadList();
@@ -123,14 +125,14 @@ angular.module('myApp.ProductCriteriaCtrl', [])
 				console.log('$scope.ddSelectOptions2', $scope.ddSelectOptions2);
 				console.log('filtersCriteriaProducerProductFactory.currentProduct.producerProduct', filtersCriteriaProducerProductFactory.currentProduct.producerProduct);
 				angular.forEach($scope.ddSelectOptions2, function(oneCountry, index) {
-					if(oneCountry.text==filtersCriteriaProducerProductFactory.currentProduct.producerProduct){
-						$scope.ddSelectSelected2={
-							"text": oneCountry.text,
-							"value": oneCountry.value
-						}
-						console.log('$scope.ddSelectSelected', $scope.ddSelectSelected2);
-						producerSelected = $scope.ddSelectOptions2[0].value;
+				if(oneCountry.text==filtersCriteriaProducerProductFactory.currentProduct.producerProduct){
+					$scope.ddSelectSelected2={
+						"text": oneCountry.text,
+						"value": oneCountry.value
 					}
+					console.log('$scope.ddSelectSelected', $scope.ddSelectSelected2);
+					producerSelected = $scope.ddSelectOptions2[0].value;
+				}
 				})
 				if($scope.ddSelectSelected2==undefined){
 					$scope.ddSelectSelected2={
@@ -153,21 +155,19 @@ angular.module('myApp.ProductCriteriaCtrl', [])
 			filtersCriteriaProducerProductFactory.producerSelected=data;
 			listProductsAfterFilterCriteriesFactory.loadList();
 		});
-			if(document.querySelector('.product-criteria-page .full-screen')!=null){
+		if(document.querySelector('.product-criteria-page .full-screen')!=null){
+			$timeout(function(){
+				document.querySelector('.product-criteria-page .extra-scroll-block').style.overflowY='scroll';
+				document.querySelector('.product-criteria-page .extra-scroll-block').style.height=document.querySelector('.product-criteria-page .page__content').offsetHeight-90+'px';
+			}, 200);
+		}
+		angular.element($window).on("orientationchange", function() {
+			if(document.querySelector('.product-criteria-page .scroller-wrapper')!=null){
 				$timeout(function(){
-					document.querySelector('.product-criteria-page .extra-scroll-block').style.overflowY='scroll';
-					console.log('height', document.querySelector('.product-criteria-page .page__content').offsetHeight)
-					console.log('height', document.querySelector('.product-criteria-page .extra-scroll-block').style.height)
 					document.querySelector('.product-criteria-page .extra-scroll-block').style.height=document.querySelector('.product-criteria-page .page__content').offsetHeight-90+'px';
-				}, 200);
+				}, 500);
 			}
-			angular.element($window).on("orientationchange", function() {
-				if(document.querySelector('.product-criteria-page .scroller-wrapper')!=null){
-					$timeout(function(){
-						document.querySelector('.product-criteria-page .extra-scroll-block').style.height=document.querySelector('.product-criteria-page .page__content').offsetHeight-90+'px';
-					}, 500);
-				}
-			});
+		});
 		ons.ready(function() {
 		  console.log("ons.ready");
 

@@ -12,7 +12,7 @@
             "generalCriteria": [
                 {"countryProduct": {"Страна": "Украина"}},
                 {"producerProduct": {"Производитель":"Простоквашино"}},
-                {"boxingProduct": {"Упаковка/тара":"900г"}},
+                {"boxingProduct": {"Вес":"900г"}},
                 {"fat": {"Жирность":"2.5%"}}
             ],
             "amountProduct": {"Количество":"1"},
@@ -30,7 +30,7 @@
             "generalCriteria": [
                 {"countryProduct": {"Страна": "Украина"}},
                 {"producerProduct": {"Производитель":"Простоквашино"}},
-                {"boxingProduct": {"Упаковка/тара":"900г"}},
+                {"boxingProduct": {"Вес":"900г"}},
                 {"fat": {"Жирность":"1%"}}
             ],
             "amountProduct": {"Количество":"1"},
@@ -48,7 +48,7 @@
             "generalCriteria": [
                 {"countryProduct": {"Страна": "Украина"}},
                 {"producerProduct": {"Производитель":"Простоквашино"}},
-                {"boxingProduct": {"Упаковка/тара":"900г"}},
+                {"boxingProduct": {"Вес":"900г"}},
                 {"fat": {"Жирность":"2.5%"}},
                 {"kindProduct":  {"Вид проукта":"Топленое"}}
             ],
@@ -67,7 +67,7 @@
             "generalCriteria": [
                 {"countryProduct": {"Страна": "Украина"}},
                 {"producerProduct": {"Производитель":"Волошкове поле"}},
-                {"boxingProduct": {"Упаковка/тара":"920г"}},
+                {"boxingProduct": {"Вес":"920г"}},
                 {"fat": {"Жирность":"2.6%"}},
                 {"boxingTypeProduct":  {"Тип упаковки": "П/п"}}
             ],
@@ -86,7 +86,7 @@
             "generalCriteria": [
                 {"countryProduct": {"Страна": "Украина"}},
                 {"producerProduct": {"Производитель":"Волошкове поле"}},
-                {"boxingProduct": {"Упаковка/тара":"750г"}},
+                {"boxingProduct": {"Вес":"750г"}},
                 {"fat": {"Жирность":"2.6%"}},
                 {"boxingTypeProduct":  {"Тип упаковки": "Стекло-бутылка"}}
             ],
@@ -106,7 +106,7 @@
                 {"countryProduct": {"Страна": "Польша"}},
                 {"producerProduct": {"Производитель":"Danmis"}},
                 {"kindProduct": {"Вид":"Натуральное козье"}},
-                {"boxingProduct": {"Упаковка/тара":"500г"}},
+                {"boxingProduct": {"Вес":"500г"}},
                 {"fat": {"Жирность":"2.5%"}},
                 {"boxingTypeProduct":  {"Тип упаковки": "П/п"}}
             ],
@@ -115,6 +115,97 @@
                 "ATB": 17.40,
                 "Silpo": 18.45,
                 "Varus": 19.25
+            }
+        },
+        {
+            "id": 7,
+            "typeProduct": {"Тип продукта": "Хлебобулочные изделия"},
+            "nameProduct": {"Имя продукта":"Батон"},
+            "imageProduct": {"url":"img/products/hleb-hlebzavod9-1.jpg"},
+            "generalCriteria": [
+                {"countryProduct": {"Страна": "Украина"}},
+                {"producerProduct": {"Производитель":"Хлебзавод №9"}},
+                {"kindProduct": {"Вид":"Любительский нарезной"}},
+                {"boxingProduct": {"Вес":"200г"}}
+            ],
+            "amountProduct": {"Количество":"1"},
+            "priceAndShop":{
+                "ATB": 5.58,
+                "Silpo": 5.45,
+                "Varus": 6.25
+            }
+        },
+        {
+            "id": 7,
+            "typeProduct": {"Тип продукта": "Хлебобулочные изделия"},
+            "nameProduct": {"Имя продукта":"Батон"},
+            "imageProduct": {"url":"img/products/hleb-hlebzavod9-1.jpg"},
+            "generalCriteria": [
+                {"countryProduct": {"Страна": "Украина"}},
+                {"producerProduct": {"Производитель":"Хлебзавод №10"}},
+                {"kindProduct": {"Вид":"Дворянский резаный"}},
+                {"boxingProduct": {"Вес":"400г"}}
+            ],
+            "amountProduct": {"Количество":"1"},
+            "priceAndShop":{
+                "ATB": 9.58,
+                "Silpo": 10.45,
+                "Varus": 8.25
+            }
+        },
+        {
+            "id": 8,
+            "typeProduct": {"Тип продукта": "Хлебобулочные изделия"},
+            "nameProduct": {"Имя продукта":"Батон"},
+            "imageProduct": {"url":"img/products/hleb-hlebzavod9-2.jpg"},
+            "generalCriteria": [
+                {"countryProduct": {"Страна": "Украина"}},
+                {"producerProduct": {"Производитель":"Хлебзавод №10"}},
+                {"kindProduct": {"Вид":"Европейский нарезной"}},
+                {"boxingProduct": {"Вес":"450г"}}
+            ],
+            "amountProduct": {"Количество":"1"},
+            "priceAndShop":{
+                "ATB": 11.58,
+                "Silpo": 11.45,
+                "Varus": 12.25
+            }
+        },
+        {
+            "id": 9,
+            "typeProduct": {"Тип продукта": "Хлебобулочные изделия"},
+            "nameProduct": {"Имя продукта":"Батон"},
+            "imageProduct": {"url":"img/products/hleb-hlebzavod9-1.jpg"},
+            "generalCriteria": [
+                {"countryProduct": {"Страна": "Украина"}},
+                {"producerProduct": {"Производитель":"Хлебзавод №8"}},
+                {"kindProduct": {"Вид":"Дорожный нарезной"}},
+                {"boxingProduct": {"Вес":"450г"}}
+            ],
+            "amountProduct": {"Количество":"1"},
+            "priceAndShop":{
+                "ATB": 12.58,
+                "Silpo": 12.45,
+                "Varus": 13.25
+            }
+        },
+        {
+            "id": 10,
+            "typeProduct": {"Тип продукта": "Молочная продукция"},
+            "nameProduct": {"Имя продукта":"Сметана"},
+            "imageProduct": {"url":"img/products/smetana-prostokvasheno-1.jpg"},
+            "generalCriteria": [
+                {"countryProduct": {"Страна": "Украина"}},
+                {"producerProduct": {"Производитель":"Простоквашино"}},
+                {"boxingProduct": {"Вес":"200г"}},
+                {"fat": {"Жирность":"15%"}},
+                {"boxingTypeProduct":  {"Тип упаковки": "Стакан"}}
+            ],
+            "amountProduct": {"Количество":"1"},
+            "priceAndShop":{
+                "ATB": 9.40,
+                "Silpo": 9.45,
+                "Varus": 10.25
             }
         }
     ]

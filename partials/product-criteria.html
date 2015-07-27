@@ -20,7 +20,7 @@
             </div>
         </div>
     </div>
-    <div class="navigator-container" ng-if="filtersCriteriaProducerProductFactory.ready">
+    <div class="navigator-container">
 		<div class="navigator-content relative">
 			<div class="full-screen scroller-wrapper">
             <div class="full-screen scroller-wrapper extra-scroll-block">
@@ -33,11 +33,11 @@
                     </div>
                 </div>-->
 
-                <div class="loading blue-color padded-20" ng-if="!readyListProducts">
+                <div class="loading blue-color padded-20" ng-if="!readyListProducts && filtersCriteriaProducerProductFactory.ready ">
                     <ons-icon icon="fa-circle-o-notch" size="lg" spin="true"></ons-icon>
                 </div>
-                <ul ng-if="readyListProducts" ng-init="index=$index" class="padded-10 listProducts" ng-repeat="oneProduct in listProducts">
-                    <li>
+                <ul ng-if="readyListProducts && filtersCriteriaProducerProductFactory.ready" >
+                    <li class="listProducts" ng-init="index=$index" ng-repeat="oneProduct in listProducts">
                         <ons-row>
                             <ons-col class="padded-10 width-120">
                                 <img ng-src="{{oneProduct.imageProduct['url']}}" alt="" />
@@ -65,7 +65,7 @@
                         </ons-row>
                     </li>
                 </ul>
-                <p ng-if="listProducts.length==0" class="left padded-10">
+                <p ng-if="readyListProducts && listProducts.length==0" class="left padded-10">
                     К сожалению, в данный момент нет товара с такими критериями
                 </p>
                 <ons-bottom-toolbar class="padded-22-0 bottom-button-block">

@@ -865,6 +865,9 @@ div .page__background {
     font-weight: 100;
     line-height: 12px;
 }
+.product-criteria-page .listProducts .width-120 img{
+    width:100px;
+}
 .product-criteria-page .listProducts input{
     width:50px;
     position:relative;
