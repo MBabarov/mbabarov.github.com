@@ -20,7 +20,7 @@
             </div>
         </div>
     </div>
-    <div class="navigator-container">
+    <div class="navigator-container" ng-if="filtersCriteriaProducerProductFactory.ready">
 		<div class="navigator-content relative">
 			<div class="full-screen scroller-wrapper">
             <div class="full-screen scroller-wrapper extra-scroll-block">
@@ -36,37 +36,40 @@
                 <div class="loading blue-color padded-20" ng-if="!readyListProducts">
                     <ons-icon icon="fa-circle-o-notch" size="lg" spin="true"></ons-icon>
                 </div>
-                <ul ng-if="readyListProducts" class="padded-10" ng-repeat="oneProduct in listProducts">
+                <ul ng-if="readyListProducts" ng-init="index=$index" class="padded-10 listProducts" ng-repeat="oneProduct in listProducts">
                     <li>
                         <ons-row>
                             <ons-col class="padded-10 width-120">
                                 <img ng-src="{{oneProduct.imageProduct['url']}}" alt="" />
                             </ons-col>
-                            <ons-col class="padded-10">
+                            <ons-col class="padded-5-10 left">
                                 <div ng-repeat="oneCriteria in oneProduct.generalCriteria">
-                                    <div ng-repeat="i in oneCriteria">
+                                    <div class="padded-5-0" ng-repeat="i in oneCriteria">
                                         <div ng-repeat="(key, value)  in i">
                                             {{key}}: {{value}}
                                         </div>
-
                                     </div>
                                 </div>
-                                <div ng-repeat="(key, value) in oneProduct.amountProduct">
-                                    {{key}}
-                                    <input type="text" value="{{value}}" />
+                                <div class="padded-5-0" ng-repeat="(key, value) in oneProduct.amountProduct">
+                                    <ons-row>
+                                        <ons-col class="width-80">
+                                            <span for="count{{index}}">{{key}}</span>
+                                        </ons-col>
+                                        <ons-col>
+                                            <input id="count{{index}}" type="text" value="{{value}}" />
+                                        </ons-col>
+                                    </ons-row>
                                 </div>
                                 <ons-toolbar-button ng-click="saveEditProduct();" class="button--large--cta button--bottom">Сохранить</ons-toolbar-button>
                             </ons-col>
                         </ons-row>
                     </li>
                 </ul>
+                <p ng-if="listProducts.length==0" class="left padded-10">
+                    К сожалению, в данный момент нет товара с такими критериями
+                </p>
                 <ons-bottom-toolbar class="padded-22-0 bottom-button-block">
                     <ons-row>
-                        <ons-col>
-                            <div class="active">
-                                <ons-toolbar-button ng-click="addToProductsListPage();" class="button--large--cta button--bottom">Сохранить</ons-toolbar-button>
-                            </div>
-                        </ons-col>
                         <ons-col>
                             <div>
                                 <button class="button--large--cta btn-white button--bottom" ng-click="moveToProductsListPage()">Отменить</button>

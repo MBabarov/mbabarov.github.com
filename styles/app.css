@@ -857,3 +857,16 @@ div .page__background {
     font-weight: 100;
     line-height: 12px;
 }
+.product-criteria-page .listProducts{
+    background: #fefefe;
+    border: 1px solid #ddd;
+    margin: 10px 10px 0;
+    font-size: 12px;
+    font-weight: 100;
+    line-height: 12px;
+}
+.product-criteria-page .listProducts input{
+    width:50px;
+    position:relative;
+    top:-7px;
+}
