@@ -207,6 +207,213 @@
                 "Silpo": 9.45,
                 "Varus": 10.25
             }
+        },
+        {
+            "id": 11,
+            "typeProduct": {"Тип продукта": "Молочная продукция"},
+            "nameProduct": {"Имя продукта":"Сметана"},
+            "imageProduct": {"url":"img/products/smetana-prostokvasheno-2.jpg"},
+            "generalCriteria": [
+                {"countryProduct": {"Страна": "Украина"}},
+                {"producerProduct": {"Производитель":"Простоквашино"}},
+                {"boxingProduct": {"Вес":"200г"}},
+                {"fat": {"Жирность":"20%"}},
+                {"boxingTypeProduct":  {"Тип упаковки": "Стакан"}}
+            ],
+            "amountProduct": {"Количество":"1"},
+            "priceAndShop":{
+                "ATB": 10.77,
+                "Silpo": 11.15,
+                "Varus": 10.55
+            }
+        },
+        {
+            "id": 12,
+            "typeProduct": {"Тип продукта": "Молочная продукция"},
+            "nameProduct": {"Имя продукта":"Сметана"},
+            "imageProduct": {"url":"img/products/smetana-prostokvasheno-3.jpg"},
+            "generalCriteria": [
+                {"countryProduct": {"Страна": "Украина"}},
+                {"producerProduct": {"Производитель":"Простоквашино"}},
+                {"boxingProduct": {"Вес":"405г"}},
+                {"fat": {"Жирность":"15%"}},
+                {"boxingTypeProduct":  {"Тип упаковки": "П/э"}}
+            ],
+            "amountProduct": {"Количество":"1"},
+            "priceAndShop":{
+                "ATB": 14.77,
+                "Silpo": 15.15,
+                "Varus": 15.55
+            }
+        },
+        {
+            "id": 12,
+            "typeProduct": {"Тип продукта": "Молочная продукция"},
+            "nameProduct": {"Имя продукта":"Сметана"},
+            "imageProduct": {"url":"img/products/smetana-prostokvasheno-4.jpg"},
+            "generalCriteria": [
+                {"countryProduct": {"Страна": "Украина"}},
+                {"producerProduct": {"Производитель":"Простоквашино"}},
+                {"boxingProduct": {"Вес":"350г"}},
+                {"fat": {"Жирность":"25%"}},
+                {"boxingTypeProduct":  {"Тип упаковки": "Стакан"}}
+            ],
+            "amountProduct": {"Количество":"1"},
+            "priceAndShop":{
+                "ATB": 24.77,
+                "Silpo": 25.15,
+                "Varus": 25.55
+            }
+        },
+        {
+            "id": 13,
+            "typeProduct": {"Тип продукта": "Молочная продукция"},
+            "nameProduct": {"Имя продукта":"Сметана"},
+            "imageProduct": {"url":"img/products/smetana-president-1.jpg"},
+            "generalCriteria": [
+                {"countryProduct": {"Страна": "Украина"}},
+                {"producerProduct": {"Производитель":"President"}},
+                {"boxingProduct": {"Вес":"200г"}},
+                {"fat": {"Жирность":"15%"}},
+                {"boxingTypeProduct":  {"Тип упаковки": "Стакан"}}
+            ],
+            "amountProduct": {"Количество":"1"},
+            "priceAndShop":{
+                "ATB": 9.77,
+                "Silpo": 10.15,
+                "Varus": 10.55
+            }
+        },
+        {
+            "id": 13,
+            "typeProduct": {"Тип продукта": "Молочная продукция"},
+            "nameProduct": {"Имя продукта":"Сметана"},
+            "imageProduct": {"url":"img/products/smetana-president-2.jpg"},
+            "generalCriteria": [
+                {"countryProduct": {"Страна": "Украина"}},
+                {"producerProduct": {"Производитель":"President"}},
+                {"boxingProduct": {"Вес":"200г"}},
+                {"fat": {"Жирность":"20%"}},
+                {"boxingTypeProduct":  {"Тип упаковки": "Стакан"}}
+            ],
+            "amountProduct": {"Количество":"1"},
+            "priceAndShop":{
+                "ATB": 11.77,
+                "Silpo": 12.15,
+                "Varus": 12.55
+            }
+        },
+        {
+            "id": 14,
+            "typeProduct": {"Тип продукта": "Молочная продукция"},
+            "nameProduct": {"Имя продукта":"Сметана"},
+            "imageProduct": {"url":"img/products/smetana-president-3.jpg"},
+            "generalCriteria": [
+                {"countryProduct": {"Страна": "Украина"}},
+                {"producerProduct": {"Производитель":"President"}},
+                {"boxingProduct": {"Вес":"400г"}},
+                {"fat": {"Жирность":"30%"}},
+                {"boxingTypeProduct":  {"Тип упаковки": "Стакан"}}
+            ],
+            "amountProduct": {"Количество":"1"},
+            "priceAndShop":{
+                "ATB": 37.77,
+                "Silpo": 38.15,
+                "Varus": 38.55
+            }
+        },
+        {
+            "id": 15,
+            "typeProduct": {"Тип продукта": "Молочная продукция"},
+            "nameProduct": {"Имя продукта":"Сметана"},
+            "imageProduct": {"url":"img/products/smetana-premialle-1.jpg"},
+            "generalCriteria": [
+                {"countryProduct": {"Страна": "Украина"}},
+                {"producerProduct": {"Производитель":"Premialle"}},
+                {"boxingProduct": {"Вес":"300г"}},
+                {"fat": {"Жирность":"15%"}},
+                {"boxingTypeProduct":  {"Тип упаковки": "Стакан"}}
+            ],
+            "amountProduct": {"Количество":"1"},
+            "priceAndShop":{
+                "ATB": 17.77,
+                "Silpo": 18.15,
+                "Varus": 18.55
+            }
+        },
+        {
+            "id": 15,
+            "typeProduct": {"Тип продукта": "Молочная продукция"},
+            "nameProduct": {"Имя продукта":"Сметана"},
+            "imageProduct": {"url":"img/products/smetana-premialle-2.jpg"},
+            "generalCriteria": [
+                {"countryProduct": {"Страна": "Украина"}},
+                {"producerProduct": {"Производитель":"Premialle"}},
+                {"boxingProduct": {"Вес":"300г"}},
+                {"fat": {"Жирность":"20%"}},
+                {"boxingTypeProduct":  {"Тип упаковки": "Стакан"}}
+            ],
+            "amountProduct": {"Количество":"1"},
+            "priceAndShop":{
+                "ATB": 21.77,
+                "Silpo": 22.15,
+                "Varus": 22.55
+            }
+        },
+        {
+            "id": 16,
+            "typeProduct": {"Тип продукта": "Мясная гастрономия"},
+            "nameProduct": {"Имя продукта":"Филе куринное"},
+            "imageProduct": {"url":"img/products/file-kurinoe-nasha-ryaba-1.jpg"},
+            "generalCriteria": [
+                {"countryProduct": {"Страна": "Украина"}},
+                {"producerProduct": {"Производитель":"Наша ряба"}},
+                {"boxingProduct": {"Вес":"1кг"}},
+                {"boxingTypeProduct":  {"Тип упаковки": "Су Гпп"}}
+            ],
+            "amountProduct": {"Количество":"1"},
+            "priceAndShop":{
+                "ATB": 59.77,
+                "Silpo": 60.15,
+                "Varus": 60.55
+            }
+        },
+        {
+            "id": 17,
+            "typeProduct": {"Тип продукта": "Мясная гастрономия"},
+            "nameProduct": {"Имя продукта":"Филе куринное"},
+            "imageProduct": {"url":"img/products/file-kurinoe-olymp-1.jpg"},
+            "generalCriteria": [
+                {"countryProduct": {"Страна": "Украина"}},
+                {"producerProduct": {"Производитель":"Олимп"}},
+                {"boxingProduct": {"Вес":"1кг"}},
+                {"boxingTypeProduct":  {"Тип упаковки": "Су Гпп"}}
+            ],
+            "amountProduct": {"Количество":"1"},
+            "priceAndShop":{
+                "ATB": 57.77,
+                "Silpo": 58.15,
+                "Varus": 61.55
+            }
+        },
+        {
+            "id": 18,
+            "typeProduct": {"Тип продукта": "Безалкогольные напитки"},
+            "nameProduct": {"Имя продукта":"Мин. вода"},
+            "imageProduct": {"url":"img/products/min-voda-morshinska-1.jpg"},
+            "generalCriteria": [
+                {"countryProduct": {"Страна": "Украина"}},
+                {"producerProduct": {"Производитель":"Моршинская"}},
+                {"boxingProduct": {"Вес":"1.5л"}},
+                {"productKind":  {"Тип": "Слабогозированная"}},
+                {"boxingTypeProduct":  {"Тип упаковки": "П/п"}}
+            ],
+            "amountProduct": {"Количество":"1"},
+            "priceAndShop":{
+                "ATB": 8.77,
+                "Silpo": 9.15,
+                "Varus": 9.55
+            }
         }
     ]
 }
