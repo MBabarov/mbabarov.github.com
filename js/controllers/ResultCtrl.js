@@ -26,6 +26,12 @@ angular.module('myApp.ResultCtrl', [])
 				}
 			})
 		}
+		$scope.moveToProductsListPage=function(){
+			navi.popPage();
+		}
+		$scope.moveToListsPage=function(){
+			navi.popPage();
+		}
 		ons.ready(function() {
 		  console.log("ons.ready");
 

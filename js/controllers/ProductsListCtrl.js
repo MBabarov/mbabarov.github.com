@@ -34,7 +34,7 @@ angular.module('myApp.ProductsListCtrl', [])
 			})
 		}
 		$scope.addProduct = function(){
-			navi.pushPage('partials/product-criteria.html');
+			navi.pushPage('partials/product-choice.html');
 		}
 		$scope.editProduct = function($currentScope){
 			filtersCriteriaCountryProductFactory.currentProduct=$currentScope.currentProduct;

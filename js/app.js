@@ -17,6 +17,7 @@
 	'myApp.ProductsListCtrl',
 	'myApp.ProductsListExportCtrl',
 	'myApp.ProductCriteriaCtrl',
+	'myApp.ProductChoiceCtrl',
 	'myApp.ResultCtrl',
 	'myApp.authorizationService',
 	'myApp.currentListProductsFactory',

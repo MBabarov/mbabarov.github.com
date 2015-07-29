@@ -874,3 +874,36 @@ div .page__background {
     position:relative;
     top:-7px;
 }
+.result-page .button-bar__button,
+.result-page .button-bar__item:last-child > .button-bar__button,
+.result-page .button-bar__item:first-child > .button-bar__button {
+    border-left: medium none!important;
+    border-right: medium none!important;
+    min-height: 46px;
+}
+.result-page .button-bar__item:first-child > .button-bar__button,
+.result-page .button-bar__item:last-child > .button-bar__button {
+    border-radius: 0;
+}
+.result-page .button-bar__item.active > .button-bar__button,
+.result-page *:checked + .button-bar__button {
+    background-color: #25a6d9;
+    border-bottom: 4px solid #f0faa4;
+}
+.result-page .button-bar__button:focus,
+.result-page .button-bar__button:active,
+.result-page .button-bar__button {
+    background-color: #25a6d9!important;
+    border-bottom: 4px solid #25a6d9;
+    border-color: #25a6d9;
+    color: #fff;
+    display: block;
+    font-family: "helveticaneuecyrroman",Helvetica,Arial,Verdana,sans-serif;
+    font-size: 17px!important;
+    height: 100%;
+    line-height: normal;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    white-space: normal;
+    box-shadow: 0 3px 7px #c0c0c0;
+}
