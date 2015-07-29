@@ -80,7 +80,7 @@
         <entry file="file://$PROJECT_DIR$/partials/location.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.42822385">
-              <caret line="16" column="59" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="59" />
+              <caret line="16" column="54" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -837,7 +837,7 @@
     <entry file="file://$PROJECT_DIR$/partials/location.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.42822385">
-          <caret line="16" column="59" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="59" />
+          <caret line="16" column="54" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="54" />
           <folding />
         </state>
       </provider>
