@@ -61,12 +61,12 @@ angular.module('myApp.dataListsProductsFactory', []).
                     'listProducts':[
                         {
                             'id': 6,
-                            'typeProduct': 'Колбаса',
-                            'nameProduct': 'Сервелат',
+                            'typeProduct': 'Мясная гастрономия',
+                            'nameProduct': 'Колбаса',
                             'countryProduct': 'Украина',
-                            'producerProduct': 'Наталка',
-                            'kindProduct': 'Сервилат',
-                            'boxingProduct': '1кг',
+                            'producerProduct': 'Алан',
+                            'kindProduct': 'Меланская',
+                            'boxingProduct': '130г',
                             'amountProduct': '1'
                         },
                         {
@@ -80,13 +80,13 @@ angular.module('myApp.dataListsProductsFactory', []).
                         },
                         {
                             'id': 7,
-                            'typeProduct': 'Вино',
-                            'nameProduct': 'Томянка',
+                            'typeProduct': 'Спиртные напитки',
+                            'nameProduct': 'Вино',
                             'countryProduct': 'Украина',
-                            'producerProduct': 'Томянка',
-                            'kindProduct1': 'Белое',
+                            'producerProduct': 'Шабо',
+                            'kindProduct1': 'Красное',
                             'kindProduct2': 'Полусладкое',
-                            'boxingProduct': '1л',
+                            'boxingProduct': '0.75л',
                             'amountProduct': '1'
                         },
                         {
@@ -94,8 +94,8 @@ angular.module('myApp.dataListsProductsFactory', []).
                             'typeProduct': 'Крупы',
                             'nameProduct': 'Греча',
                             'countryProduct': 'Украина',
-                            'producerProduct': 'Геракл',
-                            'boxingProduct': '1кг',
+                            'producerProduct': 'Жменька',
+                            'boxingProduct': '4*100г',
                             'amountProduct': '1'
                         },
                         {

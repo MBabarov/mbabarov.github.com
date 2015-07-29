@@ -866,7 +866,8 @@ div .page__background {
     line-height: 12px;
 }
 .product-criteria-page .listProducts .width-120 img{
-    width:100px;
+    max-width:100px;
+    max-height:140px;
 }
 .product-criteria-page .listProducts input{
     width:50px;
