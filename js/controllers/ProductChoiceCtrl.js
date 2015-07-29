@@ -4,12 +4,14 @@
 
 angular.module('myApp.ProductChoiceCtrl', [])
     .controller('ProductChoiceCtrl', ['$scope', '$http', '$window', '$rootScope', '$location', '$timeout',
-        function($scope, $http, $window, $rootScope, $location, $timeout) {
+		'listProductsForChoiceFactory',
+        function($scope, $http, $window, $rootScope, $location, $timeout,
+				 listProductsForChoiceFactory) {
             $location.hash('product-choice');
 			
 			
 		$scope.pageTitle = 'Выбор продукта';
-		$scope.ready=true;
+		$scope.ready=false;
 		
 		$scope.moveToProductsListPage = function(){
 			navi.pushPage('partials/products-list.html');		
@@ -17,8 +19,9 @@ angular.module('myApp.ProductChoiceCtrl', [])
 		$scope.saveEditProduct = function(){
 			navi.pushPage('partials/products-list.html');
 		}
-		
-		$scope.$on('productsList', function (event, data) {
+
+		listProductsForChoiceFactory.loadList();
+		$scope.$on('productsChoiceList', function (event, data) {
 			$scope.listProducts=data.data;
 			$scope.readyListProducts=data.ready;
 		});
@@ -26,13 +29,13 @@ angular.module('myApp.ProductChoiceCtrl', [])
 		if(document.querySelector('.product-choice-page .full-screen')!=null){
 			$timeout(function(){
 				document.querySelector('.product-choice-page .extra-scroll-block').style.overflowY='scroll';
-				document.querySelector('.product-choice-page .extra-scroll-block').style.height=document.querySelector('.product-choice-page .page__content').offsetHeight-90+'px';
+				document.querySelector('.product-choice-page .extra-scroll-block').style.height=document.querySelector('.product-choice-page .page__content').offsetHeight-110+'px';
 			}, 200);
 		}
 		angular.element($window).on("orientationchange", function() {
 			if(document.querySelector('.product-criteria-page .scroller-wrapper')!=null){
 				$timeout(function(){
-					document.querySelector('.product-choice-page .extra-scroll-block').style.height=document.querySelector('.product-choice-page .page__content').offsetHeight-90+'px';
+					document.querySelector('.product-choice-page .extra-scroll-block').style.height=document.querySelector('.product-choice-page .page__content').offsetHeight-110+'px';
 				}, 500);
 			}
 		});

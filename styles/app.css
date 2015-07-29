@@ -494,6 +494,46 @@ ul.text-block {
     color: #25a6d9;
     border:1px solid #25a6d9;
 }
+.smoothOpacity  .button--medium--cta {
+    -moz-user-select: none;
+    background: #25a6d9;
+    border:1px solid #25a6d9;
+    border-radius: 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: default;
+    display: block;
+    font-family: "Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    font-feature-settings: inherit;
+    font-kerning: inherit;
+    font-language-override: inherit;
+    font-size: 14px;
+    font-size-adjust: inherit;
+    font-stretch: inherit;
+    font-style: inherit;
+    font-synthesis: inherit;
+    font-variant: inherit;
+    font-weight: 500;
+    height: auto;
+    letter-spacing: 0;
+    line-height: 27px;
+    margin: 0;
+    overflow: hidden;
+    padding: 4px 12px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    transition: none 0s ease 0s ;
+    vertical-align: middle;
+    white-space: nowrap;
+    width: 100%;
+}
+.smoothOpacity .button--medium--cta.btn-white{
+    background: #fff;
+    color: #25a6d9;
+    border:1px solid #25a6d9;
+}
 .form .toolbar-button:active,
 .form .toolbar-button--outline:active,
 .form .toolbar-button--quiet:active{
@@ -906,4 +946,15 @@ div .page__background {
     padding-top: 8px;
     white-space: normal;
     box-shadow: 0 3px 7px #c0c0c0;
+}
+.product-choice-page .listProducts{
+    background: #fefefe;
+    border: 1px solid #ddd;
+    margin: 10px 10px 0;
+    font-size: 12px;
+    font-weight: 100;
+    line-height: 12px;
+}
+.smoothOpacity .product-choice-page .text-input{
+    margin: 0;
 }
