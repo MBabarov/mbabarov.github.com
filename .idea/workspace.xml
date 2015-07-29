@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="357fe8ef-0ab9-466b-93b2-05c5b71af317" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/location.html" afterPath="$PROJECT_DIR$/partials/location.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="mbabarov.github.com.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -81,7 +80,7 @@
         <entry file="file://$PROJECT_DIR$/partials/location.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.42822385">
-              <caret line="16" column="57" selection-start-line="16" selection-start-column="57" selection-end-line="16" selection-end-column="57" />
+              <caret line="16" column="63" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="63" />
               <folding />
             </state>
           </provider>
@@ -838,7 +837,7 @@
     <entry file="file://$PROJECT_DIR$/partials/location.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.42822385">
-          <caret line="16" column="57" selection-start-line="16" selection-start-column="57" selection-end-line="16" selection-end-column="57" />
+          <caret line="16" column="63" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="63" />
           <folding />
         </state>
       </provider>
