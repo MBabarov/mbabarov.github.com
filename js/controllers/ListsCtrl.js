@@ -40,7 +40,6 @@ angular.module('myApp.ListsCtrl', [])
                 }
 
             })
-
         }
         $scope.moveToExportPage=function(currentList){
             currentListProductsFactory.title=currentList.title;
@@ -53,8 +52,6 @@ angular.module('myApp.ListsCtrl', [])
             navi.pushPage('partials/products-list-export.html');
         }
 
-            //dialog($currentScope, waited);
-            //info($currentScope, null, globalHelpers.clearSpace(data.data.status.statusMessage));
         function dialogDelete (currentList) {
             $scope.nameList = currentList.title;
             ngDialog.openConfirm({
@@ -104,14 +101,6 @@ angular.module('myApp.ListsCtrl', [])
         };
     ons.ready(function() {
       console.log("ons.ready");
-
-      //$scope.ons.navigator.on('postPop', function(event) {
-      //  console.log(event);
-      //});
-
-      //$scope.ons.navigator.on('postPush', function(event) {
-      //  console.log(event);
-      //});
     });
 		
 	}]);

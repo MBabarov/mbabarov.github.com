@@ -9,18 +9,20 @@ angular.module('myApp.ProductsListExportCtrl', [])
 			
 			
 		$scope.pageTitle = 'Список продуктов';
-		$scope.ready=true;
+		$scope.ready=false;
 		$scope.typeSend=currentListProductsFactory.typeSend;
 		$scope.list={};
-		angular.forEach(dataListsProductsFactory.data, function (oneList, index) {
-			if(index==0) $scope.list=[];
-			console.log('currentListProductsFactory', currentListProductsFactory.title);
-			console.log('oneList', oneList);
-			if(oneList.titleList==currentListProductsFactory.title){
-				$scope.list=oneList.listProducts;
-				console.log('oneList.listProducts', oneList.listProducts);
-			}
-		});
+		dataListsProductsFactory.loadProductsList();
+		$scope.$on('productsListsAction', function (event, data) {
+			angular.forEach(data.data, function (oneList, index) {
+				if(index==0) $scope.list=[];
+				if(oneList.titleList==currentListProductsFactory.title){
+					$scope.list=oneList.listProducts;
+				}
+			});
+			$scope.ready=data.ready;
+		})
+
 		$scope.backToLists = function(){
 			navi.popPage();
 		};	
@@ -29,14 +31,6 @@ angular.module('myApp.ProductsListExportCtrl', [])
 		}
 		ons.ready(function() {
 		  console.log("ons.ready");
-
-		  //$scope.ons.navigator.on('postPop', function(event) {
-		  //  console.log(event);
-		  //});
-
-		  //$scope.ons.navigator.on('postPush', function(event) {
-		  //  console.log(event);
-		  //});
 		});
 		
 	}]);

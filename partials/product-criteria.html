@@ -16,7 +16,7 @@
                 <ons-icon icon="fa-circle-o-notch" size="lg" spin="true"></ons-icon>
             </div>
             <div ng-if="filtersCriteriaProducerProductFactory.ready && producersNotEmpty">
-                <div dropdown-select="ddSelectOptions2" dropdown-model="ddSelectSelected2"></div>
+                <div dropdown-select="ddSelectOptions" dropdown-model="ddSelectSelected"></div>
             </div>
         </div>
     </div>
@@ -24,15 +24,6 @@
 		<div class="navigator-content relative">
 			<div class="full-screen scroller-wrapper">
             <div class="full-screen scroller-wrapper extra-scroll-block">
-                <!--<div class="padded-10">
-                    <div class="loading blue-color padded-20" ng-if="!filtersCriteriaCountryProductFactory.ready">
-                        <ons-icon icon="fa-circle-o-notch" size="lg" spin="true"></ons-icon>
-                    </div>
-                    <div ng-if="filtersCriteriaCountryProductFactory.ready && countriesNotEmpty">
-                        <div dropdown-select="ddSelectOptions" dropdown-model="ddSelectSelected"></div>
-                    </div>
-                </div>-->
-
                 <div class="loading blue-color padded-20" ng-if="!readyListProducts && filtersCriteriaProducerProductFactory.ready ">
                     <ons-icon icon="fa-circle-o-notch" size="lg" spin="true"></ons-icon>
                 </div>

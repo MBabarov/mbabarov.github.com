@@ -38,14 +38,6 @@ angular.module('myApp.ExtraMenuCtrl', [])
 		}
     ons.ready(function() {
       console.log("ons.ready");
-
-      //$scope.ons.navigator.on('postPop', function(event) {
-      //  console.log(event);
-      //});
-
-      //$scope.ons.navigator.on('postPush', function(event) {
-      //  console.log(event);
-      //});
     });
 		
 	}]);

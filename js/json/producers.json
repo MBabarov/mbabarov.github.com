@@ -189,6 +189,66 @@
             "country":"Украина",
             "id": 32,
             "name":"Золотые ворота"
+        },
+        {
+            "product": "Стиральный порошок, гель",
+            "country":"Австрия",
+            "id": 33,
+            "name":"Persil"
+        },
+        {
+            "product": "Стиральный порошок, гель",
+            "country":"Бельгия",
+            "id": 34,
+            "name":"Ariel"
+        },
+        {
+            "product": "Стиральный порошок, гель",
+            "country":"Австрия",
+            "id": 35,
+            "name":"Rex"
+        },
+        {
+            "product": "Мыло, гель",
+            "country":"Турция",
+            "id": 36,
+            "name":"Duru"
+        },
+        {
+            "product": "Мыло, гель",
+            "country":"Великобритания",
+            "id": 37,
+            "name":"Safeguard"
+        },
+        {
+            "product": "Зубные пасты, ополаскиватели",
+            "country":"Украина",
+            "id": 38,
+            "name":"Colgate"
+        },
+        {
+            "product": "Сельдь",
+            "country":"Германия",
+            "id": 39,
+            "name":"Apple"
+        },
+        {
+            "product": "Сельдь",
+            "country":"Украина",
+            "id": 40,
+            "name":"Флотилія"
+        },
+        {
+            "product": "Водка",
+            "country":"Украина",
+            "id": 41,
+            "name":"Хортица"
+        },
+        {
+            "product": "Водка",
+            "country":"Украина",
+            "id": 42,
+            "name":"Nemiroff"
         }
     ]
 }

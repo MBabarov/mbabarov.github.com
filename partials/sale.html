@@ -20,21 +20,15 @@
 		<div class="navigator-content relative">
 			<div class="full-screen scroller-wrapper">
                 <div class="full-screen scroller-wrapper extra-scroll-block">
-
-                    <!--<ul class="list one-line-list">
-                        <li class="list__item list__item&#45;&#45;chevron" ng-init="notEmpty = false">
-
-                            <span class="secondary-text" ng-if="searchService.search.courseType | shopsSelect">
-                              Tap to select
-                            </span>
-                        </li>
-                    </ul>-->
-                    <ons-list class="topcoat-list padded-10-20">
+                    <div class="loading blue-color padded-10" ng-if="!ready ">
+                        <ons-icon icon="fa-circle-o-notch" size="lg" spin="true"></ons-icon>
+                    </div>
+                    <ons-list class="topcoat-list padded-10-20" ng-if="ready ">
                         <ons-list-item ng-repeat="oneElementList in filterList"  class="full-button topcoat-list__item--tappable topcoat-list__item__line-height">
                             <img src="{{oneElementList.url}}" alt="{{oneElementList.title}}"/>
                         </ons-list-item>
                     </ons-list>
-                    <p class="copy-static">
+                    <p class="copy-static"  ng-if="ready ">
                         &copy; "Где дешевле?", 2015
                     </p>
 			    </div>

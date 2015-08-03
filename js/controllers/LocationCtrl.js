@@ -19,24 +19,16 @@ angular.module('myApp.LocationCtrl', [])
 				navi.pushPage('partials/products-list.html');
 			}
 		};
-			var _map;
-			$scope.afterMapInit = function(map){
-				console.log('map', map);
-				_map = map;
-			};
-			$scope.del = function(){
-				_map.destroy();
-			};
+		var _map;
+		$scope.afterMapInit = function(map){
+			console.log('map', map);
+			_map = map;
+		};
+		$scope.del = function(){
+			_map.destroy();
+		};
     ons.ready(function() {
       console.log("ons.ready");
-
-      //$scope.ons.navigator.on('postPop', function(event) {
-      //  console.log(event);
-      //});
-
-      //$scope.ons.navigator.on('postPush', function(event) {
-      //  console.log(event);
-      //});
     });
 		
 	}]);

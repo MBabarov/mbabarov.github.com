@@ -853,6 +853,254 @@
                 "Silpo": 21.95,
                 "Varus": 22.15
             }
+        },
+        {
+            "id": 42,
+            "typeProduct": {"Тип продукта": "Бытовая химия"},
+            "nameProduct": {"Имя продукта":"Стиральный порошок, гель"},
+            "imageProduct": {"url":"img/products/poroshok-ariel-1.jpg"},
+            "generalCriteria": [
+                {"countryProduct": {"Страна": "Бельгия"}},
+                {"producerProduct": {"Производитель":"Ariel"}},
+                {"boxingProduct": {"Вес":"3кг"}},
+                {"productKind":  {"Тип": "Белая роза"}},
+                {"kindUse":  {"Тип стирки": "Автомат"}},
+                {"boxingTypeProduct":  {"Тип упаковки": "П/п"}}
+            ],
+            "amountProduct": {"Количество":"1"},
+            "priceAndShop":{
+                "ATB": 221.57,
+                "Silpo": 221.95,
+                "Varus": 222.15
+            }
+        },
+        {
+            "id": 43,
+            "typeProduct": {"Тип продукта": "Бытовая химия"},
+            "nameProduct": {"Имя продукта":"Стиральный порошок, гель"},
+            "imageProduct": {"url":"img/products/poroshok-ariel-1.jpg"},
+            "generalCriteria": [
+                {"countryProduct": {"Страна": "Бельгия"}},
+                {"producerProduct": {"Производитель":"Ariel"}},
+                {"boxingProduct": {"Вес":"1.5кг"}},
+                {"productKind":  {"Тип": "Color&style"}},
+                {"kindUse":  {"Тип стирки": "Автомат"}},
+                {"boxingTypeProduct":  {"Тип упаковки": "П/п"}}
+            ],
+            "amountProduct": {"Количество":"1"},
+            "priceAndShop":{
+                "ATB": 85.57,
+                "Silpo": 87.95,
+                "Varus": 89.15
+            }
+        },
+        {
+            "id": 44,
+            "typeProduct": {"Тип продукта": "Бытовая химия"},
+            "nameProduct": {"Имя продукта":"Стиральный порошок, гель"},
+            "imageProduct": {"url":"img/products/poroshok-persil-1.jpg"},
+            "generalCriteria": [
+                {"countryProduct": {"Страна": "Австрия"}},
+                {"producerProduct": {"Производитель":"Persil"}},
+                {"boxingProduct": {"Вес":"3кг"}},
+                {"productKind":  {"Тип": "Свеж.силан"}},
+                {"kindUse":  {"Тип стирки": "Автомат"}},
+                {"boxingTypeProduct":  {"Тип упаковки": "П/п"}}
+            ],
+            "amountProduct": {"Количество":"1"},
+            "priceAndShop":{
+                "ATB": 226.57,
+                "Silpo": 227.95,
+                "Varus": 229.15
+            }
+        },
+        {
+            "id": 45,
+            "typeProduct": {"Тип продукта": "Бытовая химия"},
+            "nameProduct": {"Имя продукта":"Стиральный порошок, гель"},
+            "imageProduct": {"url":"img/products/poroshok-persil-2.jpg"},
+            "generalCriteria": [
+                {"countryProduct": {"Страна": "Австрия"}},
+                {"producerProduct": {"Производитель":"Persil"}},
+                {"boxingProduct": {"Вес":"6кг"}},
+                {"productKind":  {"Тип": "Color Expert"}},
+                {"kindUse":  {"Тип стирки": "Автомат"}},
+                {"boxingTypeProduct":  {"Тип упаковки": "П/п"}}
+            ],
+            "amountProduct": {"Количество":"1"},
+            "priceAndShop":{
+                "ATB": 412.57,
+                "Silpo": 417.95,
+                "Varus": 415.15
+            }
+        },
+        {
+            "id": 46,
+            "typeProduct": {"Тип продукта": "Бытовая химия"},
+            "nameProduct": {"Имя продукта":"Стиральный порошок, гель"},
+            "imageProduct": {"url":"img/products/poroshok-rex-1.jpg"},
+            "generalCriteria": [
+                {"countryProduct": {"Страна": "Австрия"}},
+                {"producerProduct": {"Производитель":"Rex"}},
+                {"boxingProduct": {"Вес":"3кг"}},
+                {"productKind":  {"Тип": "Rex 2в1 Цветущая Сакура"}},
+                {"kindUse":  {"Тип стирки": "Автомат"}},
+                {"boxingTypeProduct":  {"Тип упаковки": "П/п"}}
+            ],
+            "amountProduct": {"Количество":"1"},
+            "priceAndShop":{
+                "ATB": 131.57,
+                "Silpo": 137.95,
+                "Varus": 135.15
+            }
+        },
+        {
+            "id": 47,
+            "typeProduct": {"Тип продукта": "Бытовая химия"},
+            "nameProduct": {"Имя продукта":"Мыло, гель"},
+            "imageProduct": {"url":"img/products/milo-duru-1.jpg"},
+            "generalCriteria": [
+                {"countryProduct": {"Страна": "Турция"}},
+                {"producerProduct": {"Производитель":"Duru"}},
+                {"boxingProduct": {"Вес":"90г"}},
+                {"productKind":  {"Тип": "Floral Цветок Апельсина И Молочн.протеин"}}
+            ],
+            "amountProduct": {"Количество":"1"},
+            "priceAndShop":{
+                "ATB": 14.57,
+                "Silpo": 14.95,
+                "Varus": 15.15
+            }
+        },
+        {
+            "id": 48,
+            "typeProduct": {"Тип продукта": "Бытовая химия"},
+            "nameProduct": {"Имя продукта":"Мыло, гель"},
+            "imageProduct": {"url":"img/products/milo-safeguard-1.jpg"},
+            "generalCriteria": [
+                {"countryProduct": {"Страна": "Великобритания"}},
+                {"producerProduct": {"Производитель":"Safeguard"}},
+                {"boxingProduct": {"Вес":"90г"}},
+                {"productKind":  {"Тип": "С Витамином Е"}}
+            ],
+            "amountProduct": {"Количество":"1"},
+            "priceAndShop":{
+                "ATB": 15.57,
+                "Silpo": 15.95,
+                "Varus": 16.15
+            }
+        },
+        {
+            "id": 49,
+            "typeProduct": {"Тип продукта": "Бытовая химия"},
+            "nameProduct": {"Имя продукта":"Зубные пасты, ополаскиватели"},
+            "imageProduct": {"url":"img/products/pasta-colgate-1.jpg"},
+            "generalCriteria": [
+                {"countryProduct": {"Страна": "Китай"}},
+                {"producerProduct": {"Производитель":"Colgate"}},
+                {"boxingProduct": {"Вес":"75мл"}},
+                {"productKind":  {"Тип": "Total 12 Про-отбеливание"}}
+            ],
+            "amountProduct": {"Количество":"1"},
+            "priceAndShop":{
+                "ATB": 53.57,
+                "Silpo": 53.95,
+                "Varus": 54.15
+            }
+        },
+        {
+            "id": 50,
+            "typeProduct": {"Тип продукта": "Бытовая химия"},
+            "nameProduct": {"Имя продукта":"Зубные пасты, ополаскиватели"},
+            "imageProduct": {"url":"img/products/pasta-colgate-2.jpg"},
+            "generalCriteria": [
+                {"countryProduct": {"Страна": "Китай"}},
+                {"producerProduct": {"Производитель":"Colgate"}},
+                {"boxingProduct": {"Вес":"50мл"}},
+                {"productKind":  {"Тип": "Профессиональная Чистка"}}
+            ],
+            "amountProduct": {"Количество":"1"},
+            "priceAndShop":{
+                "ATB": 39.57,
+                "Silpo": 39.95,
+                "Varus": 40.15
+            }
+        },
+        {
+            "id": 51,
+            "typeProduct": {"Тип продукта": "Морепродукты и рыба"},
+            "nameProduct": {"Имя продукта":"Сельдь"},
+            "imageProduct": {"url":"img/products/seld-flotilia-1.jpg"},
+            "generalCriteria": [
+                {"countryProduct": {"Страна": "Украина"}},
+                {"producerProduct": {"Производитель":"Флотилія"}},
+                {"boxingProduct": {"Вес":"300г"}},
+                {"productKind":  {"Тип": "Филе Кусочки Класические"}},
+                {"boxingTypeProduct":  {"Тип упаковки": "П/п"}}
+            ],
+            "amountProduct": {"Количество":"1"},
+            "priceAndShop":{
+                "ATB": 44.57,
+                "Silpo": 44.95,
+                "Varus": 45.15
+            }
+        },
+        {
+            "id": 52,
+            "typeProduct": {"Тип продукта": "Морепродукты и рыба"},
+            "nameProduct": {"Имя продукта":"Сельдь"},
+            "imageProduct": {"url":"img/products/seld-apple-1.jpg"},
+            "generalCriteria": [
+                {"countryProduct": {"Страна": "Германия"}},
+                {"producerProduct": {"Производитель":"Apple"}},
+                {"boxingProduct": {"Вес":"200г"}},
+                {"productKind":  {"Тип": " Филе В Соусе Сальса"}},
+                {"boxingTypeProduct":  {"Тип упаковки": "П/п"}}
+            ],
+            "amountProduct": {"Количество":"1"},
+            "priceAndShop":{
+                "ATB": 44.57,
+                "Silpo": 44.95,
+                "Varus": 45.15
+            }
+        },
+        {
+            "id": 53,
+            "typeProduct": {"Тип продукта": "Спиртные напитки"},
+            "nameProduct": {"Имя продукта":"Водка"},
+            "imageProduct": {"url":"img/products/vodka-hortica-1.jpg"},
+            "generalCriteria": [
+                {"countryProduct": {"Страна": "Украина"}},
+                {"producerProduct": {"Производитель":"Хортица"}},
+                {"boxingProduct": {"Вес":"0.5л"}},
+                {"productKind":  {"Тип": "Серебряная Прохлада"}},
+                {"boxingTypeProduct":  {"Тип дозатора": "Штоф Новая"}}
+            ],
+            "amountProduct": {"Количество":"1"},
+            "priceAndShop":{
+                "ATB": 60.57,
+                "Silpo": 60.95,
+                "Varus": 61.15
+            }
+        },
+        {
+            "id": 54,
+            "typeProduct": {"Тип продукта": "Спиртные напитки"},
+            "nameProduct": {"Имя продукта":"Водка"},
+            "imageProduct": {"url":"img/products/vodka-nemiroff-1.jpg"},
+            "generalCriteria": [
+                {"countryProduct": {"Страна": "Украина"}},
+                {"producerProduct": {"Производитель":"Nemiroff"}},
+                {"boxingProduct": {"Вес":"0.5л"}},
+                {"productKind":  {"Тип": "Особая"}},
+                {"boxingTypeProduct":  {"Тип дозатора": "Штоф"}}
+            ],
+            "amountProduct": {"Количество":"1"},
+            "priceAndShop":{
+                "ATB": 61.57,
+                "Silpo": 61.95,
+                "Varus": 62.15
+            }
         }
     ]
 }

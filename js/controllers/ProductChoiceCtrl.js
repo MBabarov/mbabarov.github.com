@@ -7,8 +7,8 @@ angular.module('myApp.ProductChoiceCtrl', [])
 		'listProductsForChoiceFactory',
         function($scope, $http, $window, $rootScope, $location, $timeout,
 				 listProductsForChoiceFactory) {
-            $location.hash('product-choice');
-			
+
+		$location.hash('product-choice');
 			
 		$scope.pageTitle = 'Выбор продукта';
 		$scope.ready=false;
@@ -41,14 +41,6 @@ angular.module('myApp.ProductChoiceCtrl', [])
 		});
 		ons.ready(function() {
 		  console.log("ons.ready");
-
-		  //$scope.ons.navigator.on('postPop', function(event) {
-		  //  console.log(event);
-		  //});
-
-		  //$scope.ons.navigator.on('postPush', function(event) {
-		  //  console.log(event);
-		  //});
 		});
 		
 	}]);

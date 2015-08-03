@@ -18,7 +18,7 @@ angular.module('myApp.listProductsForChoiceFactory', []).
           function loadList(){
               products.ready=false;
               $rootScope.$broadcast('productsChoiceList', products);
-              return $http.get('js/json/productsList.json')
+              return $http.get('js/json/productsForChoice.json')
               .success(function(data, status, headers, config) {
                   $timeout(function(){
                       products.data=data.data;

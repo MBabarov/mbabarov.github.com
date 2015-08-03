@@ -11,17 +11,17 @@ angular.module('myApp.ProductsListCtrl', [])
 			
 			
 		$scope.pageTitle = 'Список продуктов';
-		$scope.ready=true;
-				/*$scope.list=[
-			{'title': 'Ананас'}, 
-			{'title': 'Анчоус'}, 
-			{'title': 'Банан'}
-		];*/
-		angular.forEach(dataListsProductsFactory.data, function (oneList, index) {
-			if(oneList.titleList==currentListProductsFactory.title){
-				$scope.list=oneList.listProducts;
-			}
-		});
+		$scope.ready=false;
+
+		dataListsProductsFactory.loadProductsList();
+		$scope.$on('productsListsAction', function (event, data) {
+			angular.forEach(data.data, function (oneList, index) {
+				if(oneList.titleList==currentListProductsFactory.title){
+					$scope.list=oneList.listProducts;
+				}
+			});
+			$scope.ready=data.ready;
+		})
 		$scope.deleteOneProduct=function(currentProduct){
 			dialogDelete(currentProduct);
 		}
@@ -30,7 +30,6 @@ angular.module('myApp.ProductsListCtrl', [])
 				if(oneProduct.nameProduct==currentProduct){
 					$scope.list.splice(index, 1);
 				}
-
 			})
 		}
 		$scope.addProduct = function(){
@@ -39,7 +38,6 @@ angular.module('myApp.ProductsListCtrl', [])
 		$scope.editProduct = function($currentScope){
 			filtersCriteriaCountryProductFactory.currentProduct=$currentScope.currentProduct;
 			filtersCriteriaProducerProductFactory.currentProduct=$currentScope.currentProduct;
-			console.log('filtersCriteriaCountryProductFactory.currentProduct', filtersCriteriaCountryProductFactory.currentProduct);
 			navi.pushPage('partials/product-criteria.html');
 		};	
 		$scope.moveToResultPage = function(){
@@ -60,14 +58,6 @@ angular.module('myApp.ProductsListCtrl', [])
 		};
 		ons.ready(function() {
 		  console.log("ons.ready");
-
-		  //$scope.ons.navigator.on('postPop', function(event) {
-		  //  console.log(event);
-		  //});
-
-		  //$scope.ons.navigator.on('postPush', function(event) {
-		  //  console.log(event);
-		  //});
 		});
 		
 	}]);

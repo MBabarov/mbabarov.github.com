@@ -16,22 +16,11 @@ angular.module('myApp.MainMenuCtrl', [])
 			{'title': 'Акции и специальные предложения', 'url': 'partials/sale.html'}
 		];
 		$scope.moveToPage = function($currentScope){
-			console.log('navi', $scope.navi);
-			console.log('$currentScope', $currentScope.oneElementList.url);
 			authorizationService.data=$currentScope.oneElementList.authorization;
 			navi.pushPage($currentScope.oneElementList.url);
 		}
-		//$rootScope.mainPage=navi.pages[0];
 		ons.ready(function() {
 		  console.log("ons.ready");
-
-		  //$scope.ons.navigator.on('postPop', function(event) {
-		  //  console.log(event);
-		  //});
-
-		  //$scope.ons.navigator.on('postPush', function(event) {
-		  //  console.log(event);
-		  //});
 		});
 		
 	}]);

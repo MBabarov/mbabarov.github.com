@@ -13,6 +13,9 @@
     <div class="navigator-container">
 		<div class="navigator-content relative">
 			<div class="full-screen scroller-wrapper">
+				<div class="loading blue-color padded-10" ng-if="!ready ">
+					<ons-icon icon="fa-circle-o-notch" size="lg" spin="true"></ons-icon>
+				</div>
 				<p ng-if="list.length==0 && ready">
 					Для анализа цены списка, в списке должен быть хотя бы один продукт
 				</p>
