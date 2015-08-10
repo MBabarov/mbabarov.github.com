@@ -971,3 +971,22 @@ div .page__background {
 .smoothOpacity .product-choice-page .text-input{
     margin: 0;
 }
+.smoothOpacity .result-page .list__item {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #ddd;
+    margin: 10px 10px 0;
+    padding: 0;
+}
+.result-page .list__item {
+    font-size: 12px;
+    font-weight: 100;
+    line-height: 12px;
+}
+.result-page .listProducts{
+    background: #fefefe;
+    border: 1px solid #ddd;
+    margin: 10px 10px 0;
+    font-size: 12px;
+    font-weight: 100;
+    line-height: 12px;
+}

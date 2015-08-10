@@ -19,31 +19,28 @@
                         <button class="button-bar__button" ng-click="changeCurrentCriteria();">{{oneCriteria.title}}</button>
                     </div>
                 </div>
-				Результат
-                <ons-row ng-repeat="oneShop in test">
-                    <ons-col>
-                        {{oneShop.shop}}
+                <ons-list-item ng-repeat="oneShop in test">
+                        <h3 class="left padded-10">{{oneShop.shop}}</h3>
                         <ons-row ng-repeat="oneProduct in oneShop.productsList track by $index">
-                            <ons-col>
-                                {{oneProduct.nameProduct}}<br />
-                                {{oneProduct.producerProduct}}<br />
+                            <ons-col class="left padded-10">
+                                {{oneProduct.nameProduct}} ({{oneProduct.producerProduct}})
                             </ons-col>
-                            <ons-col>
-                                Страна
+                            <ons-col class="left padded-10 width-80">
                                 {{oneProduct.countryProduct}}
                             </ons-col>
-                            <ons-col>
-                                Кол-во
+                            <ons-col class="center padded-10 width-65">
+                                Кол-во<br />
                                 {{oneProduct.amountProduct}}
                             </ons-col>
-                            <ons-col>
-                                Цена
+                            <ons-col class="center padded-10 width-65">
+                                Цена<br />
                                 {{oneProduct.price}}
                             </ons-col>
                         </ons-row>
-                        Итого: {{oneShop.total}}
-                    </ons-col>
-                </ons-row>
+                        <div class="left padded-10">
+                            Итого: {{oneShop.total}}
+                        </div>
+                </ons-list-item>
                 <ons-bottom-toolbar>
                     <div ng-click="moveToProductsListPage()" class="button--large--cta bottom-bar__line-height" style="text-align: center;">
                         Вернуться к текущему списку
