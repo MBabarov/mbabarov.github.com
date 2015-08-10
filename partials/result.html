@@ -25,9 +25,19 @@
                         {{oneShop.shop}}
                         <ons-row ng-repeat="oneProduct in oneShop.productsList track by $index">
                             <ons-col>
-                                {{oneProduct.nameProduct}}
+                                {{oneProduct.nameProduct}}<br />
+                                {{oneProduct.producerProduct}}<br />
                             </ons-col>
                             <ons-col>
+                                Страна
+                                {{oneProduct.countryProduct}}
+                            </ons-col>
+                            <ons-col>
+                                Кол-во
+                                {{oneProduct.amountProduct}}
+                            </ons-col>
+                            <ons-col>
+                                Цена
                                 {{oneProduct.price}}
                             </ons-col>
                         </ons-row>

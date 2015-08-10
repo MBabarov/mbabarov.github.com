@@ -126,7 +126,7 @@
                 {"countryProduct": {"Страна": "Украина"}},
                 {"producerProduct": {"Производитель":"Хлебзавод №9"}},
                 {"kindProduct": {"Вид":"Любительский нарезной"}},
-                {"boxingProduct": {"Вес":"200г"}}
+                {"boxingProduct": {"Вес":"600г"}}
             ],
             "amountProduct": {"Количество":"1"},
             "priceAndShop":{
@@ -136,7 +136,7 @@
             }
         },
         {
-            "id": 7,
+            "id": 8,
             "typeProduct": {"Тип продукта": "Хлебобулочные изделия"},
             "nameProduct": {"Имя продукта":"Батон"},
             "imageProduct": {"url":"img/products/hleb-hlebzavod9-1.jpg"},
@@ -154,7 +154,7 @@
             }
         },
         {
-            "id": 8,
+            "id": 9,
             "typeProduct": {"Тип продукта": "Хлебобулочные изделия"},
             "nameProduct": {"Имя продукта":"Батон"},
             "imageProduct": {"url":"img/products/hleb-hlebzavod9-2.jpg"},
@@ -172,7 +172,7 @@
             }
         },
         {
-            "id": 9,
+            "id": 10,
             "typeProduct": {"Тип продукта": "Хлебобулочные изделия"},
             "nameProduct": {"Имя продукта":"Батон"},
             "imageProduct": {"url":"img/products/hleb-hlebzavod9-1.jpg"},
@@ -190,7 +190,7 @@
             }
         },
         {
-            "id": 10,
+            "id": 11,
             "typeProduct": {"Тип продукта": "Молочная продукция"},
             "nameProduct": {"Имя продукта":"Сметана"},
             "imageProduct": {"url":"img/products/smetana-prostokvasheno-1.jpg"},
@@ -209,7 +209,7 @@
             }
         },
         {
-            "id": 11,
+            "id": 12,
             "typeProduct": {"Тип продукта": "Молочная продукция"},
             "nameProduct": {"Имя продукта":"Сметана"},
             "imageProduct": {"url":"img/products/smetana-prostokvasheno-2.jpg"},
@@ -228,7 +228,7 @@
             }
         },
         {
-            "id": 12,
+            "id": 13,
             "typeProduct": {"Тип продукта": "Молочная продукция"},
             "nameProduct": {"Имя продукта":"Сметана"},
             "imageProduct": {"url":"img/products/smetana-prostokvasheno-3.jpg"},
@@ -247,7 +247,7 @@
             }
         },
         {
-            "id": 12,
+            "id": 14,
             "typeProduct": {"Тип продукта": "Молочная продукция"},
             "nameProduct": {"Имя продукта":"Сметана"},
             "imageProduct": {"url":"img/products/smetana-prostokvasheno-4.jpg"},
@@ -266,7 +266,7 @@
             }
         },
         {
-            "id": 13,
+            "id": 15,
             "typeProduct": {"Тип продукта": "Молочная продукция"},
             "nameProduct": {"Имя продукта":"Сметана"},
             "imageProduct": {"url":"img/products/smetana-president-1.jpg"},
@@ -285,7 +285,7 @@
             }
         },
         {
-            "id": 13,
+            "id": 16,
             "typeProduct": {"Тип продукта": "Молочная продукция"},
             "nameProduct": {"Имя продукта":"Сметана"},
             "imageProduct": {"url":"img/products/smetana-president-2.jpg"},
@@ -304,7 +304,7 @@
             }
         },
         {
-            "id": 14,
+            "id": 17,
             "typeProduct": {"Тип продукта": "Молочная продукция"},
             "nameProduct": {"Имя продукта":"Сметана"},
             "imageProduct": {"url":"img/products/smetana-president-3.jpg"},
@@ -323,7 +323,7 @@
             }
         },
         {
-            "id": 15,
+            "id": 18,
             "typeProduct": {"Тип продукта": "Молочная продукция"},
             "nameProduct": {"Имя продукта":"Сметана"},
             "imageProduct": {"url":"img/products/smetana-premialle-1.jpg"},
@@ -342,7 +342,7 @@
             }
         },
         {
-            "id": 15,
+            "id": 19,
             "typeProduct": {"Тип продукта": "Молочная продукция"},
             "nameProduct": {"Имя продукта":"Сметана"},
             "imageProduct": {"url":"img/products/smetana-premialle-2.jpg"},
@@ -361,7 +361,7 @@
             }
         },
         {
-            "id": 16,
+            "id": 20,
             "typeProduct": {"Тип продукта": "Мясная гастрономия"},
             "nameProduct": {"Имя продукта":"Филе куринное"},
             "imageProduct": {"url":"img/products/file-kurinoe-nasha-ryaba-1.jpg"},
@@ -379,7 +379,7 @@
             }
         },
         {
-            "id": 17,
+            "id": 21,
             "typeProduct": {"Тип продукта": "Мясная гастрономия"},
             "nameProduct": {"Имя продукта":"Филе куринное"},
             "imageProduct": {"url":"img/products/file-kurinoe-olymp-1.jpg"},
@@ -397,7 +397,7 @@
             }
         },
         {
-            "id": 18,
+            "id": 22,
             "typeProduct": {"Тип продукта": "Безалкогольные напитки"},
             "nameProduct": {"Имя продукта":"Мин. вода"},
             "imageProduct": {"url":"img/products/min-voda-morshinska-1.jpg"},
@@ -416,7 +416,7 @@
             }
         },
         {
-            "id": 19,
+            "id": 23,
             "typeProduct": {"Тип продукта": "Безалкогольные напитки"},
             "nameProduct": {"Имя продукта":"Мин. вода"},
             "imageProduct": {"url":"img/products/min-voda-morshinska-2.jpg"},
@@ -435,7 +435,7 @@
             }
         },
         {
-            "id": 20,
+            "id": 24,
             "typeProduct": {"Тип продукта": "Безалкогольные напитки"},
             "nameProduct": {"Имя продукта":"Мин. вода"},
             "imageProduct": {"url":"img/products/min-voda-morshinska-3.jpg"},
@@ -454,7 +454,7 @@
             }
         },
         {
-            "id": 21,
+            "id": 25,
             "typeProduct": {"Тип продукта": "Безалкогольные напитки"},
             "nameProduct": {"Имя продукта":"Мин. вода"},
             "imageProduct": {"url":"img/products/min-voda-morshinska-4.jpg"},
@@ -473,7 +473,7 @@
             }
         },
         {
-            "id": 22,
+            "id": 26,
             "typeProduct": {"Тип продукта": "Безалкогольные напитки"},
             "nameProduct": {"Имя продукта":"Мин. вода"},
             "imageProduct": {"url":"img/products/min-voda-morshinska-5.jpg"},
@@ -492,7 +492,7 @@
             }
         },
         {
-            "id": 23,
+            "id": 27,
             "typeProduct": {"Тип продукта": "Безалкогольные напитки"},
             "nameProduct": {"Имя продукта":"Мин. вода"},
             "imageProduct": {"url":"img/products/min-voda-nabeglavi-1.jpg"},
@@ -511,7 +511,7 @@
             }
         },
         {
-            "id": 24,
+            "id": 28,
             "typeProduct": {"Тип продукта": "Безалкогольные напитки"},
             "nameProduct": {"Имя продукта":"Мин. вода"},
             "imageProduct": {"url":"img/products/min-voda-nabeglavi-2.jpg"},
@@ -530,7 +530,7 @@
             }
         },
         {
-            "id": 25,
+            "id": 29,
             "typeProduct": {"Тип продукта": "Безалкогольные напитки"},
             "nameProduct": {"Имя продукта":"Мин. вода"},
             "imageProduct": {"url":"img/products/min-voda-perrier-1.jpg"},
@@ -549,7 +549,7 @@
             }
         },
         {
-            "id": 26,
+            "id": 30,
             "typeProduct": {"Тип продукта": "Безалкогольные напитки"},
             "nameProduct": {"Имя продукта":"Мин. вода"},
             "imageProduct": {"url":"img/products/min-voda-perrier-2.jpg"},
@@ -568,7 +568,7 @@
             }
         },
         {
-            "id": 27,
+            "id": 31,
             "typeProduct": {"Тип продукта": "Безалкогольные напитки"},
             "nameProduct": {"Имя продукта":"Мин. вода"},
             "imageProduct": {"url":"img/products/min-voda-san-benedetto-1.jpg"},
@@ -587,7 +587,7 @@
             }
         },
         {
-            "id": 28,
+            "id": 32,
             "typeProduct": {"Тип продукта": "Безалкогольные напитки"},
             "nameProduct": {"Имя продукта":"Мин. вода"},
             "imageProduct": {"url":"img/products/min-voda-vittel-1.jpg"},
@@ -606,7 +606,7 @@
             }
         },
         {
-            "id": 29,
+            "id": 33,
             "typeProduct": {"Тип продукта": "Безалкогольные напитки"},
             "nameProduct": {"Имя продукта":"Мин. вода"},
             "imageProduct": {"url":"img/products/min-voda-vittel-2.jpg"},
@@ -625,7 +625,7 @@
             }
         },
         {
-            "id": 30,
+            "id": 34,
             "typeProduct": {"Тип продукта": "Безалкогольные напитки"},
             "nameProduct": {"Имя продукта":"Мин. вода"},
             "imageProduct": {"url":"img/products/min-voda-borgomi-1.jpg"},
@@ -644,7 +644,7 @@
             }
         },
         {
-            "id": 31,
+            "id": 35,
             "typeProduct": {"Тип продукта": "Безалкогольные напитки"},
             "nameProduct": {"Имя продукта":"Мин. вода"},
             "imageProduct": {"url":"img/products/min-voda-borgomi-2.jpg"},
@@ -663,7 +663,7 @@
             }
         },
         {
-            "id": 32,
+            "id": 36,
             "typeProduct": {"Тип продукта": "Безалкогольные напитки"},
             "nameProduct": {"Имя продукта":"Мин. вода"},
             "imageProduct": {"url":"img/products/min-voda-evian-1.jpg"},
@@ -682,7 +682,7 @@
             }
         },
         {
-            "id": 33,
+            "id": 37,
             "typeProduct": {"Тип продукта": "Безалкогольные напитки"},
             "nameProduct": {"Имя продукта":"Мин. вода"},
             "imageProduct": {"url":"img/products/min-voda-gerolsteiner-1.jpg"},
@@ -701,7 +701,7 @@
             }
         },
         {
-            "id": 34,
+            "id": 38,
             "typeProduct": {"Тип продукта": "Мясная гастрономия"},
             "nameProduct": {"Имя продукта":"Колбаса"},
             "imageProduct": {"url":"img/products/kolbasa-salyami-alan-1.jpg"},
@@ -720,7 +720,7 @@
             }
         },
         {
-            "id": 35,
+            "id": 39,
             "typeProduct": {"Тип продукта": "Мясная гастрономия"},
             "nameProduct": {"Имя продукта":"Колбаса"},
             "imageProduct": {"url":"img/products/kolbasa-salyami-alan-2.jpg"},
@@ -739,7 +739,7 @@
             }
         },
         {
-            "id": 36,
+            "id": 40,
             "typeProduct": {"Тип продукта": "Мясная гастрономия"},
             "nameProduct": {"Имя продукта":"Колбаса"},
             "imageProduct": {"url":"img/products/kolbasa-salyami-globino-1.jpg"},
@@ -758,7 +758,7 @@
             }
         },
         {
-            "id": 37,
+            "id": 41,
             "typeProduct": {"Тип продукта": "Мясная гастрономия"},
             "nameProduct": {"Имя продукта":"Колбаса"},
             "imageProduct": {"url":"img/products/kolbasa-salyami-globino-2.jpg"},
@@ -777,7 +777,7 @@
             }
         },
         {
-            "id": 38,
+            "id": 42,
             "typeProduct": {"Тип продукта": "Спиртные напитки"},
             "nameProduct": {"Имя продукта":"Вино"},
             "imageProduct": {"url":"img/products/vino-koblevo-1.jpg"},
@@ -797,7 +797,7 @@
             }
         },
         {
-            "id": 39,
+            "id": 43,
             "typeProduct": {"Тип продукта": "Спиртные напитки"},
             "nameProduct": {"Имя продукта":"Вино"},
             "imageProduct": {"url":"img/products/vino-shabo-1.jpg"},
@@ -817,7 +817,7 @@
             }
         },
         {
-            "id": 40,
+            "id": 44,
             "typeProduct": {"Тип продукта": "Бакалея"},
             "nameProduct": {"Имя продукта":"Греча"},
             "imageProduct": {"url":"img/products/grechka-zhmenka-1.jpg"},
@@ -836,7 +836,7 @@
             }
         },
         {
-            "id": 41,
+            "id": 45,
             "typeProduct": {"Тип продукта": "Бакалея"},
             "nameProduct": {"Имя продукта":"Греча"},
             "imageProduct": {"url":"img/products/grechka-zolotie-vorota-1.jpg"},
@@ -855,7 +855,7 @@
             }
         },
         {
-            "id": 42,
+            "id": 46,
             "typeProduct": {"Тип продукта": "Бытовая химия"},
             "nameProduct": {"Имя продукта":"Стиральный порошок, гель"},
             "imageProduct": {"url":"img/products/poroshok-ariel-1.jpg"},
@@ -875,7 +875,7 @@
             }
         },
         {
-            "id": 43,
+            "id": 47,
             "typeProduct": {"Тип продукта": "Бытовая химия"},
             "nameProduct": {"Имя продукта":"Стиральный порошок, гель"},
             "imageProduct": {"url":"img/products/poroshok-ariel-1.jpg"},
@@ -895,7 +895,7 @@
             }
         },
         {
-            "id": 44,
+            "id": 48,
             "typeProduct": {"Тип продукта": "Бытовая химия"},
             "nameProduct": {"Имя продукта":"Стиральный порошок, гель"},
             "imageProduct": {"url":"img/products/poroshok-persil-1.jpg"},
@@ -915,7 +915,7 @@
             }
         },
         {
-            "id": 45,
+            "id": 49,
             "typeProduct": {"Тип продукта": "Бытовая химия"},
             "nameProduct": {"Имя продукта":"Стиральный порошок, гель"},
             "imageProduct": {"url":"img/products/poroshok-persil-2.jpg"},
@@ -935,7 +935,7 @@
             }
         },
         {
-            "id": 46,
+            "id": 50,
             "typeProduct": {"Тип продукта": "Бытовая химия"},
             "nameProduct": {"Имя продукта":"Стиральный порошок, гель"},
             "imageProduct": {"url":"img/products/poroshok-rex-1.jpg"},
@@ -955,7 +955,7 @@
             }
         },
         {
-            "id": 47,
+            "id": 51,
             "typeProduct": {"Тип продукта": "Бытовая химия"},
             "nameProduct": {"Имя продукта":"Мыло, гель"},
             "imageProduct": {"url":"img/products/milo-duru-1.jpg"},
@@ -973,7 +973,7 @@
             }
         },
         {
-            "id": 48,
+            "id": 52,
             "typeProduct": {"Тип продукта": "Бытовая химия"},
             "nameProduct": {"Имя продукта":"Мыло, гель"},
             "imageProduct": {"url":"img/products/milo-safeguard-1.jpg"},
@@ -991,7 +991,7 @@
             }
         },
         {
-            "id": 49,
+            "id": 53,
             "typeProduct": {"Тип продукта": "Бытовая химия"},
             "nameProduct": {"Имя продукта":"Зубные пасты, ополаскиватели"},
             "imageProduct": {"url":"img/products/pasta-colgate-1.jpg"},
@@ -1009,7 +1009,7 @@
             }
         },
         {
-            "id": 50,
+            "id": 54,
             "typeProduct": {"Тип продукта": "Бытовая химия"},
             "nameProduct": {"Имя продукта":"Зубные пасты, ополаскиватели"},
             "imageProduct": {"url":"img/products/pasta-colgate-2.jpg"},
@@ -1027,7 +1027,7 @@
             }
         },
         {
-            "id": 51,
+            "id": 55,
             "typeProduct": {"Тип продукта": "Морепродукты и рыба"},
             "nameProduct": {"Имя продукта":"Сельдь"},
             "imageProduct": {"url":"img/products/seld-flotilia-1.jpg"},
@@ -1046,7 +1046,7 @@
             }
         },
         {
-            "id": 52,
+            "id": 56,
             "typeProduct": {"Тип продукта": "Морепродукты и рыба"},
             "nameProduct": {"Имя продукта":"Сельдь"},
             "imageProduct": {"url":"img/products/seld-apple-1.jpg"},
@@ -1065,7 +1065,7 @@
             }
         },
         {
-            "id": 53,
+            "id": 57,
             "typeProduct": {"Тип продукта": "Спиртные напитки"},
             "nameProduct": {"Имя продукта":"Водка"},
             "imageProduct": {"url":"img/products/vodka-hortica-1.jpg"},
@@ -1084,7 +1084,7 @@
             }
         },
         {
-            "id": 54,
+            "id": 58,
             "typeProduct": {"Тип продукта": "Спиртные напитки"},
             "nameProduct": {"Имя продукта":"Водка"},
             "imageProduct": {"url":"img/products/vodka-nemiroff-1.jpg"},
