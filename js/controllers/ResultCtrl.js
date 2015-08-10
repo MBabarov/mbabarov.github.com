@@ -27,10 +27,10 @@ angular.module('myApp.ResultCtrl', [])
 			})
 		}
 
-			$scope.$on('productsListResultsAction', function (event, data) {
-				$scope.test=currentResultListProductsFactory.productsListsAllShops;
-				//$scope.ready=data.ready;
-			})
+		$scope.$on('productsListResultsAction', function (event, data) {
+			$scope.test=currentResultListProductsFactory.result;
+			//$scope.ready=data.ready;
+		})
 		$scope.moveToProductsListPage=function(){
 			navi.popPage();
 		}

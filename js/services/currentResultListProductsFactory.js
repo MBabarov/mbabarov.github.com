@@ -38,6 +38,7 @@ angular.module('myApp.currentResultListProductsFactory', []).
             dataListsProducts.result={};
             dataListsProducts.loadListAllProducts().then(function(data){
                 dataListsProducts.productsListsAllShops=[];
+                var minObj;
                 for(var i=0;  i<dataListsProducts.listsShop.length; i++) {
                     dataListsProducts.productsListsAllShops.push({'shop': dataListsProducts.listsShop[i], 'productsList': [], 'total': 0});
                 }
@@ -51,12 +52,32 @@ angular.module('myApp.currentResultListProductsFactory', []).
                                         oneProductPrice.price=oneProductWithPrice.priceAndShop[key];
                                         dataListsProducts.productsListsAllShops[i].productsList.push(oneProductPrice);
                                         dataListsProducts.productsListsAllShops[i].total=dataListsProducts.productsListsAllShops[i].total+oneProductPrice.price;
+                                        if(i==0){
+                                            minObj=dataListsProducts.productsListsAllShops[i].total
+                                        }
+                                        if(minObj>dataListsProducts.productsListsAllShops[i].total){
+                                            minObj = dataListsProducts.productsListsAllShops[i].total;
+                                        }
                                     }
                                 }
                             }
                         }
                     })
                 })
+                if(id==0){
+                    for(var i=0;  i<dataListsProducts.productsListsAllShops.length; i++) {
+                        if(dataListsProducts.productsListsAllShops[i].total==minObj){
+                            dataListsProducts.result=[];
+                            dataListsProducts.result.push(dataListsProducts.productsListsAllShops[i]);
+                        }
+                    }
+                }
+                if(id==1){
+                    dataListsProducts.result=dataListsProducts.productsListsAllShops;
+                }
+                console.log('minObj', minObj);
+                console.log('dataListsProducts.result', dataListsProducts.result);
+
                 $rootScope.$broadcast('productsListResultsAction', dataListsProducts);
                 console.log(' dataListsProducts.productsListsAllShops',  dataListsProducts.productsListsAllShops);
             })
