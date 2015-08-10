@@ -23,6 +23,9 @@ body {
     bottom:0;    
 }
 
+div .navigation-bar__title {
+    color: rgba(38, 100, 171, 1);
+}
 .absolute {
     position: absolute;
 }
@@ -195,8 +198,6 @@ ons-col.width-120{
     display: block;
     margin: 0;
 }
-
-
 .item-center {
     margin-left:auto;
     margin-right:auto;
@@ -946,7 +947,19 @@ div .page__background {
     padding-top: 8px;
     white-space: normal;
     box-shadow: 0 3px 7px #c0c0c0;
+    min-height: 47px;
 }
+.result-page .button-bar__button:active,
+.result-page *:active + .button-bar__button{
+    height: auto;
+    line-height: 21px;
+}
+/*.result-page .button-bar__button:active,
+.result-page .button-bar__button:focus,
+.result-page *:active + .button-bar__button,
+.result-page *:focus + .button-bar__button{
+    height: 87px;
+}*/
 .product-choice-page .listProducts{
     background: #fefefe;
     border: 1px solid #ddd;

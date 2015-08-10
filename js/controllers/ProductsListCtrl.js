@@ -12,6 +12,7 @@ angular.module('myApp.ProductsListCtrl', [])
 			
 		$scope.pageTitle = 'Список продуктов';
 		$scope.ready=false;
+		$scope.list=[];
 
 		dataListsProductsFactory.loadProductsList();
 		$scope.$on('productsListsAction', function (event, data) {

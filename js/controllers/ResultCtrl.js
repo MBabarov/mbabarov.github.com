@@ -12,20 +12,25 @@ angular.module('myApp.ResultCtrl', [])
 		$scope.ready=true;
 		$scope.criteriaList=[
 			{'title': 'Лучшая цена за список', 'id': 0},
-			{'title': 'Посмотреть цену в других магазинах', 'id': 1},
+			{'title': 'Цены в других магазинах', 'id': 1},
 			{'title': 'Сравнить цену по товару', 'id': 2},
 		];
 		$scope.criteriaSelect='Лучшая цена за список';
 		currentResultListProductsFactory.analizeList(0);
 		$scope.changeCurrentCriteria= function($currentScope){
 			$scope.criteriaSelect=$currentScope.criteriaSelect;
-			currentResultListProductsFactory.analizeList();
+			//currentResultListProductsFactory.analizeList();
 			angular.forEach($scope.criteriaList, function (oneCriteria, index) {
 				if($scope.criteriaSelect==oneCriteria.title){
 					currentResultListProductsFactory.analizeList(oneCriteria.id);
 				}
 			})
 		}
+
+			$scope.$on('productsListResultsAction', function (event, data) {
+				$scope.test=currentResultListProductsFactory.productsListsAllShops;
+				//$scope.ready=data.ready;
+			})
 		$scope.moveToProductsListPage=function(){
 			navi.popPage();
 		}

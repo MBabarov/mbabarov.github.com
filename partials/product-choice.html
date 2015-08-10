@@ -17,7 +17,7 @@
             </h3>
             <ons-row>
                 <ons-col>
-                    <input type="text" class="text-input"  placeholder="Название товара" value="">
+                    <input type="text" class="text-input filter-search" ng-class="{'focused': focused}" ng-init="focused = false" ng-focus="focused = true" ng-blur="focused = false" ng-model="query.data" placeholder="Название товара" />
                 </ons-col>
                 <ons-col class="width-80">
                     <ons-toolbar-button ng-click="clearNameFilter();" class="button--medium--cta button--bottom">Сброс</ons-toolbar-button>
@@ -32,18 +32,18 @@
                 <div class="loading blue-color padded-20" ng-if="!readyListProducts">
                     <ons-icon icon="fa-circle-o-notch" size="lg" spin="true"></ons-icon>
                 </div>
-                <ul ng-if="readyListProducts" >
-                    <li class="listProducts" ng-init="index=$index" ng-repeat="oneProduct in listProducts">
+                <ons-list  ng-if="readyListProducts">
+                    <ons-list-item class="listProducts" ng-init="index=$index; currentProduct=oneProduct;"ng-repeat="oneProduct in listProducts | filter:{name: query.data}">
                         <ons-row class="padded-10 left">
                             <ons-col class="padded-10-0">
                                 {{$index+1}} {{oneProduct.name}}
                             </ons-col>
                             <ons-col class="width-120">
-                                <ons-toolbar-button ng-click="saveEditProduct();" class="button--medium--cta button--bottom">Выбрать</ons-toolbar-button>
+                                <ons-toolbar-button ng-click="saveEditProduct(this);" class="button--medium--cta button--bottom">Выбрать</ons-toolbar-button>
                             </ons-col>
                         </ons-row>
-                    </li>
-                </ul>
+                    </ons-list-item>
+                </ons-list>
                 <p ng-if="readyListProducts && listProducts.length==0" class="left padded-10">
                     К сожалению, в данный момент нет товара с такими критериями
                 </p>

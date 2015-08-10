@@ -80,10 +80,10 @@
 					</ons-list-item>
 				</ons-list>			
 				<ons-bottom-toolbar>
-					<div ng-if="list.length>0" ng-click="moveToResultPage()" class="button--large--cta bottom-bar__line-height" style="text-align: center;">
+					<div ng-if="list.length>0 && ready" ng-click="moveToResultPage()" class="button--large--cta bottom-bar__line-height" style="text-align: center;">
 						Проанализировать
 					</div>
-					<div ng-if="list.length==0" ng-click="addProduct()" class="button--large--cta btn-white bottom-bar__line-height" style="text-align: center;">
+					<div ng-if="list.length==0 && ready" ng-click="addProduct()" class="button--large--cta btn-white bottom-bar__line-height" style="text-align: center;">
 						Добавить продукт
 					</div>
 				</ons-bottom-toolbar>

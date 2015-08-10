@@ -20,6 +20,20 @@
                     </div>
                 </div>
 				Результат
+                <ons-row ng-repeat="oneShop in test">
+                    <ons-col>
+                        {{oneShop.shop}}
+                        <ons-row ng-repeat="oneProduct in oneShop.productsList track by $index">
+                            <ons-col>
+                                {{oneProduct.nameProduct}}
+                            </ons-col>
+                            <ons-col>
+                                {{oneProduct.price}}
+                            </ons-col>
+                        </ons-row>
+                        Итого: {{oneShop.total}}
+                    </ons-col>
+                </ons-row>
                 <ons-bottom-toolbar>
                     <div ng-click="moveToProductsListPage()" class="button--large--cta bottom-bar__line-height" style="text-align: center;">
                         Вернуться к текущему списку

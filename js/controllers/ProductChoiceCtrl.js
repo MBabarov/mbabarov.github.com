@@ -4,22 +4,30 @@
 
 angular.module('myApp.ProductChoiceCtrl', [])
     .controller('ProductChoiceCtrl', ['$scope', '$http', '$window', '$rootScope', '$location', '$timeout',
-		'listProductsForChoiceFactory',
+		'listProductsForChoiceFactory', 'filtersCriteriaProducerProductFactory',
         function($scope, $http, $window, $rootScope, $location, $timeout,
-				 listProductsForChoiceFactory) {
+				 listProductsForChoiceFactory, filtersCriteriaProducerProductFactory) {
 
 		$location.hash('product-choice');
 			
 		$scope.pageTitle = 'Выбор продукта';
 		$scope.ready=false;
+		$scope.query={data:[]};
 		
 		$scope.moveToProductsListPage = function(){
 			navi.pushPage('partials/products-list.html');		
 		}
-		$scope.saveEditProduct = function(){
-			navi.pushPage('partials/products-list.html');
+		$scope.saveEditProduct = function($currentScope){
+			$scope.currentProduct= {
+				"nameProduct": $currentScope.currentProduct.name
+			}
+			$scope.query.data=[];
+			filtersCriteriaProducerProductFactory.currentProduct=$scope.currentProduct;
+			navi.pushPage('partials/product-criteria.html');
 		}
-
+		$scope.clearNameFilter = function(){
+			$scope.query.data=[];
+		}
 		listProductsForChoiceFactory.loadList();
 		$scope.$on('productsChoiceList', function (event, data) {
 			$scope.listProducts=data.data;

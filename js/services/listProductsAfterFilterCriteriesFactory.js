@@ -22,7 +22,6 @@ angular.module('myApp.listProductsAfterFilterCriteriesFactory', []).
               .success(function(data, status, headers, config) {
                   $timeout(function(){
                       products.data=[];
-                      console.log('data.data', data.data);
                       angular.forEach(data.data, function(oneProduct, index) {
                           //console.log("oneProduct.producerProduct['Производитель']", oneProduct.producerProduct['Производитель']);
                           if(oneProduct.generalCriteria[1].producerProduct['Производитель']==filtersCriteriaProducerProductFactory.producerSelected.text && oneProduct.nameProduct['Имя продукта']==filtersCriteriaProducerProductFactory.currentProduct.nameProduct){
