@@ -49,9 +49,12 @@ angular.module('myApp.currentResultListProductsFactory', []).
                                 for(var i=0;  i<dataListsProducts.productsListsAllShops.length; i++) {
                                     if (dataListsProducts.productsListsAllShops[i].shop == key) {
                                         var oneProductPrice=clone(oneProduct);
+                                        oneProductPrice.selected=false;
                                         oneProductPrice.price=oneProductWithPrice.priceAndShop[key];
                                         dataListsProducts.productsListsAllShops[i].productsList.push(oneProductPrice);
-                                        dataListsProducts.productsListsAllShops[i].total=dataListsProducts.productsListsAllShops[i].total+oneProductPrice.price;
+                                        dataListsProducts.productsListsAllShops[i].total=parseFloat(dataListsProducts.productsListsAllShops[i].total)+oneProductPrice.price;
+                                        console.log('total', dataListsProducts.productsListsAllShops[i].total);
+                                        dataListsProducts.productsListsAllShops[i].total =  parseFloat(dataListsProducts.productsListsAllShops[i].total).toFixed(2);
                                         if(i==0){
                                             minObj=dataListsProducts.productsListsAllShops[i].total
                                         }
@@ -73,6 +76,9 @@ angular.module('myApp.currentResultListProductsFactory', []).
                     }
                 }
                 if(id==1){
+                    dataListsProducts.result=dataListsProducts.productsListsAllShops;
+                }
+                if(id==2){
                     dataListsProducts.result=dataListsProducts.productsListsAllShops;
                 }
                 console.log('minObj', minObj);
