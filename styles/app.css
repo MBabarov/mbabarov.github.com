@@ -996,7 +996,7 @@ div .page__background {
 .result-page .button-bar__item:first-child > .button-bar__button {
     border-left: medium none!important;
     border-right: medium none!important;
-    min-height: 46px;
+    min-height: 88px;
 }
 .result-page .button-bar__item:first-child > .button-bar__button,
 .result-page .button-bar__item:last-child > .button-bar__button {
