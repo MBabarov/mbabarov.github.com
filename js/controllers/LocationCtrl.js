@@ -30,5 +30,9 @@ angular.module('myApp.LocationCtrl', [])
     ons.ready(function() {
       console.log("ons.ready");
     });
-		
-	}]);
+			if($rootScope.ons.slidingMenu){
+				$rootScope.ons.slidingMenu.setSwipeable(false);
+			}
+
+
+		}]);
