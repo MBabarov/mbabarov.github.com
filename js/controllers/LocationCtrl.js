@@ -28,7 +28,7 @@ angular.module('myApp.LocationCtrl', [])
 			$scope.circle = {
 				geometry:{
 					type:'Circle',
-					coordinates:[37.7,55.43],
+					coordinates:[48.46464169, 35.02914790],
 					radius:10000
 				}
 			};
@@ -36,19 +36,19 @@ angular.module('myApp.LocationCtrl', [])
 				{
 					geometry:{
 						type: 'Point',
-						coordinates: [37.75,55.73]
+						coordinates: [48.46464169, 35.02914790]
 					}
 				},
 				{
 					geometry:{
 						type: 'Point',
-						coordinates: [37.45,55.10]
+						coordinates: [48.45910448, 35.03549937]
 					}
 				},
 				{
 					geometry:{
 						type: 'Point',
-						coordinates: [37.35,55.25]
+						coordinates: [48.46487001, 35.03404025]
 					}
 				}
 			];
