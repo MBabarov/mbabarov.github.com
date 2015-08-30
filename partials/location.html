@@ -15,9 +15,7 @@
 			<div class="full-screen scroller-wrapper">
                 <div id="map">
                     <ya-map ya-zoom="8" ya-center="[37.64,55.76]" ya-after-init="afterMapInit($target)">
-                        <ya-collection>
-                            <ya-geo-object ya-source="geoObject"></ya-geo-object>
-                        <ya-collection>
+                        <ya-geo-object ya-source="geoObjects[0]" ya-options="{draggable: true,fillColor: '#DB709377',strokeColor: '#990066',strokeOpacity: 0.8,strokeWidth: 5}"></ya-geo-object>
                     </ya-map>
                 </div>
 
