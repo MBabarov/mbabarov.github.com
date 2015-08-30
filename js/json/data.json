@@ -9,7 +9,7 @@
             "typeProduct": {"Тип продукта": "Молочная продукция"},
             "nameProduct": {"Имя продукта":"Молоко"},
             "imageProduct": {"url":"img/products/moloko-prostokvasheno-1.jpg"},
-            "generalCriteria": [
+            "specificCriteria": [
                 {"countryProduct": {"Страна": "Украина"}},
                 {"producerProduct": {"Производитель":"Простоквашино"}},
                 {"boxingProduct": {"Вес":"900г"}},
@@ -27,7 +27,7 @@
             "typeProduct": {"Тип продукта": "Молочная продукция"},
             "nameProduct": {"Имя продукта":"Молоко"},
             "imageProduct": {"url":"img/products/moloko-prostokvasheno-2.jpg"},
-            "generalCriteria": [
+            "specificCriteria": [
                 {"countryProduct": {"Страна": "Украина"}},
                 {"producerProduct": {"Производитель":"Простоквашино"}},
                 {"boxingProduct": {"Вес":"900г"}},
@@ -45,7 +45,7 @@
             "typeProduct": {"Тип продукта": "Молочная продукция"},
             "nameProduct": {"Имя продукта":"Молоко"},
             "imageProduct": {"url":"img/products/moloko-prostokvasheno-3.jpg"},
-            "generalCriteria": [
+            "specificCriteria": [
                 {"countryProduct": {"Страна": "Украина"}},
                 {"producerProduct": {"Производитель":"Простоквашино"}},
                 {"boxingProduct": {"Вес":"900г"}},
@@ -64,7 +64,7 @@
             "typeProduct": {"Тип продукта": "Молочная продукция"},
             "nameProduct": {"Имя продукта":"Молоко"},
             "imageProduct": {"url":"img/products/moloko-voloshkove-1.jpg"},
-            "generalCriteria": [
+            "specificCriteria": [
                 {"countryProduct": {"Страна": "Украина"}},
                 {"producerProduct": {"Производитель":"Волошкове поле"}},
                 {"boxingProduct": {"Вес":"920г"}},
@@ -83,7 +83,7 @@
             "typeProduct": {"Тип продукта": "Молочная продукция"},
             "nameProduct": {"Имя продукта":"Молоко"},
             "imageProduct": {"url":"img/products/moloko-voloshkove-2.jpg"},
-            "generalCriteria": [
+            "specificCriteria": [
                 {"countryProduct": {"Страна": "Украина"}},
                 {"producerProduct": {"Производитель":"Волошкове поле"}},
                 {"boxingProduct": {"Вес":"750г"}},
@@ -102,7 +102,7 @@
             "typeProduct": {"Тип продукта": "Молочная продукция"},
             "nameProduct": {"Имя продукта":"Молоко"},
             "imageProduct": {"url":"img/products/moloko-danmis-1.jpg"},
-            "generalCriteria": [
+            "specificCriteria": [
                 {"countryProduct": {"Страна": "Польша"}},
                 {"producerProduct": {"Производитель":"Danmis"}},
                 {"kindProduct": {"Вид":"Натуральное козье"}},
@@ -122,7 +122,7 @@
             "typeProduct": {"Тип продукта": "Хлебобулочные изделия"},
             "nameProduct": {"Имя продукта":"Батон"},
             "imageProduct": {"url":"img/products/hleb-hlebzavod9-1.jpg"},
-            "generalCriteria": [
+            "specificCriteria": [
                 {"countryProduct": {"Страна": "Украина"}},
                 {"producerProduct": {"Производитель":"Хлебзавод №9"}},
                 {"kindProduct": {"Вид":"Любительский нарезной"}},
@@ -140,7 +140,7 @@
             "typeProduct": {"Тип продукта": "Хлебобулочные изделия"},
             "nameProduct": {"Имя продукта":"Батон"},
             "imageProduct": {"url":"img/products/hleb-hlebzavod9-1.jpg"},
-            "generalCriteria": [
+            "specificCriteria": [
                 {"countryProduct": {"Страна": "Украина"}},
                 {"producerProduct": {"Производитель":"Хлебзавод №10"}},
                 {"kindProduct": {"Вид":"Дворянский резаный"}},
@@ -158,7 +158,7 @@
             "typeProduct": {"Тип продукта": "Хлебобулочные изделия"},
             "nameProduct": {"Имя продукта":"Батон"},
             "imageProduct": {"url":"img/products/hleb-hlebzavod9-2.jpg"},
-            "generalCriteria": [
+            "specificCriteria": [
                 {"countryProduct": {"Страна": "Украина"}},
                 {"producerProduct": {"Производитель":"Хлебзавод №10"}},
                 {"kindProduct": {"Вид":"Европейский нарезной"}},
@@ -176,7 +176,7 @@
             "typeProduct": {"Тип продукта": "Хлебобулочные изделия"},
             "nameProduct": {"Имя продукта":"Батон"},
             "imageProduct": {"url":"img/products/hleb-hlebzavod9-1.jpg"},
-            "generalCriteria": [
+            "specificCriteria": [
                 {"countryProduct": {"Страна": "Украина"}},
                 {"producerProduct": {"Производитель":"Хлебзавод №8"}},
                 {"kindProduct": {"Вид":"Дорожный нарезной"}},
@@ -194,7 +194,7 @@
             "typeProduct": {"Тип продукта": "Молочная продукция"},
             "nameProduct": {"Имя продукта":"Сметана"},
             "imageProduct": {"url":"img/products/smetana-prostokvasheno-1.jpg"},
-            "generalCriteria": [
+            "specificCriteria": [
                 {"countryProduct": {"Страна": "Украина"}},
                 {"producerProduct": {"Производитель":"Простоквашино"}},
                 {"boxingProduct": {"Вес":"200г"}},
@@ -213,7 +213,7 @@
             "typeProduct": {"Тип продукта": "Молочная продукция"},
             "nameProduct": {"Имя продукта":"Сметана"},
             "imageProduct": {"url":"img/products/smetana-prostokvasheno-2.jpg"},
-            "generalCriteria": [
+            "specificCriteria": [
                 {"countryProduct": {"Страна": "Украина"}},
                 {"producerProduct": {"Производитель":"Простоквашино"}},
                 {"boxingProduct": {"Вес":"200г"}},
@@ -232,7 +232,7 @@
             "typeProduct": {"Тип продукта": "Молочная продукция"},
             "nameProduct": {"Имя продукта":"Сметана"},
             "imageProduct": {"url":"img/products/smetana-prostokvasheno-3.jpg"},
-            "generalCriteria": [
+            "specificCriteria": [
                 {"countryProduct": {"Страна": "Украина"}},
                 {"producerProduct": {"Производитель":"Простоквашино"}},
                 {"boxingProduct": {"Вес":"405г"}},
@@ -251,7 +251,7 @@
             "typeProduct": {"Тип продукта": "Молочная продукция"},
             "nameProduct": {"Имя продукта":"Сметана"},
             "imageProduct": {"url":"img/products/smetana-prostokvasheno-4.jpg"},
-            "generalCriteria": [
+            "specificCriteria": [
                 {"countryProduct": {"Страна": "Украина"}},
                 {"producerProduct": {"Производитель":"Простоквашино"}},
                 {"boxingProduct": {"Вес":"350г"}},
@@ -270,7 +270,7 @@
             "typeProduct": {"Тип продукта": "Молочная продукция"},
             "nameProduct": {"Имя продукта":"Сметана"},
             "imageProduct": {"url":"img/products/smetana-president-1.jpg"},
-            "generalCriteria": [
+            "specificCriteria": [
                 {"countryProduct": {"Страна": "Украина"}},
                 {"producerProduct": {"Производитель":"President"}},
                 {"boxingProduct": {"Вес":"200г"}},
@@ -289,7 +289,7 @@
             "typeProduct": {"Тип продукта": "Молочная продукция"},
             "nameProduct": {"Имя продукта":"Сметана"},
             "imageProduct": {"url":"img/products/smetana-president-2.jpg"},
-            "generalCriteria": [
+            "specificCriteria": [
                 {"countryProduct": {"Страна": "Украина"}},
                 {"producerProduct": {"Производитель":"President"}},
                 {"boxingProduct": {"Вес":"200г"}},
@@ -308,7 +308,7 @@
             "typeProduct": {"Тип продукта": "Молочная продукция"},
             "nameProduct": {"Имя продукта":"Сметана"},
             "imageProduct": {"url":"img/products/smetana-president-3.jpg"},
-            "generalCriteria": [
+            "specificCriteria": [
                 {"countryProduct": {"Страна": "Украина"}},
                 {"producerProduct": {"Производитель":"President"}},
                 {"boxingProduct": {"Вес":"400г"}},
@@ -327,7 +327,7 @@
             "typeProduct": {"Тип продукта": "Молочная продукция"},
             "nameProduct": {"Имя продукта":"Сметана"},
             "imageProduct": {"url":"img/products/smetana-premialle-1.jpg"},
-            "generalCriteria": [
+            "specificCriteria": [
                 {"countryProduct": {"Страна": "Украина"}},
                 {"producerProduct": {"Производитель":"Premialle"}},
                 {"boxingProduct": {"Вес":"300г"}},
@@ -346,7 +346,7 @@
             "typeProduct": {"Тип продукта": "Молочная продукция"},
             "nameProduct": {"Имя продукта":"Сметана"},
             "imageProduct": {"url":"img/products/smetana-premialle-2.jpg"},
-            "generalCriteria": [
+            "specificCriteria": [
                 {"countryProduct": {"Страна": "Украина"}},
                 {"producerProduct": {"Производитель":"Premialle"}},
                 {"boxingProduct": {"Вес":"300г"}},
@@ -365,7 +365,7 @@
             "typeProduct": {"Тип продукта": "Мясная гастрономия"},
             "nameProduct": {"Имя продукта":"Филе куринное"},
             "imageProduct": {"url":"img/products/file-kurinoe-nasha-ryaba-1.jpg"},
-            "generalCriteria": [
+            "specificCriteria": [
                 {"countryProduct": {"Страна": "Украина"}},
                 {"producerProduct": {"Производитель":"Наша ряба"}},
                 {"boxingProduct": {"Вес":"1кг"}},
@@ -383,7 +383,7 @@
             "typeProduct": {"Тип продукта": "Мясная гастрономия"},
             "nameProduct": {"Имя продукта":"Филе куринное"},
             "imageProduct": {"url":"img/products/file-kurinoe-olymp-1.jpg"},
-            "generalCriteria": [
+            "specificCriteria": [
                 {"countryProduct": {"Страна": "Украина"}},
                 {"producerProduct": {"Производитель":"Олимп"}},
                 {"boxingProduct": {"Вес":"1кг"}},
@@ -401,7 +401,7 @@
             "typeProduct": {"Тип продукта": "Безалкогольные напитки"},
             "nameProduct": {"Имя продукта":"Мин. вода"},
             "imageProduct": {"url":"img/products/min-voda-morshinska-1.jpg"},
-            "generalCriteria": [
+            "specificCriteria": [
                 {"countryProduct": {"Страна": "Украина"}},
                 {"producerProduct": {"Производитель":"Моршинская"}},
                 {"boxingProduct": {"Вес":"1.5л"}},
@@ -420,7 +420,7 @@
             "typeProduct": {"Тип продукта": "Безалкогольные напитки"},
             "nameProduct": {"Имя продукта":"Мин. вода"},
             "imageProduct": {"url":"img/products/min-voda-morshinska-2.jpg"},
-            "generalCriteria": [
+            "specificCriteria": [
                 {"countryProduct": {"Страна": "Украина"}},
                 {"producerProduct": {"Производитель":"Моршинская"}},
                 {"boxingProduct": {"Вес":"1.5л"}},
@@ -439,7 +439,7 @@
             "typeProduct": {"Тип продукта": "Безалкогольные напитки"},
             "nameProduct": {"Имя продукта":"Мин. вода"},
             "imageProduct": {"url":"img/products/min-voda-morshinska-3.jpg"},
-            "generalCriteria": [
+            "specificCriteria": [
                 {"countryProduct": {"Страна": "Украина"}},
                 {"producerProduct": {"Производитель":"Моршинская"}},
                 {"boxingProduct": {"Вес":"1.5л"}},
@@ -458,7 +458,7 @@
             "typeProduct": {"Тип продукта": "Безалкогольные напитки"},
             "nameProduct": {"Имя продукта":"Мин. вода"},
             "imageProduct": {"url":"img/products/min-voda-morshinska-4.jpg"},
-            "generalCriteria": [
+            "specificCriteria": [
                 {"countryProduct": {"Страна": "Украина"}},
                 {"producerProduct": {"Производитель":"Моршинская"}},
                 {"boxingProduct": {"Вес":"0.33л"}},
@@ -477,7 +477,7 @@
             "typeProduct": {"Тип продукта": "Безалкогольные напитки"},
             "nameProduct": {"Имя продукта":"Мин. вода"},
             "imageProduct": {"url":"img/products/min-voda-morshinska-5.jpg"},
-            "generalCriteria": [
+            "specificCriteria": [
                 {"countryProduct": {"Страна": "Украина"}},
                 {"producerProduct": {"Производитель":"Моршинская"}},
                 {"boxingProduct": {"Вес":"0.75л"}},
@@ -496,7 +496,7 @@
             "typeProduct": {"Тип продукта": "Безалкогольные напитки"},
             "nameProduct": {"Имя продукта":"Мин. вода"},
             "imageProduct": {"url":"img/products/min-voda-nabeglavi-1.jpg"},
-            "generalCriteria": [
+            "specificCriteria": [
                 {"countryProduct": {"Страна": "Грузия"}},
                 {"producerProduct": {"Производитель":"Набеглави"}},
                 {"boxingProduct": {"Вес":"0.5л"}},
@@ -515,7 +515,7 @@
             "typeProduct": {"Тип продукта": "Безалкогольные напитки"},
             "nameProduct": {"Имя продукта":"Мин. вода"},
             "imageProduct": {"url":"img/products/min-voda-nabeglavi-2.jpg"},
-            "generalCriteria": [
+            "specificCriteria": [
                 {"countryProduct": {"Страна": "Грузия"}},
                 {"producerProduct": {"Производитель":"Набеглави"}},
                 {"boxingProduct": {"Вес":"1л"}},
@@ -534,7 +534,7 @@
             "typeProduct": {"Тип продукта": "Безалкогольные напитки"},
             "nameProduct": {"Имя продукта":"Мин. вода"},
             "imageProduct": {"url":"img/products/min-voda-perrier-1.jpg"},
-            "generalCriteria": [
+            "specificCriteria": [
                 {"countryProduct": {"Страна": "Франция"}},
                 {"producerProduct": {"Производитель":"Perrier"}},
                 {"boxingProduct": {"Вес":"1л"}},
@@ -553,7 +553,7 @@
             "typeProduct": {"Тип продукта": "Безалкогольные напитки"},
             "nameProduct": {"Имя продукта":"Мин. вода"},
             "imageProduct": {"url":"img/products/min-voda-perrier-2.jpg"},
-            "generalCriteria": [
+            "specificCriteria": [
                 {"countryProduct": {"Страна": "Франция"}},
                 {"producerProduct": {"Производитель":"Perrier"}},
                 {"boxingProduct": {"Вес":"1л"}},
@@ -572,7 +572,7 @@
             "typeProduct": {"Тип продукта": "Безалкогольные напитки"},
             "nameProduct": {"Имя продукта":"Мин. вода"},
             "imageProduct": {"url":"img/products/min-voda-san-benedetto-1.jpg"},
-            "generalCriteria": [
+            "specificCriteria": [
                 {"countryProduct": {"Страна": "Италия"}},
                 {"producerProduct": {"Производитель":"Сан бенедетто"}},
                 {"boxingProduct": {"Вес":"1л"}},
@@ -591,7 +591,7 @@
             "typeProduct": {"Тип продукта": "Безалкогольные напитки"},
             "nameProduct": {"Имя продукта":"Мин. вода"},
             "imageProduct": {"url":"img/products/min-voda-vittel-1.jpg"},
-            "generalCriteria": [
+            "specificCriteria": [
                 {"countryProduct": {"Страна": "Франция"}},
                 {"producerProduct": {"Производитель":"Vittel"}},
                 {"boxingProduct": {"Вес":"0.75л"}},
@@ -610,7 +610,7 @@
             "typeProduct": {"Тип продукта": "Безалкогольные напитки"},
             "nameProduct": {"Имя продукта":"Мин. вода"},
             "imageProduct": {"url":"img/products/min-voda-vittel-2.jpg"},
-            "generalCriteria": [
+            "specificCriteria": [
                 {"countryProduct": {"Страна": "Франция"}},
                 {"producerProduct": {"Производитель":"Vittel"}},
                 {"boxingProduct": {"Вес":"0.5л"}},
@@ -629,7 +629,7 @@
             "typeProduct": {"Тип продукта": "Безалкогольные напитки"},
             "nameProduct": {"Имя продукта":"Мин. вода"},
             "imageProduct": {"url":"img/products/min-voda-borgomi-1.jpg"},
-            "generalCriteria": [
+            "specificCriteria": [
                 {"countryProduct": {"Страна": "Грузия"}},
                 {"producerProduct": {"Производитель":"Боржоми"}},
                 {"boxingProduct": {"Вес":"0.5л"}},
@@ -648,7 +648,7 @@
             "typeProduct": {"Тип продукта": "Безалкогольные напитки"},
             "nameProduct": {"Имя продукта":"Мин. вода"},
             "imageProduct": {"url":"img/products/min-voda-borgomi-2.jpg"},
-            "generalCriteria": [
+            "specificCriteria": [
                 {"countryProduct": {"Страна": "Грузия"}},
                 {"producerProduct": {"Производитель":"Боржоми"}},
                 {"boxingProduct": {"Вес":"0.75л"}},
@@ -667,7 +667,7 @@
             "typeProduct": {"Тип продукта": "Безалкогольные напитки"},
             "nameProduct": {"Имя продукта":"Мин. вода"},
             "imageProduct": {"url":"img/products/min-voda-evian-1.jpg"},
-            "generalCriteria": [
+            "specificCriteria": [
                 {"countryProduct": {"Страна": "Франция"}},
                 {"producerProduct": {"Производитель":"Evian"}},
                 {"boxingProduct": {"Вес":"0.33л"}},
@@ -686,7 +686,7 @@
             "typeProduct": {"Тип продукта": "Безалкогольные напитки"},
             "nameProduct": {"Имя продукта":"Мин. вода"},
             "imageProduct": {"url":"img/products/min-voda-gerolsteiner-1.jpg"},
-            "generalCriteria": [
+            "specificCriteria": [
                 {"countryProduct": {"Страна": "Германия"}},
                 {"producerProduct": {"Производитель":"Gerolsteiner"}},
                 {"boxingProduct": {"Вес":"0.5л"}},
@@ -705,7 +705,7 @@
             "typeProduct": {"Тип продукта": "Мясная гастрономия"},
             "nameProduct": {"Имя продукта":"Колбаса"},
             "imageProduct": {"url":"img/products/kolbasa-salyami-alan-1.jpg"},
-            "generalCriteria": [
+            "specificCriteria": [
                 {"countryProduct": {"Страна": "Украина"}},
                 {"producerProduct": {"Производитель":"Алан"}},
                 {"boxingProduct": {"Вес":"130г"}},
@@ -724,7 +724,7 @@
             "typeProduct": {"Тип продукта": "Мясная гастрономия"},
             "nameProduct": {"Имя продукта":"Колбаса"},
             "imageProduct": {"url":"img/products/kolbasa-salyami-alan-2.jpg"},
-            "generalCriteria": [
+            "specificCriteria": [
                 {"countryProduct": {"Страна": "Украина"}},
                 {"producerProduct": {"Производитель":"Алан"}},
                 {"boxingProduct": {"Вес":"130г"}},
@@ -743,7 +743,7 @@
             "typeProduct": {"Тип продукта": "Мясная гастрономия"},
             "nameProduct": {"Имя продукта":"Колбаса"},
             "imageProduct": {"url":"img/products/kolbasa-salyami-globino-1.jpg"},
-            "generalCriteria": [
+            "specificCriteria": [
                 {"countryProduct": {"Страна": "Украина"}},
                 {"producerProduct": {"Производитель":"Глобино"}},
                 {"boxingProduct": {"Вес":"80г"}},
@@ -762,7 +762,7 @@
             "typeProduct": {"Тип продукта": "Мясная гастрономия"},
             "nameProduct": {"Имя продукта":"Колбаса"},
             "imageProduct": {"url":"img/products/kolbasa-salyami-globino-2.jpg"},
-            "generalCriteria": [
+            "specificCriteria": [
                 {"countryProduct": {"Страна": "Украина"}},
                 {"producerProduct": {"Производитель":"Глобино"}},
                 {"boxingProduct": {"Вес":"80г"}},
@@ -781,7 +781,7 @@
             "typeProduct": {"Тип продукта": "Спиртные напитки"},
             "nameProduct": {"Имя продукта":"Вино"},
             "imageProduct": {"url":"img/products/vino-koblevo-1.jpg"},
-            "generalCriteria": [
+            "specificCriteria": [
                 {"countryProduct": {"Страна": "Украина"}},
                 {"producerProduct": {"Производитель":"Коблево"}},
                 {"boxingProduct": {"Вес":"0.75л"}},
@@ -801,7 +801,7 @@
             "typeProduct": {"Тип продукта": "Спиртные напитки"},
             "nameProduct": {"Имя продукта":"Вино"},
             "imageProduct": {"url":"img/products/vino-shabo-1.jpg"},
-            "generalCriteria": [
+            "specificCriteria": [
                 {"countryProduct": {"Страна": "Украина"}},
                 {"producerProduct": {"Производитель":"Шабо"}},
                 {"boxingProduct": {"Вес":"0.75л"}},
@@ -821,7 +821,7 @@
             "typeProduct": {"Тип продукта": "Бакалея"},
             "nameProduct": {"Имя продукта":"Греча"},
             "imageProduct": {"url":"img/products/grechka-zhmenka-1.jpg"},
-            "generalCriteria": [
+            "specificCriteria": [
                 {"countryProduct": {"Страна": "Украина"}},
                 {"producerProduct": {"Производитель":"Жменька"}},
                 {"boxingProduct": {"Вес":"4*100г"}},
@@ -840,7 +840,7 @@
             "typeProduct": {"Тип продукта": "Бакалея"},
             "nameProduct": {"Имя продукта":"Греча"},
             "imageProduct": {"url":"img/products/grechka-zolotie-vorota-1.jpg"},
-            "generalCriteria": [
+            "specificCriteria": [
                 {"countryProduct": {"Страна": "Украина"}},
                 {"producerProduct": {"Производитель":"Золотые ворота"}},
                 {"boxingProduct": {"Вес":"700г"}},
@@ -859,7 +859,7 @@
             "typeProduct": {"Тип продукта": "Бытовая химия"},
             "nameProduct": {"Имя продукта":"Стиральный порошок, гель"},
             "imageProduct": {"url":"img/products/poroshok-ariel-1.jpg"},
-            "generalCriteria": [
+            "specificCriteria": [
                 {"countryProduct": {"Страна": "Бельгия"}},
                 {"producerProduct": {"Производитель":"Ariel"}},
                 {"boxingProduct": {"Вес":"3кг"}},
@@ -879,7 +879,7 @@
             "typeProduct": {"Тип продукта": "Бытовая химия"},
             "nameProduct": {"Имя продукта":"Стиральный порошок, гель"},
             "imageProduct": {"url":"img/products/poroshok-ariel-1.jpg"},
-            "generalCriteria": [
+            "specificCriteria": [
                 {"countryProduct": {"Страна": "Бельгия"}},
                 {"producerProduct": {"Производитель":"Ariel"}},
                 {"boxingProduct": {"Вес":"1.5кг"}},
@@ -899,7 +899,7 @@
             "typeProduct": {"Тип продукта": "Бытовая химия"},
             "nameProduct": {"Имя продукта":"Стиральный порошок, гель"},
             "imageProduct": {"url":"img/products/poroshok-persil-1.jpg"},
-            "generalCriteria": [
+            "specificCriteria": [
                 {"countryProduct": {"Страна": "Австрия"}},
                 {"producerProduct": {"Производитель":"Persil"}},
                 {"boxingProduct": {"Вес":"3кг"}},
@@ -919,7 +919,7 @@
             "typeProduct": {"Тип продукта": "Бытовая химия"},
             "nameProduct": {"Имя продукта":"Стиральный порошок, гель"},
             "imageProduct": {"url":"img/products/poroshok-persil-2.jpg"},
-            "generalCriteria": [
+            "specificCriteria": [
                 {"countryProduct": {"Страна": "Австрия"}},
                 {"producerProduct": {"Производитель":"Persil"}},
                 {"boxingProduct": {"Вес":"6кг"}},
@@ -939,7 +939,7 @@
             "typeProduct": {"Тип продукта": "Бытовая химия"},
             "nameProduct": {"Имя продукта":"Стиральный порошок, гель"},
             "imageProduct": {"url":"img/products/poroshok-rex-1.jpg"},
-            "generalCriteria": [
+            "specificCriteria": [
                 {"countryProduct": {"Страна": "Австрия"}},
                 {"producerProduct": {"Производитель":"Rex"}},
                 {"boxingProduct": {"Вес":"3кг"}},
@@ -959,7 +959,7 @@
             "typeProduct": {"Тип продукта": "Бытовая химия"},
             "nameProduct": {"Имя продукта":"Мыло, гель"},
             "imageProduct": {"url":"img/products/milo-duru-1.jpg"},
-            "generalCriteria": [
+            "specificCriteria": [
                 {"countryProduct": {"Страна": "Турция"}},
                 {"producerProduct": {"Производитель":"Duru"}},
                 {"boxingProduct": {"Вес":"90г"}},
@@ -977,7 +977,7 @@
             "typeProduct": {"Тип продукта": "Бытовая химия"},
             "nameProduct": {"Имя продукта":"Мыло, гель"},
             "imageProduct": {"url":"img/products/milo-safeguard-1.jpg"},
-            "generalCriteria": [
+            "specificCriteria": [
                 {"countryProduct": {"Страна": "Великобритания"}},
                 {"producerProduct": {"Производитель":"Safeguard"}},
                 {"boxingProduct": {"Вес":"90г"}},
@@ -995,7 +995,7 @@
             "typeProduct": {"Тип продукта": "Бытовая химия"},
             "nameProduct": {"Имя продукта":"Зубные пасты, ополаскиватели"},
             "imageProduct": {"url":"img/products/pasta-colgate-1.jpg"},
-            "generalCriteria": [
+            "specificCriteria": [
                 {"countryProduct": {"Страна": "Китай"}},
                 {"producerProduct": {"Производитель":"Colgate"}},
                 {"boxingProduct": {"Вес":"75мл"}},
@@ -1013,7 +1013,7 @@
             "typeProduct": {"Тип продукта": "Бытовая химия"},
             "nameProduct": {"Имя продукта":"Зубные пасты, ополаскиватели"},
             "imageProduct": {"url":"img/products/pasta-colgate-2.jpg"},
-            "generalCriteria": [
+            "specificCriteria": [
                 {"countryProduct": {"Страна": "Китай"}},
                 {"producerProduct": {"Производитель":"Colgate"}},
                 {"boxingProduct": {"Вес":"50мл"}},
@@ -1031,7 +1031,7 @@
             "typeProduct": {"Тип продукта": "Морепродукты и рыба"},
             "nameProduct": {"Имя продукта":"Сельдь"},
             "imageProduct": {"url":"img/products/seld-flotilia-1.jpg"},
-            "generalCriteria": [
+            "specificCriteria": [
                 {"countryProduct": {"Страна": "Украина"}},
                 {"producerProduct": {"Производитель":"Флотилія"}},
                 {"boxingProduct": {"Вес":"300г"}},
@@ -1050,7 +1050,7 @@
             "typeProduct": {"Тип продукта": "Морепродукты и рыба"},
             "nameProduct": {"Имя продукта":"Сельдь"},
             "imageProduct": {"url":"img/products/seld-apple-1.jpg"},
-            "generalCriteria": [
+            "specificCriteria": [
                 {"countryProduct": {"Страна": "Германия"}},
                 {"producerProduct": {"Производитель":"Apple"}},
                 {"boxingProduct": {"Вес":"200г"}},
@@ -1069,7 +1069,7 @@
             "typeProduct": {"Тип продукта": "Спиртные напитки"},
             "nameProduct": {"Имя продукта":"Водка"},
             "imageProduct": {"url":"img/products/vodka-hortica-1.jpg"},
-            "generalCriteria": [
+            "specificCriteria": [
                 {"countryProduct": {"Страна": "Украина"}},
                 {"producerProduct": {"Производитель":"Хортица"}},
                 {"boxingProduct": {"Вес":"0.5л"}},
@@ -1088,7 +1088,7 @@
             "typeProduct": {"Тип продукта": "Спиртные напитки"},
             "nameProduct": {"Имя продукта":"Водка"},
             "imageProduct": {"url":"img/products/vodka-nemiroff-1.jpg"},
-            "generalCriteria": [
+            "specificCriteria": [
                 {"countryProduct": {"Страна": "Украина"}},
                 {"producerProduct": {"Производитель":"Nemiroff"}},
                 {"boxingProduct": {"Вес":"0.5л"}},

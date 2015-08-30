@@ -34,7 +34,7 @@
                                 <img ng-src="{{oneProduct.imageProduct['url']}}" alt="" />
                             </ons-col>
                             <ons-col class="padded-5-10 left">
-                                <div ng-repeat="oneCriteria in oneProduct.generalCriteria">
+                                <div ng-repeat="oneCriteria in oneProduct.specificCriteria">
                                     <div class="padded-5-0" ng-repeat="i in oneCriteria">
                                         <div ng-repeat="(key, value)  in i">
                                             {{key}}: {{value}}

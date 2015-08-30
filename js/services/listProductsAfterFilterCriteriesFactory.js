@@ -24,7 +24,7 @@ angular.module('myApp.listProductsAfterFilterCriteriesFactory', []).
                       products.data=[];
                       angular.forEach(data.data, function(oneProduct, index) {
                           //console.log("oneProduct.producerProduct['Производитель']", oneProduct.producerProduct['Производитель']);
-                          if(oneProduct.generalCriteria[1].producerProduct['Производитель']==filtersCriteriaProducerProductFactory.producerSelected.text && oneProduct.nameProduct['Имя продукта']==filtersCriteriaProducerProductFactory.currentProduct.nameProduct){
+                          if(oneProduct.specificCriteria[1].producerProduct['Производитель']==filtersCriteriaProducerProductFactory.producerSelected.text && oneProduct.nameProduct['Имя продукта']==filtersCriteriaProducerProductFactory.currentProduct.nameProduct){
                               products.data.push(oneProduct)
                           }
                           if('---'==filtersCriteriaProducerProductFactory.producerSelected.text && oneProduct.nameProduct['Имя продукта']==filtersCriteriaProducerProductFactory.currentProduct.nameProduct){
