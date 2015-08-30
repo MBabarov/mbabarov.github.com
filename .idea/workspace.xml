@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="357fe8ef-0ab9-466b-93b2-05c5b71af317" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/controllers/LocationCtrl.js" afterPath="$PROJECT_DIR$/js/controllers/LocationCtrl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/location.html" afterPath="$PROJECT_DIR$/partials/location.html" />
     </list>
     <ignored path="mbabarov.github.com.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,18 +27,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="result.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/partials/result.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="62" column="71" selection-start-line="62" selection-start-column="56" selection-end-line="62" selection-end-column="71" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#ons-bottom-toolbar#0;n#div#0;n#div#0;n#div#0;n#ons-page#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="product-criteria.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/partials/product-criteria.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -68,21 +57,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LocationCtrl.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LocationCtrl.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/controllers/LocationCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.52380955">
-              <caret line="25" column="46" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="currentResultListProductsFactory.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/services/currentResultListProductsFactory.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="54" column="149" selection-start-line="54" selection-start-column="149" selection-end-line="54" selection-end-column="149" />
+            <state vertical-scroll-proportion="-9.62963">
+              <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="37" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -108,12 +87,36 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="location.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="location.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/partials/location.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.645162">
-              <caret line="15" column="28" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="28" />
+            <state vertical-scroll-proportion="0.7712177">
+              <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ya-map-2.1.min.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/ya-map-2.1.min.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="angular-ymaps.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/angular-ymaps.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="53" column="58" selection-start-line="53" selection-start-column="52" selection-end-line="53" selection-end-column="58" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -141,7 +144,6 @@
         <option value="$PROJECT_DIR$/js/services/countriesFactoryList.js" />
         <option value="$PROJECT_DIR$/js/services/filtersCriteriaProductFactory.js" />
         <option value="$PROJECT_DIR$/js/services/filtersCriteriaProducerProductFactory.js" />
-        <option value="$PROJECT_DIR$/partials/location.html" />
         <option value="$PROJECT_DIR$/js/json/kindProduct.json" />
         <option value="$PROJECT_DIR$/js/json/countries.json" />
         <option value="$PROJECT_DIR$/js/json/producers.json" />
@@ -179,6 +181,7 @@
         <option value="$PROJECT_DIR$/js/json/data.json" />
         <option value="$PROJECT_DIR$/partials/product-criteria.html" />
         <option value="$PROJECT_DIR$/js/controllers/LocationCtrl.js" />
+        <option value="$PROJECT_DIR$/partials/location.html" />
       </list>
     </option>
   </component>
@@ -490,20 +493,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/partials/sale.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/services/dataListsProductsFactory.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="130" column="55" selection-start-line="130" selection-start-column="55" selection-end-line="130" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/services/currentResultListProductsFactory.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -822,22 +811,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/partials/location.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.645162">
-          <caret line="15" column="28" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/json/data.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.75">
-          <caret line="1060" column="28" selection-start-line="1060" selection-start-column="28" selection-end-line="1060" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-28.387096">
@@ -854,10 +827,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/json/data.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.75">
+          <caret line="1060" column="28" selection-start-line="1060" selection-start-column="28" selection-end-line="1060" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/ya-map-2.1.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/angular-ymaps.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="53" column="58" selection-start-line="53" selection-start-column="52" selection-end-line="53" selection-end-column="58" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/controllers/LocationCtrl.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.52380955">
-          <caret line="25" column="46" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
+        <state vertical-scroll-proportion="-9.62963">
+          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="37" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partials/location.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7712177">
+          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
           <folding />
         </state>
       </provider>

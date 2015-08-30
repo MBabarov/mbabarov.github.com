@@ -23,13 +23,18 @@ angular.module('myApp.LocationCtrl', [])
 		$scope.afterMapInit = function(map){
 			console.log('map', map);
 			_map = map;
-			var myCircle = new map.GeoObject({
-				geometry: {
-					type: "Circle",
-					coordinates: [55.76, 37.64],
-					radius: 10000
-				}
-			});
+		};
+		$scope.geoObjects=
+		{
+			geometry: {
+				type: 'Circle',
+				coordinates: [37.60,55.76],
+				radius: 10000
+			},
+			properties: {
+				balloonContent: "Радиус круга - 10 км",
+				hintContent: "Подвинь меня"
+			}
 		};
 		$scope.del = function(){
 			_map.destroy();
