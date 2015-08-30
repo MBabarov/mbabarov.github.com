@@ -23,7 +23,7 @@ angular.module('myApp.LocationCtrl', [])
 		$scope.afterMapInit = function(map){
 			console.log('map', map);
 			_map = map;
-			var myCircle = new ymaps.GeoObject({
+			var myCircle = new map.GeoObject({
 				geometry: {
 					type: "Circle",
 					coordinates: [55.76, 37.64],
