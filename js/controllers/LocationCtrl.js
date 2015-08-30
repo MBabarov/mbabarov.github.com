@@ -9,7 +9,7 @@ angular.module('myApp.LocationCtrl', [])
 			
 			
 		$scope.pageTitle = 'О приложении';
-		$scope.ready=true;
+		$scope.ready=false;
 		
 		$scope.moveToLists=function(){
 			if(authorizationService.data){
@@ -20,22 +20,48 @@ angular.module('myApp.LocationCtrl', [])
 			}
 		};
 		var _map;
-		$scope.afterMapInit = function(map){
-			console.log('map', map);
-			_map = map;
-		};
-		$scope.geoObjects=
-		{
-			geometry: {
-				type: 'Circle',
-				coordinates: [37.60,55.76],
-				radius: 10000
-			},
-			properties: {
-				balloonContent: "Радиус круга - 10 км",
-				hintContent: "Подвинь меня"
-			}
-		};
+			var objects, collection;
+			$scope.afterInit = function(col){
+				$scope.ready=true;
+				collection = col;
+			};
+			$scope.circle = {
+				geometry:{
+					type:'Circle',
+					coordinates:[37.7,55.43],
+					radius:10000
+				}
+			};
+			$scope.geoQuerySource = [
+				{
+					geometry:{
+						type: 'Point',
+						coordinates: [37.75,55.73]
+					}
+				},
+				{
+					geometry:{
+						type: 'Point',
+						coordinates: [37.45,55.10]
+					}
+				},
+				{
+					geometry:{
+						type: 'Point',
+						coordinates: [37.35,55.25]
+					}
+				}
+			];
+			$scope.drag = function(event){
+				if(!objects){
+					objects = ymaps.geoQuery(collection);
+				}
+				var circle = event.get('target');
+				var objectsInsideCircle = objects.searchInside(circle);
+				objectsInsideCircle.setOptions('preset', 'islands#redIcon');
+				// Оставшиеся объекты - синими.
+				objects.remove(objectsInsideCircle).setOptions('preset', 'islands#blueIcon');
+			};
 		$scope.del = function(){
 			_map.destroy();
 		};

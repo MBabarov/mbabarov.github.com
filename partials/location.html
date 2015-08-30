@@ -13,14 +13,20 @@
     <div class="navigator-container">
 		<div class="navigator-content relative">
 			<div class="full-screen scroller-wrapper">
-                <div id="map">
-                    <ya-map ya-zoom="8" ya-center="[37.64,55.76]" ya-after-init="afterMapInit($target)">
-                        <ya-geo-object ya-source="geoObjects[0]" ya-options="{draggable: true,fillColor: '#DB709377',strokeColor: '#990066',strokeOpacity: 0.8,strokeWidth: 5}"></ya-geo-object>
+                <div class="loading blue-color padded-20 ng-hide" ng-if="!ready">
+                    <ons-icon icon="fa-circle-o-notch" size="lg" spin="true"></ons-icon>
+                </div>
+                <div id="map" class="ng-hide" ng-show="ready">
+                    <ya-map ya-zoom="8" ya-center="[37.75,55.43]"  ya-after-init="afterMapInit($target)">
+                        <ya-collection ya-after-init="afterInit($target)">
+                            <ya-geo-object ng-repeat="o in geoQuerySource" ya-source="o"></ya-geo-object>
+                        </ya-collection>
+                        <ya-geo-object ya-source="circle" ya-options="{draggable:true}" ya-event-drag="drag($event)"></ya-geo-object>
                     </ya-map>
                 </div>
 
                 <ons-bottom-toolbar>
-					<div ng-click="moveToLists(authorization)" class="button--large--cta bottom-bar__line-height" style="text-align: center;">
+					<div ng-click="moveToLists(authorization)"  ng-show="ready" class="button--large--cta bottom-bar__line-height ng-hide" style="text-align: center;">
 						Перейти к списку
 					</div>
 				</ons-bottom-toolbar>
