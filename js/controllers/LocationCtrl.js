@@ -28,8 +28,8 @@ angular.module('myApp.LocationCtrl', [])
 			$scope.circle = {
 				geometry:{
 					type:'Circle',
-					coordinates:[48.46464169, 35.02914790],
-					radius:10000
+					coordinates:[35.02914790, 48.46464169],
+					radius:100
 				}
 			};
 			$scope.geoQuerySource = [

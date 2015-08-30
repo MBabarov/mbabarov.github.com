@@ -17,7 +17,7 @@
                     <ons-icon icon="fa-circle-o-notch" size="lg" spin="true"></ons-icon>
                 </div>
                 <div id="map" class="ng-hide" ng-show="ready">
-                    <ya-map ya-zoom="14" ya-center="[48.46464169, 35.02914790]"  ya-after-init="afterMapInit($target)">
+                    <ya-map ya-zoom="14" ya-center="[35.02914790, 48.46464169]"  ya-after-init="afterMapInit($target)">
                         <ya-collection ya-after-init="afterInit($target)">
                             <ya-geo-object ng-repeat="o in geoQuerySource" ya-source="o"></ya-geo-object>
                         </ya-collection>
