@@ -1,0 +1,254 @@
+{
+    "status": {
+        "statusCode": 0,
+        "statusMessage": "OK"
+    },
+    "data": [
+        {
+            "product": "Молоко",
+            "country":"Украина",
+            "id": 2,
+            "name":"Агуша"
+        },
+        {
+            "product": "Молоко",
+            "country":"Украина",
+            "id": 3,
+            "name":"Веселый молочник"
+        },
+        {
+            "product": "Молоко",
+            "country":"Украина",
+            "id": 4,
+            "name":"Волошкове поле"
+        },
+        {
+            "product": "Молоко",
+            "country":"Украина",
+            "id": 5,
+            "name":"Злагода"
+        },
+        {
+            "product": "Молоко",
+            "country":"Украина",
+            "id": 6,
+            "name":"Простоквашино"
+        },
+        {
+            "product": "Молоко",
+            "country":"Украина",
+            "id": 7,
+            "name":"Славяночка"
+        },
+        {
+            "product": "Молоко",
+            "country":"Польша",
+            "id": 8,
+            "name":"Danmis"
+        },
+        {
+            "product": "Батон",
+            "country":"Украина",
+            "id": 9,
+            "name":"Хлебзавод №8"
+        },
+        {
+            "product": "Батон",
+            "country":"Украина",
+            "id": 10,
+            "name":"Хлебзавод №9"
+        },
+        {
+            "product": "Батон",
+            "country":"Польша",
+            "id": 11,
+            "name":"Хлебзавод №10"
+        },
+        {
+            "product": "Сметана",
+            "country":"Украина",
+            "id": 12,
+            "name":"Простоквашино"
+        },
+        {
+            "product": "Сметана",
+            "country":"Украина",
+            "id": 13,
+            "name":"President"
+        },
+        {
+            "product": "Сметана",
+            "country":"Украина",
+            "id": 14,
+            "name":"Premialle"
+        },
+        {
+            "product": "Филе куринное",
+            "country":"Украина",
+            "id": 15,
+            "name":"Наша ряба"
+        },
+        {
+            "product": "Филе куринное",
+            "country":"Украина",
+            "id": 16,
+            "name":"Олимп"
+        },
+        {
+            "product": "Филе куринное",
+            "country":"Украина",
+            "id": 17,
+            "name":"Misso"
+        },
+        {
+            "product": "Мин. вода",
+            "country":"Украина",
+            "id": 18,
+            "name":"Моршинская"
+        },
+        {
+            "product": "Мин. вода",
+            "country":"Франция",
+            "id": 19,
+            "name":"Evian"
+        },
+        {
+            "product": "Мин. вода",
+            "country":"Украина",
+            "id": 20,
+            "name":"Buvette"
+        },
+        {
+            "product": "Мин. вода",
+            "country":"Грузия",
+            "id": 21,
+            "name":"Боржоми"
+        },
+        {
+            "product": "Мин. вода",
+            "country":"Грузия",
+            "id": 22,
+            "name":"Набеглави"
+        },
+        {
+            "product": "Мин. вода",
+            "country":"Франция",
+            "id": 23,
+            "name":"Perrier"
+        },
+        {
+            "product": "Мин. вода",
+            "country":"Франция",
+            "id": 24,
+            "name":"Vittel"
+        },
+        {
+            "product": "Мин. вода",
+            "country":"Германия",
+            "id": 25,
+            "name":"Gerolsteiner"
+        },
+        {
+            "product": "Мин. вода",
+            "country":"Италия",
+            "id": 26,
+            "name":"Сан бенедетто"
+        },
+        {
+            "product": "Колбаса",
+            "country":"Украина",
+            "id": 27,
+            "name":"Алан"
+        },
+        {
+            "product": "Колбаса",
+            "country":"Украина",
+            "id": 28,
+            "name":"Глобино"
+        },
+        {
+            "product": "Вино",
+            "country":"Украина",
+            "id": 29,
+            "name":"Коблево"
+        },
+        {
+            "product": "Вино",
+            "country":"Украина",
+            "id": 30,
+            "name":"Шабо"
+        },
+        {
+            "product": "Греча",
+            "country":"Украина",
+            "id": 31,
+            "name":"Жменька"
+        },
+        {
+            "product": "Греча",
+            "country":"Украина",
+            "id": 32,
+            "name":"Золотые ворота"
+        },
+        {
+            "product": "Стиральный порошок, гель",
+            "country":"Австрия",
+            "id": 33,
+            "name":"Persil"
+        },
+        {
+            "product": "Стиральный порошок, гель",
+            "country":"Бельгия",
+            "id": 34,
+            "name":"Ariel"
+        },
+        {
+            "product": "Стиральный порошок, гель",
+            "country":"Австрия",
+            "id": 35,
+            "name":"Rex"
+        },
+        {
+            "product": "Мыло, гель",
+            "country":"Турция",
+            "id": 36,
+            "name":"Duru"
+        },
+        {
+            "product": "Мыло, гель",
+            "country":"Великобритания",
+            "id": 37,
+            "name":"Safeguard"
+        },
+        {
+            "product": "Зубные пасты, ополаскиватели",
+            "country":"Украина",
+            "id": 38,
+            "name":"Colgate"
+        },
+        {
+            "product": "Сельдь",
+            "country":"Германия",
+            "id": 39,
+            "name":"Apple"
+        },
+        {
+            "product": "Сельдь",
+            "country":"Украина",
+            "id": 40,
+            "name":"Флотилія"
+        },
+        {
+            "product": "Водка",
+            "country":"Украина",
+            "id": 41,
+            "name":"Хортица"
+        },
+        {
+            "product": "Водка",
+            "country":"Украина",
+            "id": 42,
+            "name":"Nemiroff"
+        }
+    ]
+}

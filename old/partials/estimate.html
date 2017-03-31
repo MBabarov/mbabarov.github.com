@@ -1,0 +1,27 @@
+﻿<ons-page class="center account-page" ng-controller="EstimateCtrl">
+    <ons-toolbar title="Оценка приложения">
+        <div class="left">
+             <ons-back-button></ons-back-button>
+        </div>
+        <div class="center">
+           Оценка приложения
+        </div>
+        <div class="right">
+
+        </div>
+    </ons-toolbar>
+    <div class="navigator-container">
+		<div class="navigator-content relative">
+			<div class="full-screen scroller-wrapper with-bottom-block">
+				<h2>
+                    Оцените наше приложения в любой удобной для вас соц. сети:
+                </h2>
+                <ul class="social-links padded-10-20">
+                    <li ng-repeat="oneElementList in webList" class="full-button topcoat-list__item--tappable topcoat-list__item__line-height list__item--chevron">
+                        <a class="{{oneElementList.class}}" target="_blank" href="{{oneElementList.url}}">{{oneElementList.title}}</a>
+                    </li>
+                </ul>
+			</div>
+		</div>
+	</div>
+</ons-page>

@@ -1,0 +1,38 @@
+﻿<ons-page class="center sale-page" ng-controller="SaleCtrl">
+    <ons-toolbar title="Акции и специальные предложения">
+        <div class="left">
+             <ons-back-button></ons-back-button>
+        </div>
+        <div class="center">
+           Акции и спец. предложения
+        </div>
+        <div class="right">
+
+        </div>
+    </ons-toolbar>
+    <div class="button-bar">
+        <div ng-repeat="shop in shopsList" class="button-bar__item">
+            <input ng-model="shopsSelect" type="radio" name="shop" value="{{shop.title}}"; ng-click="changeCurrentShop(this);">
+            <button class="button-bar__button" ng-click="changeCurrentShop();">{{shop.title}}</button>
+        </div>
+    </div>
+    <div class="navigator-container after-buttton-bar">
+		<div class="navigator-content relative">
+			<div class="full-screen scroller-wrapper">
+                <div class="full-screen scroller-wrapper extra-scroll-block">
+                    <div class="loading blue-color padded-10" ng-if="!ready ">
+                        <ons-icon icon="fa-circle-o-notch" size="lg" spin="true"></ons-icon>
+                    </div>
+                    <ons-list class="topcoat-list padded-10-20" ng-if="ready ">
+                        <ons-list-item ng-repeat="oneElementList in filterList"  class="full-button topcoat-list__item--tappable topcoat-list__item__line-height">
+                            <img src="{{oneElementList.url}}" alt="{{oneElementList.title}}"/>
+                        </ons-list-item>
+                    </ons-list>
+                    <p class="copy-static"  ng-if="ready ">
+                        &copy; "Где дешевле?", 2015
+                    </p>
+			    </div>
+			</div>
+		</div>
+	</div>
+</ons-page>

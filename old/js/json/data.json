@@ -1,0 +1,1106 @@
+{
+    "status": {
+        "statusCode": 0,
+        "statusMessage": "OK"
+    },
+    "data": [
+        {
+            "id": 1,
+            "typeProduct": {"Тип продукта": "Молочная продукция"},
+            "nameProduct": {"Имя продукта":"Молоко"},
+            "imageProduct": {"url":"img/products/moloko-prostokvasheno-1.jpg"},
+            "specificCriteria": [
+                {"countryProduct": {"Страна": "Украина"}},
+                {"producerProduct": {"Производитель":"Простоквашино"}},
+                {"boxingProduct": {"Вес":"900г"}},
+                {"fat": {"Жирность":"2.5%"}}
+            ],
+            "amountProduct": {"Количество":"1"},
+            "priceAndShop":{
+                "ATB": 15.40,
+                "Silpo": 16.45,
+                "Varus": 17.25
+            }
+        },
+        {
+            "id": 2,
+            "typeProduct": {"Тип продукта": "Молочная продукция"},
+            "nameProduct": {"Имя продукта":"Молоко"},
+            "imageProduct": {"url":"img/products/moloko-prostokvasheno-2.jpg"},
+            "specificCriteria": [
+                {"countryProduct": {"Страна": "Украина"}},
+                {"producerProduct": {"Производитель":"Простоквашино"}},
+                {"boxingProduct": {"Вес":"900г"}},
+                {"fat": {"Жирность":"1%"}}
+            ],
+            "amountProduct": {"Количество":"1"},
+            "priceAndShop":{
+                "ATB": 18.40,
+                "Silpo": 19.45,
+                "Varus": 18.25
+            }
+        },
+        {
+            "id": 3,
+            "typeProduct": {"Тип продукта": "Молочная продукция"},
+            "nameProduct": {"Имя продукта":"Молоко"},
+            "imageProduct": {"url":"img/products/moloko-prostokvasheno-3.jpg"},
+            "specificCriteria": [
+                {"countryProduct": {"Страна": "Украина"}},
+                {"producerProduct": {"Производитель":"Простоквашино"}},
+                {"boxingProduct": {"Вес":"900г"}},
+                {"fat": {"Жирность":"2.5%"}},
+                {"kindProduct":  {"Вид проукта":"Топленое"}}
+            ],
+            "amountProduct": {"Количество":"1"},
+            "priceAndShop":{
+                "ATB": 20.40,
+                "Silpo": 21.45,
+                "Varus": 22.25
+            }
+        },
+        {
+            "id": 4,
+            "typeProduct": {"Тип продукта": "Молочная продукция"},
+            "nameProduct": {"Имя продукта":"Молоко"},
+            "imageProduct": {"url":"img/products/moloko-voloshkove-1.jpg"},
+            "specificCriteria": [
+                {"countryProduct": {"Страна": "Украина"}},
+                {"producerProduct": {"Производитель":"Волошкове поле"}},
+                {"boxingProduct": {"Вес":"920г"}},
+                {"fat": {"Жирность":"2.6%"}},
+                {"boxingTypeProduct":  {"Тип упаковки": "П/п"}}
+            ],
+            "amountProduct": {"Количество":"1"},
+            "priceAndShop":{
+                "ATB": 17.40,
+                "Silpo": 15.45,
+                "Varus": 14.25
+            }
+        },
+        {
+            "id": 5,
+            "typeProduct": {"Тип продукта": "Молочная продукция"},
+            "nameProduct": {"Имя продукта":"Молоко"},
+            "imageProduct": {"url":"img/products/moloko-voloshkove-2.jpg"},
+            "specificCriteria": [
+                {"countryProduct": {"Страна": "Украина"}},
+                {"producerProduct": {"Производитель":"Волошкове поле"}},
+                {"boxingProduct": {"Вес":"750г"}},
+                {"fat": {"Жирность":"2.6%"}},
+                {"boxingTypeProduct":  {"Тип упаковки": "Стекло-бутылка"}}
+            ],
+            "amountProduct": {"Количество":"1"},
+            "priceAndShop":{
+                "ATB": 17.40,
+                "Silpo": 18.45,
+                "Varus": 19.25
+            }
+        },
+        {
+            "id": 6,
+            "typeProduct": {"Тип продукта": "Молочная продукция"},
+            "nameProduct": {"Имя продукта":"Молоко"},
+            "imageProduct": {"url":"img/products/moloko-danmis-1.jpg"},
+            "specificCriteria": [
+                {"countryProduct": {"Страна": "Польша"}},
+                {"producerProduct": {"Производитель":"Danmis"}},
+                {"kindProduct": {"Вид":"Натуральное козье"}},
+                {"boxingProduct": {"Вес":"500г"}},
+                {"fat": {"Жирность":"2.5%"}},
+                {"boxingTypeProduct":  {"Тип упаковки": "П/п"}}
+            ],
+            "amountProduct": {"Количество":"1"},
+            "priceAndShop":{
+                "ATB": 17.40,
+                "Silpo": 18.45,
+                "Varus": 19.25
+            }
+        },
+        {
+            "id": 7,
+            "typeProduct": {"Тип продукта": "Хлебобулочные изделия"},
+            "nameProduct": {"Имя продукта":"Батон"},
+            "imageProduct": {"url":"img/products/hleb-hlebzavod9-1.jpg"},
+            "specificCriteria": [
+                {"countryProduct": {"Страна": "Украина"}},
+                {"producerProduct": {"Производитель":"Хлебзавод №9"}},
+                {"kindProduct": {"Вид":"Любительский нарезной"}},
+                {"boxingProduct": {"Вес":"600г"}}
+            ],
+            "amountProduct": {"Количество":"1"},
+            "priceAndShop":{
+                "ATB": 5.58,
+                "Silpo": 5.45,
+                "Varus": 6.25
+            }
+        },
+        {
+            "id": 8,
+            "typeProduct": {"Тип продукта": "Хлебобулочные изделия"},
+            "nameProduct": {"Имя продукта":"Батон"},
+            "imageProduct": {"url":"img/products/hleb-hlebzavod9-1.jpg"},
+            "specificCriteria": [
+                {"countryProduct": {"Страна": "Украина"}},
+                {"producerProduct": {"Производитель":"Хлебзавод №10"}},
+                {"kindProduct": {"Вид":"Дворянский резаный"}},
+                {"boxingProduct": {"Вес":"400г"}}
+            ],
+            "amountProduct": {"Количество":"1"},
+            "priceAndShop":{
+                "ATB": 9.58,
+                "Silpo": 10.45,
+                "Varus": 8.25
+            }
+        },
+        {
+            "id": 9,
+            "typeProduct": {"Тип продукта": "Хлебобулочные изделия"},
+            "nameProduct": {"Имя продукта":"Батон"},
+            "imageProduct": {"url":"img/products/hleb-hlebzavod9-2.jpg"},
+            "specificCriteria": [
+                {"countryProduct": {"Страна": "Украина"}},
+                {"producerProduct": {"Производитель":"Хлебзавод №10"}},
+                {"kindProduct": {"Вид":"Европейский нарезной"}},
+                {"boxingProduct": {"Вес":"450г"}}
+            ],
+            "amountProduct": {"Количество":"1"},
+            "priceAndShop":{
+                "ATB": 11.58,
+                "Silpo": 11.45,
+                "Varus": 12.25
+            }
+        },
+        {
+            "id": 10,
+            "typeProduct": {"Тип продукта": "Хлебобулочные изделия"},
+            "nameProduct": {"Имя продукта":"Батон"},
+            "imageProduct": {"url":"img/products/hleb-hlebzavod9-1.jpg"},
+            "specificCriteria": [
+                {"countryProduct": {"Страна": "Украина"}},
+                {"producerProduct": {"Производитель":"Хлебзавод №8"}},
+                {"kindProduct": {"Вид":"Дорожный нарезной"}},
+                {"boxingProduct": {"Вес":"450г"}}
+            ],
+            "amountProduct": {"Количество":"1"},
+            "priceAndShop":{
+                "ATB": 12.58,
+                "Silpo": 12.45,
+                "Varus": 13.25
+            }
+        },
+        {
+            "id": 11,
+            "typeProduct": {"Тип продукта": "Молочная продукция"},
+            "nameProduct": {"Имя продукта":"Сметана"},
+            "imageProduct": {"url":"img/products/smetana-prostokvasheno-1.jpg"},
+            "specificCriteria": [
+                {"countryProduct": {"Страна": "Украина"}},
+                {"producerProduct": {"Производитель":"Простоквашино"}},
+                {"boxingProduct": {"Вес":"200г"}},
+                {"fat": {"Жирность":"15%"}},
+                {"boxingTypeProduct":  {"Тип упаковки": "Стакан"}}
+            ],
+            "amountProduct": {"Количество":"1"},
+            "priceAndShop":{
+                "ATB": 9.40,
+                "Silpo": 9.45,
+                "Varus": 10.25
+            }
+        },
+        {
+            "id": 12,
+            "typeProduct": {"Тип продукта": "Молочная продукция"},
+            "nameProduct": {"Имя продукта":"Сметана"},
+            "imageProduct": {"url":"img/products/smetana-prostokvasheno-2.jpg"},
+            "specificCriteria": [
+                {"countryProduct": {"Страна": "Украина"}},
+                {"producerProduct": {"Производитель":"Простоквашино"}},
+                {"boxingProduct": {"Вес":"200г"}},
+                {"fat": {"Жирность":"20%"}},
+                {"boxingTypeProduct":  {"Тип упаковки": "Стакан"}}
+            ],
+            "amountProduct": {"Количество":"1"},
+            "priceAndShop":{
+                "ATB": 10.77,
+                "Silpo": 11.15,
+                "Varus": 10.55
+            }
+        },
+        {
+            "id": 13,
+            "typeProduct": {"Тип продукта": "Молочная продукция"},
+            "nameProduct": {"Имя продукта":"Сметана"},
+            "imageProduct": {"url":"img/products/smetana-prostokvasheno-3.jpg"},
+            "specificCriteria": [
+                {"countryProduct": {"Страна": "Украина"}},
+                {"producerProduct": {"Производитель":"Простоквашино"}},
+                {"boxingProduct": {"Вес":"405г"}},
+                {"fat": {"Жирность":"15%"}},
+                {"boxingTypeProduct":  {"Тип упаковки": "П/э"}}
+            ],
+            "amountProduct": {"Количество":"1"},
+            "priceAndShop":{
+                "ATB": 14.77,
+                "Silpo": 15.15,
+                "Varus": 15.55
+            }
+        },
+        {
+            "id": 14,
+            "typeProduct": {"Тип продукта": "Молочная продукция"},
+            "nameProduct": {"Имя продукта":"Сметана"},
+            "imageProduct": {"url":"img/products/smetana-prostokvasheno-4.jpg"},
+            "specificCriteria": [
+                {"countryProduct": {"Страна": "Украина"}},
+                {"producerProduct": {"Производитель":"Простоквашино"}},
+                {"boxingProduct": {"Вес":"350г"}},
+                {"fat": {"Жирность":"25%"}},
+                {"boxingTypeProduct":  {"Тип упаковки": "Стакан"}}
+            ],
+            "amountProduct": {"Количество":"1"},
+            "priceAndShop":{
+                "ATB": 24.77,
+                "Silpo": 25.15,
+                "Varus": 25.55
+            }
+        },
+        {
+            "id": 15,
+            "typeProduct": {"Тип продукта": "Молочная продукция"},
+            "nameProduct": {"Имя продукта":"Сметана"},
+            "imageProduct": {"url":"img/products/smetana-president-1.jpg"},
+            "specificCriteria": [
+                {"countryProduct": {"Страна": "Украина"}},
+                {"producerProduct": {"Производитель":"President"}},
+                {"boxingProduct": {"Вес":"200г"}},
+                {"fat": {"Жирность":"15%"}},
+                {"boxingTypeProduct":  {"Тип упаковки": "Стакан"}}
+            ],
+            "amountProduct": {"Количество":"1"},
+            "priceAndShop":{
+                "ATB": 9.77,
+                "Silpo": 10.15,
+                "Varus": 10.55
+            }
+        },
+        {
+            "id": 16,
+            "typeProduct": {"Тип продукта": "Молочная продукция"},
+            "nameProduct": {"Имя продукта":"Сметана"},
+            "imageProduct": {"url":"img/products/smetana-president-2.jpg"},
+            "specificCriteria": [
+                {"countryProduct": {"Страна": "Украина"}},
+                {"producerProduct": {"Производитель":"President"}},
+                {"boxingProduct": {"Вес":"200г"}},
+                {"fat": {"Жирность":"20%"}},
+                {"boxingTypeProduct":  {"Тип упаковки": "Стакан"}}
+            ],
+            "amountProduct": {"Количество":"1"},
+            "priceAndShop":{
+                "ATB": 11.77,
+                "Silpo": 12.15,
+                "Varus": 12.55
+            }
+        },
+        {
+            "id": 17,
+            "typeProduct": {"Тип продукта": "Молочная продукция"},
+            "nameProduct": {"Имя продукта":"Сметана"},
+            "imageProduct": {"url":"img/products/smetana-president-3.jpg"},
+            "specificCriteria": [
+                {"countryProduct": {"Страна": "Украина"}},
+                {"producerProduct": {"Производитель":"President"}},
+                {"boxingProduct": {"Вес":"400г"}},
+                {"fat": {"Жирность":"30%"}},
+                {"boxingTypeProduct":  {"Тип упаковки": "Стакан"}}
+            ],
+            "amountProduct": {"Количество":"1"},
+            "priceAndShop":{
+                "ATB": 37.77,
+                "Silpo": 38.15,
+                "Varus": 38.55
+            }
+        },
+        {
+            "id": 18,
+            "typeProduct": {"Тип продукта": "Молочная продукция"},
+            "nameProduct": {"Имя продукта":"Сметана"},
+            "imageProduct": {"url":"img/products/smetana-premialle-1.jpg"},
+            "specificCriteria": [
+                {"countryProduct": {"Страна": "Украина"}},
+                {"producerProduct": {"Производитель":"Premialle"}},
+                {"boxingProduct": {"Вес":"300г"}},
+                {"fat": {"Жирность":"15%"}},
+                {"boxingTypeProduct":  {"Тип упаковки": "Стакан"}}
+            ],
+            "amountProduct": {"Количество":"1"},
+            "priceAndShop":{
+                "ATB": 17.77,
+                "Silpo": 18.15,
+                "Varus": 18.55
+            }
+        },
+        {
+            "id": 19,
+            "typeProduct": {"Тип продукта": "Молочная продукция"},
+            "nameProduct": {"Имя продукта":"Сметана"},
+            "imageProduct": {"url":"img/products/smetana-premialle-2.jpg"},
+            "specificCriteria": [
+                {"countryProduct": {"Страна": "Украина"}},
+                {"producerProduct": {"Производитель":"Premialle"}},
+                {"boxingProduct": {"Вес":"300г"}},
+                {"fat": {"Жирность":"20%"}},
+                {"boxingTypeProduct":  {"Тип упаковки": "Стакан"}}
+            ],
+            "amountProduct": {"Количество":"1"},
+            "priceAndShop":{
+                "ATB": 21.77,
+                "Silpo": 22.15,
+                "Varus": 22.55
+            }
+        },
+        {
+            "id": 20,
+            "typeProduct": {"Тип продукта": "Мясная гастрономия"},
+            "nameProduct": {"Имя продукта":"Филе куринное"},
+            "imageProduct": {"url":"img/products/file-kurinoe-nasha-ryaba-1.jpg"},
+            "specificCriteria": [
+                {"countryProduct": {"Страна": "Украина"}},
+                {"producerProduct": {"Производитель":"Наша ряба"}},
+                {"boxingProduct": {"Вес":"1кг"}},
+                {"boxingTypeProduct":  {"Тип упаковки": "Су Гпп"}}
+            ],
+            "amountProduct": {"Количество":"1"},
+            "priceAndShop":{
+                "ATB": 59.77,
+                "Silpo": 60.15,
+                "Varus": 60.55
+            }
+        },
+        {
+            "id": 21,
+            "typeProduct": {"Тип продукта": "Мясная гастрономия"},
+            "nameProduct": {"Имя продукта":"Филе куринное"},
+            "imageProduct": {"url":"img/products/file-kurinoe-olymp-1.jpg"},
+            "specificCriteria": [
+                {"countryProduct": {"Страна": "Украина"}},
+                {"producerProduct": {"Производитель":"Олимп"}},
+                {"boxingProduct": {"Вес":"1кг"}},
+                {"boxingTypeProduct":  {"Тип упаковки": "Су Гпп"}}
+            ],
+            "amountProduct": {"Количество":"1"},
+            "priceAndShop":{
+                "ATB": 57.77,
+                "Silpo": 58.15,
+                "Varus": 61.55
+            }
+        },
+        {
+            "id": 22,
+            "typeProduct": {"Тип продукта": "Безалкогольные напитки"},
+            "nameProduct": {"Имя продукта":"Мин. вода"},
+            "imageProduct": {"url":"img/products/min-voda-morshinska-1.jpg"},
+            "specificCriteria": [
+                {"countryProduct": {"Страна": "Украина"}},
+                {"producerProduct": {"Производитель":"Моршинская"}},
+                {"boxingProduct": {"Вес":"1.5л"}},
+                {"productKind":  {"Тип": "Слабогазированная"}},
+                {"boxingTypeProduct":  {"Тип упаковки": "П/п"}}
+            ],
+            "amountProduct": {"Количество":"1"},
+            "priceAndShop":{
+                "ATB": 8.77,
+                "Silpo": 9.15,
+                "Varus": 9.55
+            }
+        },
+        {
+            "id": 23,
+            "typeProduct": {"Тип продукта": "Безалкогольные напитки"},
+            "nameProduct": {"Имя продукта":"Мин. вода"},
+            "imageProduct": {"url":"img/products/min-voda-morshinska-2.jpg"},
+            "specificCriteria": [
+                {"countryProduct": {"Страна": "Украина"}},
+                {"producerProduct": {"Производитель":"Моршинская"}},
+                {"boxingProduct": {"Вес":"1.5л"}},
+                {"productKind":  {"Тип": "Негазированная"}},
+                {"boxingTypeProduct":  {"Тип упаковки": "П/п"}}
+            ],
+            "amountProduct": {"Количество":"1"},
+            "priceAndShop":{
+                "ATB": 8.27,
+                "Silpo": 8.65,
+                "Varus": 9.05
+            }
+        },
+        {
+            "id": 24,
+            "typeProduct": {"Тип продукта": "Безалкогольные напитки"},
+            "nameProduct": {"Имя продукта":"Мин. вода"},
+            "imageProduct": {"url":"img/products/min-voda-morshinska-3.jpg"},
+            "specificCriteria": [
+                {"countryProduct": {"Страна": "Украина"}},
+                {"producerProduct": {"Производитель":"Моршинская"}},
+                {"boxingProduct": {"Вес":"1.5л"}},
+                {"productKind":  {"Тип": "Сильногазированная"}},
+                {"boxingTypeProduct":  {"Тип упаковки": "П/п"}}
+            ],
+            "amountProduct": {"Количество":"1"},
+            "priceAndShop":{
+                "ATB": 8.57,
+                "Silpo": 8.95,
+                "Varus": 9.15
+            }
+        },
+        {
+            "id": 25,
+            "typeProduct": {"Тип продукта": "Безалкогольные напитки"},
+            "nameProduct": {"Имя продукта":"Мин. вода"},
+            "imageProduct": {"url":"img/products/min-voda-morshinska-4.jpg"},
+            "specificCriteria": [
+                {"countryProduct": {"Страна": "Украина"}},
+                {"producerProduct": {"Производитель":"Моршинская"}},
+                {"boxingProduct": {"Вес":"0.33л"}},
+                {"productKind":  {"Тип": "Слабогазированная"}},
+                {"boxingTypeProduct":  {"Тип упаковки": "П/п"}}
+            ],
+            "amountProduct": {"Количество":"1"},
+            "priceAndShop":{
+                "ATB": 6.57,
+                "Silpo": 6.95,
+                "Varus": 7.15
+            }
+        },
+        {
+            "id": 26,
+            "typeProduct": {"Тип продукта": "Безалкогольные напитки"},
+            "nameProduct": {"Имя продукта":"Мин. вода"},
+            "imageProduct": {"url":"img/products/min-voda-morshinska-5.jpg"},
+            "specificCriteria": [
+                {"countryProduct": {"Страна": "Украина"}},
+                {"producerProduct": {"Производитель":"Моршинская"}},
+                {"boxingProduct": {"Вес":"0.75л"}},
+                {"productKind":  {"Тип": "Слабогазированная"}},
+                {"boxingTypeProduct":  {"Тип упаковки": "Стекло"}}
+            ],
+            "amountProduct": {"Количество":"1"},
+            "priceAndShop":{
+                "ATB": 12.57,
+                "Silpo": 12.95,
+                "Varus": 13.15
+            }
+        },
+        {
+            "id": 27,
+            "typeProduct": {"Тип продукта": "Безалкогольные напитки"},
+            "nameProduct": {"Имя продукта":"Мин. вода"},
+            "imageProduct": {"url":"img/products/min-voda-nabeglavi-1.jpg"},
+            "specificCriteria": [
+                {"countryProduct": {"Страна": "Грузия"}},
+                {"producerProduct": {"Производитель":"Набеглави"}},
+                {"boxingProduct": {"Вес":"0.5л"}},
+                {"productKind":  {"Тип": "Слабогазированная"}},
+                {"boxingTypeProduct":  {"Тип упаковки": "Стекло"}}
+            ],
+            "amountProduct": {"Количество":"1"},
+            "priceAndShop":{
+                "ATB": 32.57,
+                "Silpo": 32.95,
+                "Varus": 33.15
+            }
+        },
+        {
+            "id": 28,
+            "typeProduct": {"Тип продукта": "Безалкогольные напитки"},
+            "nameProduct": {"Имя продукта":"Мин. вода"},
+            "imageProduct": {"url":"img/products/min-voda-nabeglavi-2.jpg"},
+            "specificCriteria": [
+                {"countryProduct": {"Страна": "Грузия"}},
+                {"producerProduct": {"Производитель":"Набеглави"}},
+                {"boxingProduct": {"Вес":"1л"}},
+                {"productKind":  {"Тип": "Слабогазированная"}},
+                {"boxingTypeProduct":  {"Тип упаковки": "П/п"}}
+            ],
+            "amountProduct": {"Количество":"1"},
+            "priceAndShop":{
+                "ATB": 36.57,
+                "Silpo": 36.95,
+                "Varus": 37.15
+            }
+        },
+        {
+            "id": 29,
+            "typeProduct": {"Тип продукта": "Безалкогольные напитки"},
+            "nameProduct": {"Имя продукта":"Мин. вода"},
+            "imageProduct": {"url":"img/products/min-voda-perrier-1.jpg"},
+            "specificCriteria": [
+                {"countryProduct": {"Страна": "Франция"}},
+                {"producerProduct": {"Производитель":"Perrier"}},
+                {"boxingProduct": {"Вес":"1л"}},
+                {"productKind":  {"Тип": "Слабогазированная"}},
+                {"boxingTypeProduct":  {"Тип упаковки": "Стекло"}}
+            ],
+            "amountProduct": {"Количество":"1"},
+            "priceAndShop":{
+                "ATB": 86.57,
+                "Silpo": 86.95,
+                "Varus": 87.15
+            }
+        },
+        {
+            "id": 30,
+            "typeProduct": {"Тип продукта": "Безалкогольные напитки"},
+            "nameProduct": {"Имя продукта":"Мин. вода"},
+            "imageProduct": {"url":"img/products/min-voda-perrier-2.jpg"},
+            "specificCriteria": [
+                {"countryProduct": {"Страна": "Франция"}},
+                {"producerProduct": {"Производитель":"Perrier"}},
+                {"boxingProduct": {"Вес":"1л"}},
+                {"productKind":  {"Тип": "Сильногазированная"}},
+                {"boxingTypeProduct":  {"Тип упаковки": "Стекло"}}
+            ],
+            "amountProduct": {"Количество":"1"},
+            "priceAndShop":{
+                "ATB": 84.57,
+                "Silpo": 84.95,
+                "Varus": 85.15
+            }
+        },
+        {
+            "id": 31,
+            "typeProduct": {"Тип продукта": "Безалкогольные напитки"},
+            "nameProduct": {"Имя продукта":"Мин. вода"},
+            "imageProduct": {"url":"img/products/min-voda-san-benedetto-1.jpg"},
+            "specificCriteria": [
+                {"countryProduct": {"Страна": "Италия"}},
+                {"producerProduct": {"Производитель":"Сан бенедетто"}},
+                {"boxingProduct": {"Вес":"1л"}},
+                {"productKind":  {"Тип": "Негазированная"}},
+                {"boxingTypeProduct":  {"Тип упаковки": "Стекло"}}
+            ],
+            "amountProduct": {"Количество":"1"},
+            "priceAndShop":{
+                "ATB": 48.57,
+                "Silpo": 48.95,
+                "Varus": 49.15
+            }
+        },
+        {
+            "id": 32,
+            "typeProduct": {"Тип продукта": "Безалкогольные напитки"},
+            "nameProduct": {"Имя продукта":"Мин. вода"},
+            "imageProduct": {"url":"img/products/min-voda-vittel-1.jpg"},
+            "specificCriteria": [
+                {"countryProduct": {"Страна": "Франция"}},
+                {"producerProduct": {"Производитель":"Vittel"}},
+                {"boxingProduct": {"Вес":"0.75л"}},
+                {"productKind":  {"Тип": "Сильногазированная"}},
+                {"boxingTypeProduct":  {"Тип упаковки": "П/п"}}
+            ],
+            "amountProduct": {"Количество":"1"},
+            "priceAndShop":{
+                "ATB": 36.57,
+                "Silpo": 36.95,
+                "Varus": 37.15
+            }
+        },
+        {
+            "id": 33,
+            "typeProduct": {"Тип продукта": "Безалкогольные напитки"},
+            "nameProduct": {"Имя продукта":"Мин. вода"},
+            "imageProduct": {"url":"img/products/min-voda-vittel-2.jpg"},
+            "specificCriteria": [
+                {"countryProduct": {"Страна": "Франция"}},
+                {"producerProduct": {"Производитель":"Vittel"}},
+                {"boxingProduct": {"Вес":"0.5л"}},
+                {"productKind":  {"Тип": "Негазированная"}},
+                {"boxingTypeProduct":  {"Тип упаковки": "П/п"}}
+            ],
+            "amountProduct": {"Количество":"1"},
+            "priceAndShop":{
+                "ATB": 32.57,
+                "Silpo": 32.95,
+                "Varus": 33.15
+            }
+        },
+        {
+            "id": 34,
+            "typeProduct": {"Тип продукта": "Безалкогольные напитки"},
+            "nameProduct": {"Имя продукта":"Мин. вода"},
+            "imageProduct": {"url":"img/products/min-voda-borgomi-1.jpg"},
+            "specificCriteria": [
+                {"countryProduct": {"Страна": "Грузия"}},
+                {"producerProduct": {"Производитель":"Боржоми"}},
+                {"boxingProduct": {"Вес":"0.5л"}},
+                {"productKind":  {"Тип": "Слабогазированная"}},
+                {"boxingTypeProduct":  {"Тип упаковки": "Стекло"}}
+            ],
+            "amountProduct": {"Количество":"1"},
+            "priceAndShop":{
+                "ATB": 21.57,
+                "Silpo": 22.95,
+                "Varus": 23.15
+            }
+        },
+        {
+            "id": 35,
+            "typeProduct": {"Тип продукта": "Безалкогольные напитки"},
+            "nameProduct": {"Имя продукта":"Мин. вода"},
+            "imageProduct": {"url":"img/products/min-voda-borgomi-2.jpg"},
+            "specificCriteria": [
+                {"countryProduct": {"Страна": "Грузия"}},
+                {"producerProduct": {"Производитель":"Боржоми"}},
+                {"boxingProduct": {"Вес":"0.75л"}},
+                {"productKind":  {"Тип": "Слабогазированная"}},
+                {"boxingTypeProduct":  {"Тип упаковки": "П/п"}}
+            ],
+            "amountProduct": {"Количество":"1"},
+            "priceAndShop":{
+                "ATB": 22.57,
+                "Silpo": 22.95,
+                "Varus": 24.15
+            }
+        },
+        {
+            "id": 36,
+            "typeProduct": {"Тип продукта": "Безалкогольные напитки"},
+            "nameProduct": {"Имя продукта":"Мин. вода"},
+            "imageProduct": {"url":"img/products/min-voda-evian-1.jpg"},
+            "specificCriteria": [
+                {"countryProduct": {"Страна": "Франция"}},
+                {"producerProduct": {"Производитель":"Evian"}},
+                {"boxingProduct": {"Вес":"0.33л"}},
+                {"productKind":  {"Тип": "Негазированная"}},
+                {"boxingTypeProduct":  {"Тип упаковки": "П/п"}}
+            ],
+            "amountProduct": {"Количество":"1"},
+            "priceAndShop":{
+                "ATB": 27.57,
+                "Silpo": 27.95,
+                "Varus": 28.15
+            }
+        },
+        {
+            "id": 37,
+            "typeProduct": {"Тип продукта": "Безалкогольные напитки"},
+            "nameProduct": {"Имя продукта":"Мин. вода"},
+            "imageProduct": {"url":"img/products/min-voda-gerolsteiner-1.jpg"},
+            "specificCriteria": [
+                {"countryProduct": {"Страна": "Германия"}},
+                {"producerProduct": {"Производитель":"Gerolsteiner"}},
+                {"boxingProduct": {"Вес":"0.5л"}},
+                {"productKind":  {"Тип": "Негазированная"}},
+                {"boxingTypeProduct":  {"Тип упаковки": "П/п"}}
+            ],
+            "amountProduct": {"Количество":"1"},
+            "priceAndShop":{
+                "ATB": 47.57,
+                "Silpo": 47.95,
+                "Varus": 48.15
+            }
+        },
+        {
+            "id": 38,
+            "typeProduct": {"Тип продукта": "Мясная гастрономия"},
+            "nameProduct": {"Имя продукта":"Колбаса"},
+            "imageProduct": {"url":"img/products/kolbasa-salyami-alan-1.jpg"},
+            "specificCriteria": [
+                {"countryProduct": {"Страна": "Украина"}},
+                {"producerProduct": {"Производитель":"Алан"}},
+                {"boxingProduct": {"Вес":"130г"}},
+                {"productKind":  {"Тип": "Меланская"}},
+                {"boxingTypeProduct":  {"Тип упаковки": "С/к"}}
+            ],
+            "amountProduct": {"Количество":"1"},
+            "priceAndShop":{
+                "ATB": 33.57,
+                "Silpo": 33.95,
+                "Varus": 34.15
+            }
+        },
+        {
+            "id": 39,
+            "typeProduct": {"Тип продукта": "Мясная гастрономия"},
+            "nameProduct": {"Имя продукта":"Колбаса"},
+            "imageProduct": {"url":"img/products/kolbasa-salyami-alan-2.jpg"},
+            "specificCriteria": [
+                {"countryProduct": {"Страна": "Украина"}},
+                {"producerProduct": {"Производитель":"Алан"}},
+                {"boxingProduct": {"Вес":"130г"}},
+                {"productKind":  {"Тип": "Московская"}},
+                {"boxingTypeProduct":  {"Тип упаковки": "С/к"}}
+            ],
+            "amountProduct": {"Количество":"1"},
+            "priceAndShop":{
+                "ATB": 40.57,
+                "Silpo": 40.95,
+                "Varus": 41.15
+            }
+        },
+        {
+            "id": 40,
+            "typeProduct": {"Тип продукта": "Мясная гастрономия"},
+            "nameProduct": {"Имя продукта":"Колбаса"},
+            "imageProduct": {"url":"img/products/kolbasa-salyami-globino-1.jpg"},
+            "specificCriteria": [
+                {"countryProduct": {"Страна": "Украина"}},
+                {"producerProduct": {"Производитель":"Глобино"}},
+                {"boxingProduct": {"Вес":"80г"}},
+                {"productKind":  {"Тип": "Золотистая"}},
+                {"boxingTypeProduct":  {"Тип упаковки": "С/к"}}
+            ],
+            "amountProduct": {"Количество":"1"},
+            "priceAndShop":{
+                "ATB": 18.57,
+                "Silpo": 18.95,
+                "Varus": 19.15
+            }
+        },
+        {
+            "id": 41,
+            "typeProduct": {"Тип продукта": "Мясная гастрономия"},
+            "nameProduct": {"Имя продукта":"Колбаса"},
+            "imageProduct": {"url":"img/products/kolbasa-salyami-globino-2.jpg"},
+            "specificCriteria": [
+                {"countryProduct": {"Страна": "Украина"}},
+                {"producerProduct": {"Производитель":"Глобино"}},
+                {"boxingProduct": {"Вес":"80г"}},
+                {"productKind":  {"Тип": "Итальянская"}},
+                {"boxingTypeProduct":  {"Тип упаковки": "С/к"}}
+            ],
+            "amountProduct": {"Количество":"1"},
+            "priceAndShop":{
+                "ATB": 20.57,
+                "Silpo": 20.95,
+                "Varus": 21.15
+            }
+        },
+        {
+            "id": 42,
+            "typeProduct": {"Тип продукта": "Спиртные напитки"},
+            "nameProduct": {"Имя продукта":"Вино"},
+            "imageProduct": {"url":"img/products/vino-koblevo-1.jpg"},
+            "specificCriteria": [
+                {"countryProduct": {"Страна": "Украина"}},
+                {"producerProduct": {"Производитель":"Коблево"}},
+                {"boxingProduct": {"Вес":"0.75л"}},
+                {"productKind":  {"Тип": "Кара баш"}},
+                {"productSort":  {"Вид": "Полусладкое"}},
+                {"boxingTypeProduct":  {"Тип упаковки": "Стекло"}}
+            ],
+            "amountProduct": {"Количество":"1"},
+            "priceAndShop":{
+                "ATB": 45.57,
+                "Silpo": 45.95,
+                "Varus": 46.15
+            }
+        },
+        {
+            "id": 43,
+            "typeProduct": {"Тип продукта": "Спиртные напитки"},
+            "nameProduct": {"Имя продукта":"Вино"},
+            "imageProduct": {"url":"img/products/vino-shabo-1.jpg"},
+            "specificCriteria": [
+                {"countryProduct": {"Страна": "Украина"}},
+                {"producerProduct": {"Производитель":"Шабо"}},
+                {"boxingProduct": {"Вес":"0.75л"}},
+                {"productKind":  {"Тип": "Королеское"}},
+                {"productSort":  {"Вид": "Полусладкое"}},
+                {"boxingTypeProduct":  {"Тип упаковки": "Стекло"}}
+            ],
+            "amountProduct": {"Количество":"1"},
+            "priceAndShop":{
+                "ATB": 50.57,
+                "Silpo": 50.95,
+                "Varus": 51.15
+            }
+        },
+        {
+            "id": 44,
+            "typeProduct": {"Тип продукта": "Бакалея"},
+            "nameProduct": {"Имя продукта":"Греча"},
+            "imageProduct": {"url":"img/products/grechka-zhmenka-1.jpg"},
+            "specificCriteria": [
+                {"countryProduct": {"Страна": "Украина"}},
+                {"producerProduct": {"Производитель":"Жменька"}},
+                {"boxingProduct": {"Вес":"4*100г"}},
+                {"productKind":  {"Тип": "Ядрица"}},
+                {"boxingTypeProduct":  {"Тип упаковки": "К/к"}}
+            ],
+            "amountProduct": {"Количество":"1"},
+            "priceAndShop":{
+                "ATB": 24.57,
+                "Silpo": 24.95,
+                "Varus": 25.15
+            }
+        },
+        {
+            "id": 45,
+            "typeProduct": {"Тип продукта": "Бакалея"},
+            "nameProduct": {"Имя продукта":"Греча"},
+            "imageProduct": {"url":"img/products/grechka-zolotie-vorota-1.jpg"},
+            "specificCriteria": [
+                {"countryProduct": {"Страна": "Украина"}},
+                {"producerProduct": {"Производитель":"Золотые ворота"}},
+                {"boxingProduct": {"Вес":"700г"}},
+                {"productKind":  {"Тип": "Ядрица"}},
+                {"boxingTypeProduct":  {"Тип упаковки": "П/п"}}
+            ],
+            "amountProduct": {"Количество":"1"},
+            "priceAndShop":{
+                "ATB": 21.57,
+                "Silpo": 21.95,
+                "Varus": 22.15
+            }
+        },
+        {
+            "id": 46,
+            "typeProduct": {"Тип продукта": "Бытовая химия"},
+            "nameProduct": {"Имя продукта":"Стиральный порошок, гель"},
+            "imageProduct": {"url":"img/products/poroshok-ariel-1.jpg"},
+            "specificCriteria": [
+                {"countryProduct": {"Страна": "Бельгия"}},
+                {"producerProduct": {"Производитель":"Ariel"}},
+                {"boxingProduct": {"Вес":"3кг"}},
+                {"productKind":  {"Тип": "Белая роза"}},
+                {"kindUse":  {"Тип стирки": "Автомат"}},
+                {"boxingTypeProduct":  {"Тип упаковки": "П/п"}}
+            ],
+            "amountProduct": {"Количество":"1"},
+            "priceAndShop":{
+                "ATB": 221.57,
+                "Silpo": 221.95,
+                "Varus": 222.15
+            }
+        },
+        {
+            "id": 47,
+            "typeProduct": {"Тип продукта": "Бытовая химия"},
+            "nameProduct": {"Имя продукта":"Стиральный порошок, гель"},
+            "imageProduct": {"url":"img/products/poroshok-ariel-1.jpg"},
+            "specificCriteria": [
+                {"countryProduct": {"Страна": "Бельгия"}},
+                {"producerProduct": {"Производитель":"Ariel"}},
+                {"boxingProduct": {"Вес":"1.5кг"}},
+                {"productKind":  {"Тип": "Color&style"}},
+                {"kindUse":  {"Тип стирки": "Автомат"}},
+                {"boxingTypeProduct":  {"Тип упаковки": "П/п"}}
+            ],
+            "amountProduct": {"Количество":"1"},
+            "priceAndShop":{
+                "ATB": 85.57,
+                "Silpo": 87.95,
+                "Varus": 89.15
+            }
+        },
+        {
+            "id": 48,
+            "typeProduct": {"Тип продукта": "Бытовая химия"},
+            "nameProduct": {"Имя продукта":"Стиральный порошок, гель"},
+            "imageProduct": {"url":"img/products/poroshok-persil-1.jpg"},
+            "specificCriteria": [
+                {"countryProduct": {"Страна": "Австрия"}},
+                {"producerProduct": {"Производитель":"Persil"}},
+                {"boxingProduct": {"Вес":"3кг"}},
+                {"productKind":  {"Тип": "Свеж.силан"}},
+                {"kindUse":  {"Тип стирки": "Автомат"}},
+                {"boxingTypeProduct":  {"Тип упаковки": "П/п"}}
+            ],
+            "amountProduct": {"Количество":"1"},
+            "priceAndShop":{
+                "ATB": 226.57,
+                "Silpo": 227.95,
+                "Varus": 229.15
+            }
+        },
+        {
+            "id": 49,
+            "typeProduct": {"Тип продукта": "Бытовая химия"},
+            "nameProduct": {"Имя продукта":"Стиральный порошок, гель"},
+            "imageProduct": {"url":"img/products/poroshok-persil-2.jpg"},
+            "specificCriteria": [
+                {"countryProduct": {"Страна": "Австрия"}},
+                {"producerProduct": {"Производитель":"Persil"}},
+                {"boxingProduct": {"Вес":"6кг"}},
+                {"productKind":  {"Тип": "Color Expert"}},
+                {"kindUse":  {"Тип стирки": "Автомат"}},
+                {"boxingTypeProduct":  {"Тип упаковки": "П/п"}}
+            ],
+            "amountProduct": {"Количество":"1"},
+            "priceAndShop":{
+                "ATB": 412.57,
+                "Silpo": 417.95,
+                "Varus": 415.15
+            }
+        },
+        {
+            "id": 50,
+            "typeProduct": {"Тип продукта": "Бытовая химия"},
+            "nameProduct": {"Имя продукта":"Стиральный порошок, гель"},
+            "imageProduct": {"url":"img/products/poroshok-rex-1.jpg"},
+            "specificCriteria": [
+                {"countryProduct": {"Страна": "Австрия"}},
+                {"producerProduct": {"Производитель":"Rex"}},
+                {"boxingProduct": {"Вес":"3кг"}},
+                {"productKind":  {"Тип": "Rex 2в1 Цветущая Сакура"}},
+                {"kindUse":  {"Тип стирки": "Автомат"}},
+                {"boxingTypeProduct":  {"Тип упаковки": "П/п"}}
+            ],
+            "amountProduct": {"Количество":"1"},
+            "priceAndShop":{
+                "ATB": 131.57,
+                "Silpo": 137.95,
+                "Varus": 135.15
+            }
+        },
+        {
+            "id": 51,
+            "typeProduct": {"Тип продукта": "Бытовая химия"},
+            "nameProduct": {"Имя продукта":"Мыло, гель"},
+            "imageProduct": {"url":"img/products/milo-duru-1.jpg"},
+            "specificCriteria": [
+                {"countryProduct": {"Страна": "Турция"}},
+                {"producerProduct": {"Производитель":"Duru"}},
+                {"boxingProduct": {"Вес":"90г"}},
+                {"productKind":  {"Тип": "Floral Цветок Апельсина И Молочн.протеин"}}
+            ],
+            "amountProduct": {"Количество":"1"},
+            "priceAndShop":{
+                "ATB": 14.57,
+                "Silpo": 14.95,
+                "Varus": 15.15
+            }
+        },
+        {
+            "id": 52,
+            "typeProduct": {"Тип продукта": "Бытовая химия"},
+            "nameProduct": {"Имя продукта":"Мыло, гель"},
+            "imageProduct": {"url":"img/products/milo-safeguard-1.jpg"},
+            "specificCriteria": [
+                {"countryProduct": {"Страна": "Великобритания"}},
+                {"producerProduct": {"Производитель":"Safeguard"}},
+                {"boxingProduct": {"Вес":"90г"}},
+                {"productKind":  {"Тип": "С Витамином Е"}}
+            ],
+            "amountProduct": {"Количество":"1"},
+            "priceAndShop":{
+                "ATB": 15.57,
+                "Silpo": 15.95,
+                "Varus": 16.15
+            }
+        },
+        {
+            "id": 53,
+            "typeProduct": {"Тип продукта": "Бытовая химия"},
+            "nameProduct": {"Имя продукта":"Зубные пасты, ополаскиватели"},
+            "imageProduct": {"url":"img/products/pasta-colgate-1.jpg"},
+            "specificCriteria": [
+                {"countryProduct": {"Страна": "Китай"}},
+                {"producerProduct": {"Производитель":"Colgate"}},
+                {"boxingProduct": {"Вес":"75мл"}},
+                {"productKind":  {"Тип": "Total 12 Про-отбеливание"}}
+            ],
+            "amountProduct": {"Количество":"1"},
+            "priceAndShop":{
+                "ATB": 53.57,
+                "Silpo": 53.95,
+                "Varus": 54.15
+            }
+        },
+        {
+            "id": 54,
+            "typeProduct": {"Тип продукта": "Бытовая химия"},
+            "nameProduct": {"Имя продукта":"Зубные пасты, ополаскиватели"},
+            "imageProduct": {"url":"img/products/pasta-colgate-2.jpg"},
+            "specificCriteria": [
+                {"countryProduct": {"Страна": "Китай"}},
+                {"producerProduct": {"Производитель":"Colgate"}},
+                {"boxingProduct": {"Вес":"50мл"}},
+                {"productKind":  {"Тип": "Профессиональная Чистка"}}
+            ],
+            "amountProduct": {"Количество":"1"},
+            "priceAndShop":{
+                "ATB": 39.57,
+                "Silpo": 39.95,
+                "Varus": 40.15
+            }
+        },
+        {
+            "id": 55,
+            "typeProduct": {"Тип продукта": "Морепродукты и рыба"},
+            "nameProduct": {"Имя продукта":"Сельдь"},
+            "imageProduct": {"url":"img/products/seld-flotilia-1.jpg"},
+            "specificCriteria": [
+                {"countryProduct": {"Страна": "Украина"}},
+                {"producerProduct": {"Производитель":"Флотилія"}},
+                {"boxingProduct": {"Вес":"300г"}},
+                {"productKind":  {"Тип": "Филе Кусочки Класические"}},
+                {"boxingTypeProduct":  {"Тип упаковки": "П/п"}}
+            ],
+            "amountProduct": {"Количество":"1"},
+            "priceAndShop":{
+                "ATB": 44.57,
+                "Silpo": 44.95,
+                "Varus": 45.15
+            }
+        },
+        {
+            "id": 56,
+            "typeProduct": {"Тип продукта": "Морепродукты и рыба"},
+            "nameProduct": {"Имя продукта":"Сельдь"},
+            "imageProduct": {"url":"img/products/seld-apple-1.jpg"},
+            "specificCriteria": [
+                {"countryProduct": {"Страна": "Германия"}},
+                {"producerProduct": {"Производитель":"Apple"}},
+                {"boxingProduct": {"Вес":"200г"}},
+                {"productKind":  {"Тип": " Филе В Соусе Сальса"}},
+                {"boxingTypeProduct":  {"Тип упаковки": "П/п"}}
+            ],
+            "amountProduct": {"Количество":"1"},
+            "priceAndShop":{
+                "ATB": 44.57,
+                "Silpo": 44.95,
+                "Varus": 45.15
+            }
+        },
+        {
+            "id": 57,
+            "typeProduct": {"Тип продукта": "Спиртные напитки"},
+            "nameProduct": {"Имя продукта":"Водка"},
+            "imageProduct": {"url":"img/products/vodka-hortica-1.jpg"},
+            "specificCriteria": [
+                {"countryProduct": {"Страна": "Украина"}},
+                {"producerProduct": {"Производитель":"Хортица"}},
+                {"boxingProduct": {"Вес":"0.5л"}},
+                {"productKind":  {"Тип": "Серебряная Прохлада"}},
+                {"boxingTypeProduct":  {"Тип дозатора": "Штоф Новая"}}
+            ],
+            "amountProduct": {"Количество":"1"},
+            "priceAndShop":{
+                "ATB": 60.57,
+                "Silpo": 60.95,
+                "Varus": 61.15
+            }
+        },
+        {
+            "id": 58,
+            "typeProduct": {"Тип продукта": "Спиртные напитки"},
+            "nameProduct": {"Имя продукта":"Водка"},
+            "imageProduct": {"url":"img/products/vodka-nemiroff-1.jpg"},
+            "specificCriteria": [
+                {"countryProduct": {"Страна": "Украина"}},
+                {"producerProduct": {"Производитель":"Nemiroff"}},
+                {"boxingProduct": {"Вес":"0.5л"}},
+                {"productKind":  {"Тип": "Особая"}},
+                {"boxingTypeProduct":  {"Тип дозатора": "Штоф"}}
+            ],
+            "amountProduct": {"Количество":"1"},
+            "priceAndShop":{
+                "ATB": 61.57,
+                "Silpo": 61.95,
+                "Varus": 62.15
+            }
+        }
+    ]
+}

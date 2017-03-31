@@ -1,0 +1,171 @@
+{
+    "status": {
+        "statusCode": 0,
+        "statusMessage": "OK"
+    },
+    "data": [
+        {
+            "titleList": "Ежедневный",
+            "listProducts":[
+                {
+                    "id": 3,
+                    "typeProduct": "Молочка",
+                    "nameProduct": "Молоко",
+                    "countryProduct": "Украина",
+                    "producerProduct": "Простоквашино",
+                    "boxingProduct": "900гр",
+                    "amountProduct": "1"
+                },
+                {
+                    "id": 8,
+                    "typeProduct": "Хлебо-булочные",
+                    "nameProduct": "Батон",
+                    "countryProduct": "Украина",
+                    "producerProduct": "Хлебзавод №10",
+                    "boxingProduct": "400гр",
+                    "amountProduct": "1"
+                },
+                {
+                    "id": 11,
+                    "typeProduct": "Молочка",
+                    "nameProduct": "Сметана",
+                    "countryProduct": "Украина",
+                    "producerProduct": "Простоквашино",
+                    "boxingProduct": "200гр",
+                    "amountProduct": "1"
+                },
+                {
+                    "id": 20,
+                    "typeProduct": "Птица",
+                    "nameProduct": "Филе куринное",
+                    "countryProduct": "Украина",
+                    "producerProduct": "Наша ряба",
+                    "boxingProduct": "1кг",
+                    "amountProduct": "1"
+                },
+                {
+                    "id": 22,
+                    "typeProduct": "Вода",
+                    "nameProduct": "Мин. вода",
+                    "countryProduct": "Украина",
+                    "producerProduct": "Моршинская",
+                    "kindProduct": "Слабогазированная",
+                    "boxingProduct": "1.5 л",
+                    "amountProduct": "1"
+                }
+            ]
+        },
+        {
+            "titleList": "Еженедельный",
+            "listProducts":[
+                {
+                    "id": 38,
+                    "typeProduct": "Мясная гастрономия",
+                    "nameProduct": "Колбаса",
+                    "countryProduct": "Украина",
+                    "producerProduct": "Алан",
+                    "kindProduct": "Меланская",
+                    "boxingProduct": "130г",
+                    "amountProduct": "1"
+                },
+                {
+                    "id": 7,
+                    "typeProduct": "Хлебо-булочные",
+                    "nameProduct": "Батон",
+                    "countryProduct": "Украина",
+                    "producerProduct": "Хлебзавод №9",
+                    "boxingProduct": "600гр",
+                    "amountProduct": "1"
+                },
+                {
+                    "id": 43,
+                    "typeProduct": "Спиртные напитки",
+                    "nameProduct": "Вино",
+                    "countryProduct": "Украина",
+                    "producerProduct": "Шабо",
+                    "kindProduct1": "Красное",
+                    "kindProduct2": "Полусладкое",
+                    "boxingProduct": "0.75л",
+                    "amountProduct": "1"
+                },
+                {
+                    "id": 44,
+                    "typeProduct": "Крупы",
+                    "nameProduct": "Греча",
+                    "countryProduct": "Украина",
+                    "producerProduct": "Жменька",
+                    "boxingProduct": "4*100г",
+                    "amountProduct": "1"
+                },
+                {
+                    "id": 22,
+                    "typeProduct": "Вода",
+                    "nameProduct": "Мин. вода",
+                    "countryProduct": "Украина",
+                    "producerProduct": "Моршинская",
+                    "kindProduct": "Слабогазированная",
+                    "boxingProduct": "1.5 л",
+                    "amountProduct": "1"
+                }
+            ]
+        },
+        {
+            "titleList": "Химия",
+            "listProducts":[
+                {
+                    "id": 46,
+                    "typeProduct": "Бытовая химия",
+                    "nameProduct": "Стиральный порошок, гель",
+                    "countryProduct": "Бельгия",
+                    "producerProduct": "Ariel",
+                    "kindProduct": "Белая роза",
+                    "boxingProduct": "3кг",
+                    "amountProduct": "1"
+                },
+                {
+                    "id": 53,
+                    "typeProduct": "Бытовая химия",
+                    "nameProduct": "Зубные пасты, ополаскиватели",
+                    "countryProduct": "Китай",
+                    "producerProduct": "Colgate",
+                    "kindProduct": "Total 12 Про-отбеливание",
+                    "boxingProduct": "75мл",
+                    "amountProduct": "1"
+                },
+                {
+                    "id": 52,
+                    "typeProduct": "Бытовая химия",
+                    "nameProduct": "Мыло, гель",
+                    "countryProduct": "Великобритания",
+                    "producerProduct": "Safeguard",
+                    "kindProduct1": "С Витамином Е",
+                    "boxingProduct": "90г",
+                    "amountProduct": "1"
+                }
+            ]
+        },
+        {
+            "titleList": "Выезд за город",
+            "listProducts":[
+                {
+                    "id": 57,
+                    "typeProduct": "Спиртные напитки",
+                    "nameProduct": "Водка",
+                    "countryProduct": "Украина",
+                    "producerProduct": "Хортица",
+                    "boxingProduct": "0.5л",
+                    "amountProduct": "1"
+                },
+                {
+                    "id": 55,
+                    "typeProduct": "Морепродукты и рыба",
+                    "nameProduct": "Сельдь",
+                    "countryProduct": "Украина",
+                    "producerProduct": "Флотилія",
+                    "boxingProduct": "300г",
+                    "amountProduct": "1"
+                }
+            ]
+        }
+    ]
+}
