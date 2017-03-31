@@ -2,222 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="357fe8ef-0ab9-466b-93b2-05c5b71af317" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/bg-page.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/favicon(1).ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icon-add.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icon-alert.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icon-basket.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icon-calc.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icon-calendar.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icon-card.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icon-chart.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icon-delete.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icon-edit.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icon-enter.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icon-exit.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icon-export.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icon-list.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icon-lock.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icon-puzle.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icon-remove.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icon-sms.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icon-unlock.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/products/file-kurinoe-nasha-ryaba-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/products/file-kurinoe-olymp-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/products/grechka-zhmenka-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/products/grechka-zolotie-vorota-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/products/hleb-hlebzavod9-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/products/hleb-hlebzavod9-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/products/kolbasa-salyami-alan-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/products/kolbasa-salyami-alan-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/products/kolbasa-salyami-globino-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/products/kolbasa-salyami-globino-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/products/milo-duru-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/products/milo-safeguard-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/products/min-voda-borgomi-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/products/min-voda-borgomi-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/products/min-voda-evian-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/products/min-voda-gerolsteiner-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/products/min-voda-morshinska-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/products/min-voda-morshinska-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/products/min-voda-morshinska-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/products/min-voda-morshinska-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/products/min-voda-morshinska-5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/products/min-voda-nabeglavi-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/products/min-voda-nabeglavi-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/products/min-voda-perrier-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/products/min-voda-perrier-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/products/min-voda-san-benedetto-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/products/min-voda-vittel-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/products/min-voda-vittel-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/products/moloko-danmis-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/products/moloko-prostokvasheno-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/products/moloko-prostokvasheno-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/products/moloko-prostokvasheno-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/products/moloko-voloshkove-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/products/moloko-voloshkove-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/products/pasta-colgate-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/products/pasta-colgate-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/products/poroshok-ariel-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/products/poroshok-ariel-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/products/poroshok-persil-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/products/poroshok-persil-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/products/poroshok-rex-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/products/seld-apple-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/products/seld-extra-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/products/seld-flotilia-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/products/seld-povna-chasha-1jpg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/products/smetana-premialle-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/products/smetana-premialle-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/products/smetana-president-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/products/smetana-president-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/products/smetana-president-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/products/smetana-prostokvasheno-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/products/smetana-prostokvasheno-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/products/smetana-prostokvasheno-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/products/smetana-prostokvasheno-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/products/vino-koblevo-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/products/vino-shabo-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/products/vodka-hortica-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/products/vodka-nemiroff-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/sales/sale-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/sales/sale-10.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/sales/sale-11.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/sales/sale-12.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/sales/sale-13.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/sales/sale-14.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/sales/sale-15.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/sales/sale-2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/sales/sale-3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/sales/sale-4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/sales/sale-5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/sales/sale-6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/sales/sale-7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/sales/sale-8.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/sales/sale-9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/social-links.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/app.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/controllers/AboutCtrl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/controllers/AccountCtrl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/controllers/ContactsCtrl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/controllers/CooperationCtrl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/controllers/EstimateCtrl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/controllers/ExtraMenuCtrl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/controllers/ListsCtrl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/controllers/LocationCtrl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/controllers/MainMenuCtrl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/controllers/ProductChoiceCtrl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/controllers/ProductCriteriaCtrl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/controllers/ProductCtrl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/controllers/ProductsListCtrl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/controllers/ProductsListExportCtrl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/controllers/ResultCtrl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/controllers/SaleCtrl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/json/countries.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/json/data.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/json/kindProduct.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/json/producers.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/json/productsForChoice.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/json/productsList.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/json/salesList.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/services/authorizationService.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/services/currentListProductsFactory.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/services/currentResultListProductsFactory.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/services/dataListsProductsFactory.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/services/filtersCriteriaCountryProductFactory.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/services/filtersCriteriaProducerProductFactory.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/services/listProductsAfterFilterCriteriesFactory.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/services/listProductsForChoiceFactory.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/services/listSalesFactory.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/angular-ymaps.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/ng-dialog/ng-dialog.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/ng-dialog/ng-dialog.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/ng-dropdown/angular-dropdowns.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/ng-dropdown/angular-dropdowns.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/ng-dropdown/angular-dropdowns.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/onsen/css/font_awesome/css/font-awesome.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/onsen/css/font_awesome/css/font-awesome.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/onsen/css/font_awesome/fonts/FontAwesome.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/onsen/css/font_awesome/fonts/fontawesome-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/onsen/css/font_awesome/fonts/fontawesome-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/onsen/css/font_awesome/fonts/fontawesome-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/onsen/css/font_awesome/fonts/fontawesome-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/onsen/css/ionicons/css/ionicons.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/onsen/css/ionicons/css/ionicons.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/onsen/css/ionicons/fonts/ionicons.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/onsen/css/ionicons/fonts/ionicons.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/onsen/css/ionicons/fonts/ionicons.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/onsen/css/ionicons/fonts/ionicons.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/onsen/css/onsen-css-components-blue-basic-theme.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/onsen/css/onsen-css-components-blue-theme.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/onsen/css/onsen-css-components-dark-theme.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/onsen/css/onsen-css-components-default.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/onsen/css/onsen-css-components-purple-theme.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/onsen/css/onsen-css-components-sunshine-theme.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/onsen/css/onsen-css-components.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/onsen/css/onsenui.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/onsen/js/angular/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/onsen/js/angular/angular-csp.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/onsen/js/angular/angular.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/onsen/js/angular/angular.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/onsen/js/angular/angular.min.js.gzip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/onsen/js/angular/angular.min.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/onsen/js/angular/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/onsen/js/ons-core.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/onsen/js/onsenui.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/onsen/js/onsenui.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/onsen/js/onsenui_all.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/onsen/js/onsenui_all.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/onsen/stylus/blue-basic-theme.styl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/onsen/stylus/blue-theme.styl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/onsen/stylus/components/alert-dialog.styl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/onsen/stylus/components/button-bar.styl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/onsen/stylus/components/button.styl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/onsen/stylus/components/checkbox.styl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/onsen/stylus/components/dialog.styl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/onsen/stylus/components/global.styl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/onsen/stylus/components/index.styl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/onsen/stylus/components/list.styl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/onsen/stylus/components/modal.styl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/onsen/stylus/components/navigation-bar.styl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/onsen/stylus/components/notification.styl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/onsen/stylus/components/page.styl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/onsen/stylus/components/popover.styl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/onsen/stylus/components/radio-button.styl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/onsen/stylus/components/range.styl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/onsen/stylus/components/search-input.styl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/onsen/stylus/components/switch.styl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/onsen/stylus/components/tab-bar.styl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/onsen/stylus/components/text-input.styl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/onsen/stylus/components/textarea.styl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/onsen/stylus/components/toolbar-button.styl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/onsen/stylus/components/util.styl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/onsen/stylus/dark-theme.styl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/onsen/stylus/purple-theme.styl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/onsen/stylus/sunshine-theme.styl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/ya-map-2.1.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/partials/about.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/partials/account.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/partials/contacts.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/partials/cooperation.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/partials/estimate.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/partials/lists.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/partials/location.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/partials/product-choice.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/partials/product-criteria.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/partials/products-list-export.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/partials/products-list.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/partials/result.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/partials/sale.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/styles/animation.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/styles/app.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/styles/theme.css" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/__build__/0.chunk.js" afterPath="$PROJECT_DIR$/__build__/0.chunk.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/__build__/0.chunk.js.map" afterPath="$PROJECT_DIR$/__build__/0.chunk.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/__build__/anypoint-app.js" afterPath="$PROJECT_DIR$/__build__/anypoint-app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/__build__/anypoint-app.js.map" afterPath="$PROJECT_DIR$/__build__/anypoint-app.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/__build__/illustrations.js" afterPath="$PROJECT_DIR$/__build__/illustrations.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/__build__/shared.js.map" afterPath="$PROJECT_DIR$/__build__/shared.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="mbabarov.github.com.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -237,7 +29,28 @@
     <favorites_list name="mbabarov.github.com" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="1.0872093">
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="0.chunk.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/__build__/0.chunk.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -269,7 +82,6 @@
         <option value="$PROJECT_DIR$/js/json/productsForChoice.json" />
         <option value="$PROJECT_DIR$/js/json/salesList.json" />
         <option value="$PROJECT_DIR$/js/app.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/services/listProductsForChoiceFactory.js" />
         <option value="$PROJECT_DIR$/partials/sale.html" />
         <option value="$PROJECT_DIR$/js/controllers/SaleCtrl.js" />
@@ -288,6 +100,7 @@
         <option value="$PROJECT_DIR$/partials/product-criteria.html" />
         <option value="$PROJECT_DIR$/partials/location.html" />
         <option value="$PROJECT_DIR$/js/controllers/LocationCtrl.js" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -297,8 +110,8 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="5" />
-    <option name="y" value="26" />
+    <option name="x" value="84" />
+    <option name="y" value="151" />
     <option name="width" value="1248" />
     <option name="height" value="721" />
   </component>
@@ -342,6 +155,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="mbabarov.github.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mbabarov.github.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mbabarov.github.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="__build__" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -405,12 +232,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="5" y="26" width="1248" height="721" extended-state="0" />
-    <editor active="false" />
+    <frame x="84" y="151" width="1248" height="721" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1963141" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1963141" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.6421725" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -422,7 +250,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31704545" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -462,5 +289,34 @@
       <option name="time" value="1" />
     </breakpoint-manager>
     <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/__build__/0.chunk.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/__build__/0.chunk.js.map">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.47413793">
+          <caret line="0" column="282657" selection-start-line="0" selection-start-column="282657" selection-end-line="0" selection-end-column="282657" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="sourcemapFileViewerProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.0872093">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
