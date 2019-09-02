@@ -1,14 +1,98 @@
-<!doctype html public>
-<meta charset="utf-8"/>
-<!-- Public Site. Used for live demo. See /src/static/index.html for Dev index -->
-<title>Anypoint Platform</title>
-<link rel='shortcut icon' href='https://cdn-qa.anypoint.mulesoft.com/core/v1/icons/favicon.ico'>
-<link href="/__build__/anypoint-styles.css" rel="stylesheet"/>
-<link href="/__build__/style.css" rel="stylesheet"/>
-<body class="anypoint-styles">
-  <div id="root"></div>
-  <script src="browser.js"></script>
-  <script src="illustrations.js"></script>
-  <script src="shared.js"></script>
-  <script src="anypoint-app.js"></script>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <title>Где дешевле?</title>
+
+  <link rel="stylesheet" href="styles/app.css"/>
+  <link rel="stylesheet" href="lib/onsen/css/onsenui.css">  
+  <link rel="stylesheet" href="lib/onsen/css/onsen-css-components.css">
+
+  <script src="lib/onsen/js/angular/angular.js"></script>
+  <script src="lib/onsen/js/onsenui.js"></script>
+  <script src="lib/ya-map-2.1.min.js"></script>
+  <script src="lib/ng-dialog/ng-dialog.js"></script>
+  <link rel="stylesheet" href="lib/ng-dialog/ng-dialog.css"/>
+	<script src="lib/ng-dropdown/angular-dropdowns.js"></script>
+	<link rel="stylesheet" href="lib/ng-dropdown/angular-dropdowns.css"/>
+  <script src="js/app.js"></script>
+  <script src="js/controllers/MainMenuCtrl.js"></script>
+  <script src="js/controllers/ExtraMenuCtrl.js"></script>
+  <script src="js/controllers/AccountCtrl.js"></script>
+  <script src="js/controllers/AboutCtrl.js"></script>
+  <script src="js/controllers/ContactsCtrl.js"></script>
+  <script src="js/controllers/CooperationCtrl.js"></script>
+  <script src="js/controllers/EstimateCtrl.js"></script>
+  <script src="js/controllers/SaleCtrl.js"></script>
+  <script src="js/controllers/LocationCtrl.js"></script>
+  <script src="js/controllers/ListsCtrl.js"></script>
+  <script src="js/controllers/ProductsListCtrl.js"></script>
+  <script src="js/controllers/ProductsListExportCtrl.js"></script>
+  <script src="js/controllers/ProductCriteriaCtrl.js"></script>
+  <script src="js/controllers/ProductChoiceCtrl.js"></script>
+  <script src="js/controllers/ResultCtrl.js"></script>
+  <script src="js/services/authorizationService.js"></script>
+  <script src="js/services/dataListsProductsFactory.js"></script>
+  <script src="js/services/currentListProductsFactory.js"></script>
+  <script src="js/services/currentResultListProductsFactory.js"></script>
+  <script src="js/services/listProductsAfterFilterCriteriesFactory.js"></script>
+  <script src="js/services/filtersCriteriaCountryProductFactory.js"></script>
+  <script src="js/services/filtersCriteriaProducerProductFactory.js"></script>
+  <script src="js/services/listProductsForChoiceFactory.js"></script>
+  <script src="js/services/listSalesFactory.js"></script>
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="img/favicon.ico" type="image/x-icon">
+
+</head>
+<body ng-app="myApp" class="wrapper" ng-class="{smoothOpacity:true}">
+<ons-sliding-menu
+      main-page="main-menu.html"
+      menu-page="extra-menu.html"
+      side="left"
+	  var="menu">
+    </ons-sliding-menu>
+
+    <script type="text/ons-template" id="main-menu.html">
+	<ons-navigator ng-cloak var="navi">
+		<ons-page  class="main-list center" ng-controller="MainMenuCtrl">
+			<ons-toolbar>
+				<div class="left"><ons-toolbar-button ng-click="menu.toggleMenu()"><ons-icon icon="fa-bars"></ons-icon></ons-toolbar-button></div>
+				<div class="center">{{pageTitle}}</div>
+				<div class="right"></div> 
+			</ons-toolbar>
+			<h1 class="padded-20-0 center">
+				<img src="img/logo.png" alt="Где дешевле?" />
+			</h1>
+			<div class="loading-block white-color padded-20-0" ng-if="!ready">
+				<ons-icon icon="circle-o-notch" size="4x" spin="true"></ons-icon>
+			</div>
+			<div>
+			<ons-list class="topcoat-list padded-10" ng-if="ready" >
+				<ons-list-item ng-click="moveToPage(this)" ng-repeat="oneElementList in mainList" class="button--large--cta">
+					{{oneElementList.title}}
+				</ons-list-item>
+			</ons-list>
+
+		</ons-page>
+	</ons-navigator>
+	</script>
+	<script type="text/ons-template" id="extra-menu.html">
+		<ons-page ng-controller="ExtraMenuCtrl" class="left-menu">
+			<h1 class="padded-20-0 center">
+				<img src="img/logo.png" alt="Где дешевле?" />
+			</h1>
+			<ons-list class="topcoat-list padded-10-20">
+				<ons-list-item ng-repeat="oneElementList in extraList" ng-click="moveToPage(this)" class="full-button topcoat-list__item--tappable topcoat-list__item__line-height">
+					{{oneElementList.title}}
+					<span ng-if="oneElementList.subTitle">({{oneElementList.subTitle}})</span>
+				</ons-list-item>
+			</ons-list>
+			<!--<p class="copy">
+				&copy; "Где дешевле?", 2015
+			</p>-->
+		</ons-page>
+	</script>
 </body>
+</html>
